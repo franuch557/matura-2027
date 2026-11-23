@@ -1,0 +1,1 @@
+const e="Xenova/multilingual-e5-small",a="query: ",l={tau:.875,full:.875,qm:0},o={przyklady:413,dokladnie:.8353510895883777,roznica1:.9588377723970944,cudze:.9797297297297297,polecenie:1},n={model:e,prefix:a,params:l,wynik:o};export{n as default,e as model,l as params,a as prefix,o as wynik};
