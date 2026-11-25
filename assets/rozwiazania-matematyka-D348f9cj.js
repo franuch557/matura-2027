@@ -5254,4 +5254,3670 @@ C 11 C`,`11 10
 1 1
 A A
 Podobnie rozumując, otrzymujemy
-n(A,C) ⋅ n(C,B) = ( 11/2 ) ⋅ ( 13/0 ) = 55 ⋅ 1 = 55`]};export{n as default};
+n(A,C) ⋅ n(C,B) = ( 11/2 ) ⋅ ( 13/0 ) = 55 ⋅ 1 = 55`],"MMAP-P0-100-1605-n26":["Obliczamy średni roczny przyrost sosny: x =8 1/3 .","1","1","Obliczamy błąd względny przybliżenia: 3/25 = = 0, 04 = 4% .","25","3"],"MMAP-P0-100-1605-n27":[`Rozwiązanie nierówności kwadratowej składa się z dwóch etapów. Pierwszy polega na
+ustaleniu pierwiastków trójmianu kwadratowego. Drugi etap polega na ustaleniu zbioru
+rozwiązań nierówności.
+Realizacja pierwszego etapu
+I sposób
+Redukujemy wyrazy podobne i zapisujemy nierówność w postaci równoważnej
+− x^2 + 2x > 0.`,`Znajdujemy pierwiastki trójmianu kwadratowego − x^2 + 2x
+• obliczamy wyróżnik tego trójmianu:
+Δ = 4 − 4⋅(−1)⋅0 = 4 i stąd x =^(−2−2) = 2 oraz x =^(−2+2) = 0
+1 2
+− 2 − 2
+albo
+• wykorzystujemy postać iloczynową trójmianu −x^2 +2x:`,`−x x( −2) = 0, stąd x =0 oraz x = 2 ,
+1 2
+albo
+• stosujemy wzory Viète’a:
+x ⋅ x = 0 oraz x + x = 2, stąd x =0 oraz x = 2 ,
+1 2 1 2 1 2
+albo`,`• podajemy je bezpośrednio, np. zapisując pierwiastki trójmianu x = 0 , x = 2 lub
+1 2
+zaznaczając je na wykresie
+y
+1
+-1 0 1 2 3 x
+-1`,`-2
+II sposób
+Wyznaczamy postać kanoniczną trójmianu kwadratowego − x^2 + 2x i zapisujemy nierówność
+w postaci równoważnej, np.
+− (x −1)^2 +1> 0 .
+Stąd
+− (x−1)^2 −1 > 0.`,`( )
+Następnie przekształcamy nierówność do postaci równoważnej, korzystając z własności
+wartości bezwzględnej
+(x −1)^2 <1,
+x −1 <1.`],"MMAP-P0-100-1605-n28":[`Lewa strona równania jest iloczynem dwóch czynników 4− x oraz x^2 +2x−15. Zatem iloczyn
+ten jest równy 0, gdy co najmniej jeden z tych czynników jest równy 0, czyli
+4− x = 0 lub x^2 + 2x −15 = 0 .
+Rozwiązaniem równania 4− x = 0 jest x = 4.`,`Rozwiązania równania x^2 + 2x −15 = 0 możemy wyznaczyć, korzystając:
+• ze wzorów na pierwiastki trójmianu kwadratowego:
+Δ = 2^2 −4 1⋅ ⋅ −( 15) = 64 =8^2 , x =^(−2−8) = −5, x =^(−2+8) = 3
+1 2`,`2 2
+albo
+ze wzorów Viète’a:
+•`,`x + x = −2 oraz x ⋅x = −15 i stąd x = −5, x =3,
+1 2 1 2 1 2
+albo
+• z postaci iloczynowej trójmianu x^2 + 2x −15`,`(x+5)(x−3) = 0, stąd x = −5, x =3,
+1 2
+albo
+• z własności wartości bezwzględnej, przekształcając najpierw równanie do postaci`,`równoważnej x +1 = 4, skąd x +1= 4 lub x +1= −4 , czyli x = 3 lub x = −5 .
+Zatem wszystkie rozwiązania równania to: x = 4 lub x = −5, lub x = 3.`],"MMAP-P0-100-1605-n29":[`I sposób
+Niech ACB =α .
+Ponieważ CAB =90°, więc ABC =90° −α .`,`W ΔCDE : DEC =90°, więc CDE =90° −α .
+Trójkąt CDE jest prostokątny oraz DEC =90°, więc CDE =90° −α .
+`,`Podobnie trójkąt BFG jest prostokątny i FGB = 90 , więc BFG =α .
+Ponieważ trójkąty CDE i BFG mają równe kąty, więc na podstawie cechy podobieństwa kkk są
+podobne.`,`II sposób
+Niech ACB = DCE =α i ABC = FBG = β .
+Trójkąt CED jest podobny do trójkąta ABC (cecha kkk), bo ACB = DCE =α oraz`,`CAB = DEC =90°.
+Podobnie trójkąt GBF jest podobny do trójkąta ABC, (cecha kkk), bo ABC = FBG = β
+oraz CAB = FGB =90°.`,"Stąd trójkąt CED jest podobny do trójkąta FBG (z przechodniości relacji podobieństwa)."],"MMAP-P0-100-1605-n30":[`Rozważmy wyraz a = 2n^2 +2n.
+n
+Wyraz a można zapisać, jako`,`n+1
+a =2(n+1)^2 +2(n+1) = 2n^2 +6n+4 .
+n+1`,`Wtedy
+a +a =2n^2 +2n+2n^2 +6n+4=4n^2 +8n+4 .
+n n+1`,`Zatem
+a +a =(2n+2)^2 .
+n n+1`,"Liczba 2n+2 jest naturalna. To kończy dowód."],"MMAP-P0-100-1605-n31":[`I sposób
+Zapisujemy równanie
+A/−4 .
+(6, 2=log)/10
+Korzystamy z definicji logarytmu`,`6,2
+10 = .
+(A/−4)/10
+Stąd
+6,2`,`A =10 ⋅10^(−4) ,
+2,2
+A =10 .
+2,2
+Stwierdzamy, że 10 >10^2 =100, gdyż funkcja wykładnicza y =10^(x) jest rosnąca. Oznacza`,`to, że A>100 cm.
+II sposób
+Zapisujemy równanie
+A/−4 .
+(6, 2=log)/10`,`To równanie jest równoważne kolejno równaniom
+6, 2 = log 10^4( A),
+6, 2 = log10^4 +log A,
+6, 2 = 4+log A.
+Zatem 2, 2 = log A . Korzystamy z definicji logarytmu i otrzymujemy równość`,`2,2
+A =10 .
+2,2
+Stwierdzamy, że 10 >10^2 =100, gdyż funkcja wykładnicza y =10^(x) jest rosnąca. Oznacza
+to, że A >100 cm.`],"MMAP-P0-100-1605-n32":[`I sposób
+Niech α oznacza najmniejszy kąt trójkąta. Zatem pozostałe dwa kąty tego trójkąta równe są
+α +50° oraz 3α . Suma kątów trójkąta jest równa 180°, więc
+α +3α +α +50° =180°,`,`5α =130°,
+α = 26°.
+Stąd α +50° =76° oraz 3α =78° .
+II sposób`,`Niech α oznacza największy kąt trójkąta. Zatem pozostałe dwa kąty tego trójkąta równe są
+(α)/3 +50° oraz (α)/3 . Suma kątów trójkąta jest równa 180°, więc
+(α)/3 + (α)/3 +50° +α =180°,
+5α =390°,`,`α = 78°.
+Stąd (α)/3 = 26° oraz (α)/3 +50° = 76°.
+III sposób
+Niech α oznacza ten kąt trójkąta, który nie jest ani największy, ani najmniejszy. Zatem`,`pozostałe dwa kąty tego trójkąta równe są α −50° oraz 3(α −50°). Suma kątów trójkąta jest
+równa 180°, więc
+α −50° +α +3(α −50° =) 180°,
+5α =380°,`,`α = 76°.
+Stąd α −50° = 26° oraz 3(α −50° =) 78°.`],"MMAP-P0-100-1605-n33":[`Wprowadzamy oznaczenia jak na rysunku.
+S
+h
+H
+C
+A O
+P`,`a
+B
+a 3
+Ponieważwysokośćtego ostrosłupa jest równa wysokości jego podstawy, to H = . Objętość
+2
+ostrosłupa jest równa 27, więc otrzymujemy równanie
+a^2 3 a 3`,`1/3 ⋅ ⋅ =27,
+4 2
+skąd otrzymujemy a = 6.
+Wysokość ostrosłupa jest równa
+6 3
+H = =3 3 .
+2`,`Punkt O jest środkiem okręgu opisanego na trójkącie równobocznym ABC, zatem długość
+odcinka PO stanowi^1 wysokości trójkąta ABC , czyli
+3
+OP =^1 H =^1 ⋅3 3 = 3.
+3 3
+Z twierdzenia Pitagorasa zastosowanego dla trójkąta POS otrzymujemy
+h^2 = OP^2 + H^2 ,`,`2 2
+h^2 =( 3) +(3 3) ,
+h^2 =30.
+Stąd
+h = 30 .
+Pole powierzchni bocznej ostrosłupa jest zatem równe
+1 1`,`P =3⋅ ah =3⋅ ⋅6 30 =9 30 .
+b
+2 2
+Cosinus kąta nachylenia wysokości ściany bocznej do płaszczyzny podstawy jest równy
+cosα = OP/h = 3/30 = 10/10 .`],"MMAP-P0-100-1605-n34":[`I sposób
+Zdarzeniem elementarnym jest uporządkowana para (x, y) dwóch różnych liczb ze zbioru
+{10,11,12,...,99} , który zawiera 90 liczb. Liczba wszystkich zdarzeń elementarnych jest równa
+Ω =90 89⋅ . Wszystkie zdarzenia elementarne są równo prawdopodobne. Mamy więc do
+czynienia z modelem klasycznym.
+Niech A oznacza zdarzenie polegające na tym, że suma wylosowanych liczb jest 30.
+Zatem zdarzeniu A sprzyjają następujące zdarzenia elementarne:`,`(10, 20), (11,19) , (12,18), (13,17), (14,16), (16,14), (17,13), (18,12), (19,11), (20,10).
+Ich liczba jest równa A =10.
+Prawdopodobieństwo zdarzenia A jest równe
+P(A) = A/(Ω) = 10/(90 89⋅) = 1/(9 89⋅) = 1/801 .
+Odpowiedź: Prawdopodobieństwo zdarzenia polegającego na tym, że wylosujemy dwie różne
+liczby dwucyfrowe, których suma jest równa 30 jest równe 1/801 .
+II sposób`,`Zdarzeniem elementarnym jest zbiór dwuelementowy {x, y} dwóch różnych liczb ze zbioru
+{10,11,12,...,99}, który zawiera 90 liczb. Liczba wszystkich zdarzeń elementarnych jest równa
+90! 90 89⋅
+Ω = (^90 ) = = = 4005. Wszystkie zdarzenia elementarne są równo
+2
+88! 2!⋅ 2
+prawdopodobne. Mamy więc do czynienia z modelem klasycznym.`,`Niech A oznacza zdarzenie polegające na tym, że suma wylosowanych liczb jest 30. Zatem
+zdarzeniu A sprzyjają następujące zdarzenia elementarne:
+{10, 20}, {11,19}, {12,18}, {13,17}, {14,16}.
+Ich liczba jest równa A =5.
+Prawdopodobieństwo zdarzenia A jest równe
+P(A) = A/(Ω) = 5/(45 89⋅) = 1/(9 89⋅) = 1/801 .
+Odpowiedź: Prawdopodobieństwo zdarzenia polegającego na tym, że wylosujemy dwie różne`,`liczby dwucyfrowe, których suma jest równa 30 jest równe 1/801 .
+III sposób
+Rysujemy drzewo z uwzględnieniem wszystkich gałęzi, które prowadzą do sytuacji
+sprzyjających zdarzeniu A (polegającemu na tym, że suma wylosowanych liczb będzie
+równa 30).
+Prawdopodobieństwo zdarzenia A jest równe
+P(A) =10 ^1 ⋅ ⋅^1 = 1/(9 89⋅) = 1/801 .`,`90 89
+Odpowiedź: Prawdopodobieństwo zdarzenia polegającego na tym, że wylosujemy dwie różne
+liczby dwucyfrowe, których suma jest równa 30 jest równe 1/801 .`],"MMAP-P0-100-1705-n26":[`Rozwiązanie nierówności kwadratowej składa się z dwóch etapów.
+Pierwszy etap rozwiązania polega na wyznaczeniu pierwiastków trójmianu kwadratowego
+8x^2 −72x .`,`Znajdujemy pierwiastki trójmianu kwadratowego 8x^2 −72x :
+• podajemy je bezpośrednio, np. zapisując x = 0 , x = 9 lub zaznaczając pierwiastki
+1 2`,`trójmianu na wykresie
+albo
+• obliczamy wyróżnik tego trójmianu, a następnie stosujemy wzory na pierwiastki:`,`72−72 72+ 72
+Δ = 72^2 , x = = 0 , x = = 9.
+1 2`,`16 16
+Drugi etap rozwiązania polega na wyznaczeniu zbioru rozwiązań nierówności 8x^2 −72x ≤ 0.
+Podajemy zbiór rozwiązań nierówności: 0≤ x ≤9 lub 0,9 lub x∈0,9 np. odczytując go`,`ze szkicu wykresu funkcji f (x) =8x^2 −72x.
+0 9 x`],"MMAP-P0-100-1705-n27":["Wyłączamy wspólny czynnik przed nawias 4^2017 (1+ 4+ 4^2 + 4^3 ). Doprowadzamy liczbę do","postaci 4^2017 ⋅5 17⋅ . Wnioskujemy, że dana liczba jest podzielna przez 17 ."],"MMAP-P0-100-1705-n28":[`I sposób
+Przyjmijmy oznaczenia jak na rysunku.
+P
+C
+α
+R
+δ`,`γ
+δ
+β
+B
+A
+Prosta AB jest styczna w punkcie B do okręgu o środku R, więc ABR =90°. Stąd
+δ = CBR =90° −β .`,`Trójkąt BRC jest równoramienny, więc
+BCR =δ =90° −β .
+Zatem
+BRC =γ =180° −2 90( ° −β) =2β .
+Suma miar kątów czworokąta ABRP jest równa 360°, PAB =90°, więc
+PAB + ABR + BRP + RPA =360°,
+czyli`,`90°+90°+2β+α =360°,
+α+2β =180°,
+α =180°−2β.
+To kończy dowód.
+II sposób
+P
+C`,`α
+R
+γ
+β
+B
+A
+Z twierdzenia o kącie między styczną a cięciwą wynika, że BRC =γ =2β .`,`Ponieważ ABR =90° i PAB =90°, więc czworokąt ABRP jest trapezem o podstawach
+AP i BR. Suma miar kątów przy ramieniu trapezu jest równa 180°, więc
+α+γ =180°,
+α+2β =180°.
+Stądα =180°−2β. To kończy dowód.`],"MMAP-P0-100-1705-n29":[`I sposób
+Ponieważ f (−6) = , stąd wartość p =^(−6+0) = −3 .
+(f(0)=)/2 2 2
+Zatem f (x) = a(x − p) + q dla p = −3 i q = 6 .
+Obliczamy współczynnik a. Wiemy, że f (0) =^3 , zatem
+2`,`a(0 + 3)^2 + 6 =^3 ,
+2
+9a = − 9/2 ,
+a = − 1/2 .
+Odpowiedź: a = − 1/2 .
+II sposób`,`Z treści zadania wynika, że f (−6) = f (0) =^3 :
+2
+ 3  3
+a −6^2 +b −6 +c = 36a −6b+c = b = 6a
+( ) ( )
+ `,` 2  2 
+, ,  3 .
+()/() 3 ()/() 3 c =
+
+a⋅0−b⋅0+c = c =  2
+ 2  2`,`Obliczamy pierwszą współrzędną wierzchołka:
+p = − b/2a = − 6a/2a = −3.
+Stąd wynika, że f (−3)=6 i f (x) = ax^2 + 6ax +^3 . Obliczamy współczynnik a
+2
+a(−3)^2 + 6a ⋅ −( 3)+^3 = 6 ,
+2`,`−9a = 9/2 ,
+a = − 1/2 .`],"MMAP-P0-100-1705-n30":[`Oznaczmy długość krótszej przyprostokątnej przez x. Wtedy dłuższa przyprostokątna ma
+długość x+14. Z twierdzenia Pitagorasa otrzymujemy`,`x^2 +(x+14)^2 = 26^2 ,
+x^2 + x^2 +28x+196 = 676,`,`x^2 +14x−240 = 0
+Stąd`,`x =10 lub x = −24.
+Drugie z rozwiązań odrzucamy, zatem długości boków trójkąta są równe: 10, 24, i 26, więc`,"obwód jest równy 60 cm."],"MMAP-P0-100-1705-n31":[`Wyznaczamy różnicę r ciągu arytmetycznego.
+W tym celu stosujemy wzory na sumę częściową S =3a +3r =33 i a =8 lub zapisujemy`,`3 1 1
+równanie a +a +r +a +2r = 33.`,`1 1 1
+Obliczamy r: r = 3.`,`Następnie obliczamy różnicę a −a , jako 3r lub po wyznaczeniu a i a , czyli
+16 13 16 13`,`a =8+15⋅3=53, a =8+12⋅3= 44.
+16 13`,`Zatem a −a =3r =9.
+16 13`],"MMAP-P0-100-1705-n32":[`I sposób
+y
+10
+9 M
+8/7 C
+6
+5`,`4
+3
+2
+A 1/0 B x
+-7 -6 -5 -4 -3 -2 -1 1 2 3 4 5 6 7 8 9
+-1
+-2`,`Prosta AM przechodzi przez punkty A= −( 4,0) i M =(2,9), więc jej równanie ma postać
+y = 9/(2+4) (x + 4), czyli y =^3 x + 6 .
+2
+Prosta k o równaniu y = −2x +10 przecina oś Ox w punkcie B, więc B =(5,0) .
+Zatem AB = 5− −( 4) = 9.
+Współrzędne punktu C obliczymy, rozwiązując układ równań:
+y = 3/2 x + 6 i y = −2x +10 .`,`Stąd
+3/2 x + 6 = −2x +10,
+7/2 x = 4,
+x = 8/7 , a y = 3/2 ⋅ 8/7 + 6 = 12/7 + 6 = 54/7
+8 54
+Zatem C = , . Wynika stąd, że wysokość h trójkąta ABC opuszczona z wierzchołka C
+ `,`7 7 
+54
+na podstawę AB jest równa h = y = .
+C
+7
+Zatem pole trójkąta ABC jest równe
+1 1 54 243 5`,`P = ⋅ AB ⋅h = ⋅9⋅ = = 34 .
+ABC
+2 2 7 7 7
+II sposób
+y`],"MMAP-P0-100-1705-n33":[`Jest to model klasyczny i liczba wszystkich zdarzeń elementarnych jest równa Ω = 90.
+Zbiór wszystkich zdarzeń elementarnych to zbiór wszystkich liczb naturalnych`,`dwucyfrowych.
+Niech A oznacza zdarzenie polegające na tym, że wylosujemy liczbę, która jest równocześnie`,`mniejsza od 40 i podzielna przez 3. Zdarzeniu A sprzyjają następujące zdarzenia elementarne
+A={12,15,18, 21, 24, 27,30,33,36,39}.`,`Stąd A =10.
+Prawdopodobieństwo zdarzenia A jest równe`,`P(A) = A/(Ω) =^10 =^1 .
+90 9`,`Odpowiedź: Prawdopodobieństwo zdarzenia, polegającego na tym, że wylosujemy liczbę,
+która jest równocześnie mniejsza od 40 i podzielna przez 3, jest równe 1/9 .`],"MMAP-P0-100-1705-n34":[`Przyjmijmy oznaczenia jak na rysunku.
+S
+b
+h
+H`,`C
+A D a
+O
+a
+B`,`Wykorzystujemy wzór na pole powierzchni bocznej ostrosłupa i zapisujemy równanie
+(15 3)/4 =3⋅ 1/2 a⋅ (5 3)/4 , skąd otrzymujemy a = 2.
+Z twierdzenia Pitagorasa dla trójkąta DOS otrzymujemy
+H^2 = h^2 − DO^2 .
+Ponieważ DO = 1/3 a⋅ 3/2 = 3/3 , więc`,`H (2 (5)/(=))/() ((3)/())/() (()/(−))/() .
+4 ((((3)/())/())/3)/()
+  
+Stąd H = 209/4 .
+3`,`Zatem objętość ostrosłupa jest równa
+1 1 4 3 209 209
+V = P ⋅H = ⋅ ⋅ = .
+p
+3 3 4 4 3 12`],"MMAP-P0-100-1805-n26":[`Rozwiązanie nierówności kwadratowej składa się z dwóch etapów.
+Pierwszy etap to wyznaczenie pierwiastków trójmianu kwadratowego 2x^2 −3x −5.
+Drugi etap to zapisanie zbioru rozwiązań nierówności kwadratowej.`,`Pierwszy etap rozwiązania może zostać zrealizowany następująco:
+• zapisujemy nierówność w postaci 2x^2 −3x −5 > 0 i obliczamy pierwiastki trójmianu
+kwadratowego 2x^2 −3x −5`,`o obliczamy wyróżnik tego trójmianu:
+3 7− 3 7+
+Δ = 9−4⋅2⋅(−5)= 49 i stąd x = = −1 oraz x = =^5`,`1 4 2 4 2
+albo
+o stosujemy wzory Viète’a:`,`x ⋅x = −^5 oraz x + x =^3 , stąd x = −1 oraz x =^5 .
+1 2 2 1 2 2 1 2 2
+Drugi etap rozwiązania: podajemy zbiór rozwiązań nierówności: (−∞ −, 1)∪(^5 , + ∞) lub`,`2
+x∈ −∞ −( , 1)∪(^5 , + ∞).
+2`],"MMAP-P0-100-1805-n27":[`Lewa strona równania jest iloczynem dwóch czynników x^3 +125 oraz x^2 −64. Zatem iloczyn
+ten jest równy 0, gdy co najmniej jeden z tych czynników jest równy 0, czyli x^3 +125 = 0 lub`,`x^2 −64 = 0 .
+Rozwiązaniem równania x^3 +125 = 0 jest x =^3 −125 = −5.`,`Równanie x^2 −64 = 0 doprowadzamy do postaci (x−8) (⋅ x+8) = 0. Przynajmniej jeden
+z czynników x−8 lub x+8 jest równy 0, czyli x =8 lub x = −8.`,`Równanie (x^3 +125)(x^2 −64) = 0 ma trzy rozwiązania rzeczywiste:
+x = −5, x =8.x = −8.`],"MMAP-P0-100-1805-n28":[`I sposób
+Nierówność możemy przekształcić równoważnie
+(a+b)/2ab ≥ 2/(a+b) .
+Ponieważ liczby a i b są dodatnie, więc a+b >0 i 2ab >0. Mnożąc obie strony nierówności`,`przez 2ab a( +b) , otrzymujemy
+(a+b)^2 ≥ 4ab,
+a^2 +2ab+b^2 ≥ 4ab,
+a^2 −2ab+b^2 ≥0,`,`(a−b)^2 ≥ 0.
+Ta nierówność jest prawdziwa dla dowolnych liczb rzeczywistych a i b, więc w szczególności
+również dla liczb dodatnich. To kończy dowód.
+II sposób`,`Nierówność możemy przekształcić równoważnie
+((a+b)/2ab − 2/(a+b) ≥0,)/2
+−4ab
+((a+b))/(2ab a(+b)) ≥ 0.`,`Ponieważ liczby a i b są dodatnie, więc a+b >0 i 2ab >0. Mnożąc obie strony nierówności
+przez 2ab a( +b) , otrzymujemy
+(a+b)^2 −4ab ≥ 0,
+a^2 +2ab+b^2 −4ab ≥0,`,`a^2 −2ab+b^2 ≥0,
+(a−b)^2 ≥ 0.
+Ta nierówność jest prawdziwa dla dowolnych liczb rzeczywistych a i b, więc w szczególności
+również dla liczb dodatnich. To kończy dowód.`],"MMAP-P0-100-1805-n29":[`I sposób
+Przyjmijmy oznaczenia jak na rysunku.
+2 A
+D
+2
+2
+E`,`B r
+r
+S
+C
+Wtedy AS = 2 2 oraz AE = 2. Zatem
+SE = 2 2 −2.
+Średnica okręgu o środku B i promieniu r jest krótsza od odcinka SE, więc`,`2r < 2 2 − 2, czyli r < 2 −1.
+Co kończy dowód.
+II sposób
+Przyjmijmy oznaczenia jak na rysunku.
+2 A
+D
+2`,`2
+E
+G Br/r
+S F
+C
+Wtedy AS = 2 2 , BS = r 2 oraz AE = 2.
+Ponieważ AS = BS + BE + AE , więc otrzymujemy`,`2 2 = r 2 +r +2,
+r( 2 +1) = 2 2 −2.
+Stąd mnożąc obie strony tego równania przez 2 −1 otrzymujemy
+r( 2 +1)( 2 −1) = 2( 2 −1)( 2 −1) ,
+r = 2( 2 −1)^2 ,
+r = 2 2( −2 2 +1),
+r = 2 3( −2 2).`,`Sprawdźmy, czy 2 3( −2 2) < 2 −1.
+Przekształcamy tę nierówność równoważnie.
+6−4 2 < 2 −1
+7 <5 2
+Ponieważ 2 ≈1, 41>1, 4 , więc5 2 > 7. Oznacza to, że r < 2 −1.`],"MMAP-P0-100-1805-n30":["Ponieważ punkt P leży na wykresie funkcji f, więc możemy zapisać:","9 = a^2 , gdzie a > 0.","Stąd a =3.","Zbiorem wartości funkcji wykładniczej f jest przedział (0, + ∞). Wykres funkcji g powstaje","przez przesunięcie wykresu funkcji f o 2 jednostki w dół. Zatem zbiorem wartości funkcji g","jest przedział (−2, + ∞)."],"MMAP-P0-100-1805-n31":[`I sposób
+Korzystamy ze wzoru na n-ty wyraz ciągu arytmetycznego i zapisujemy wzór na a :
+12
+a = a +(12−1)⋅r .
+12 1
+Korzystamy ze wzoru na sumę n początkowych wyrazów ciągu arytmetycznego i zapisujemy`,`wzór na S :
+12
+2a +(12−1)⋅r
+1
+S = ⋅12.
+12`,`2
+Otrzymujemy układ równań
+30 = a +11r i 162 =12a +66r.
+1 1
+Stąd otrzymujemy
+a = −3.`,`1
+II sposób
+Korzystamy ze wzoru na sumę n początkowych wyrazów ciągu arytmetycznego i zapisujemy
+wzór na S :
+12
+a +a`,`1 12
+S = ⋅12 .
+12
+2
+Otrzymujemy równanie
+a +30`,`1
+162 = ⋅12.
+2
+Stąd otrzymujemy
+a = −3.
+1`],"MMAP-P0-100-1805-n32":[`I sposób – proste prostopadłe
+Obliczamy współczynnik kierunkowy prostej AB
+1
+a = .
+AB
+3
+Ponieważ kąt prosty w trójkącie ABC jest przy wierzchołku B, więc wyznaczamy równanie`,`prostej prostopadłej do prostej AB i przechodzącej przez punkt B
+y = −3x+35.
+Obliczamy współrzędne punktu C, który jest punktem wspólnym prostych określonych
+równaniami y = 2x +3 i y = −3x+35:
+y = 2x+3
+
+y = −3x+35`,`
+Stąd po rozwiązaniu układu równań otrzymujemy parę x = 32/5 i y = 79/5 .
+Zatem punkt C ma współrzędne.(^3279 , )
+5 5
+II sposób – twierdzenie Pitagorasa
+Ponieważ wierzchołek C trójkąta prostokątnego ABC leży na prostej o równaniu y = 2x + 3,
+więc jego współrzędne zapisujemy następująco`,`C =(x, 2x+3).
+Punkt B jest wierzchołkiem kąta prostego, zatem z twierdzenia Pitagorasa wynika, że
+AC^2 = AB^2 + BC^2 .
+Po podstawieniu współrzędnych punktów A, B i C otrzymujemy równanie
+(x−4)^2 +(2x+3−3)^2 = (10−4)^2 +(5−3)^2 +(x−10)^2 +(2x+3−5)^2 ,
+czyli równanie
+x^2 −8x+16+ 4x^2 = 36+ 4+ x^2 −20x+100+ 4x^2 −8x+ 4 .`,`Zatem
+20x =128 i dalej x = 32/5 .
+Jeśli x =^32 , to y =^79 . Zatem C = (^3279 , ).
+5 5 5 5
+III sposób – iloczyn skalarny
+Wektory niezerowe są prostopadłe wtedy i tylko wtedy, gdy ich iloczyn skalarny jest
+ `,`równy 0. W tym przypadku oznacza to, że iloczyn skalarny wektorów AB i BC jest równy
+0.
+ 
+Współrzędne wektora AB są równe AB =[6, 2].
+`],"MMAP-P0-100-1805-n33":[`I sposób
+Zdarzeniem elementarnym jest uporządkowana para (x, y), gdzie x∈A i y∈B. Zatem zbiór
+wszystkich zdarzeń elementarnych ma postać:
+Ω ={(100,10 , 100,11 , 100,12 , 100,13 , 100,14 , 100,15 , 100,16 ,) ( ) ( ) ( ) ( ) ( ) ( )
+(200,10 , 200,11 , 200,12 , 200,13 , 200,14 , 200,15 , 200,16 ,) ( ) ( ) ( ) ( ) ( ) ( )
+(300,10 , 300,11 , 300,12 , 300,13 , 300,14 , 300,15 , 300,16 ,) ( ) ( ) ( ) ( ) ( ) ( )
+(400,10 , 400,11 , 400,12 , 400,13 , 400,14 , 400,15 , 400,16 ,) ( ) ( ) ( ) ( ) ( ) ( )`,`(500,10 , 500,11 , 500,12 , 500,13 , 500,14 , 500,15 , 500,16 ,) ( ) ( ) ( ) ( ) ( ) ( )
+(600,10 , 600,11 , 600,12 , 600,13 , 600,14 , 600,15 , 600,16 ,) ( ) ( ) ( ) ( ) ( ) ( )
+(700,10 , 700,11 , 700,12 , 700,13 , 700,14 , 700,15 , 700,16) ( ) ( ) ( ) ( ) ( ) ( )}.
+Liczba wszystkich zdarzeń elementarnych jest równa Ω =7 7⋅ = 49.
+Niech A oznacza zdarzenie polegające na tym, że suma wylosowanych liczb będzie podzielna
+przez 3. Z cechy podzielności liczby całkowitej przez 3 wynika, że suma cyfr otrzymanej liczby
+x+ y musi być podzielna przez 3. Zbiór A ma postać:`,`A ={(100,11 , 100,14 , 200,10 , 200,13 , 200,16 ,) ( ) ( ) ( ) ( )
+(300,12 , 300,15 , 400,11 , 400,14 , 500,10 ,) ( ) ( ) ( ) ( )
+(500,13 , 500,16 , 600,12 , 600,15 , 700,11 , 700,14) ( ) ( ) ( ) ( ) ( )}.
+Zdarzeniu A sprzyja więc 16 zdarzeń elementarnych, czyli A =16.
+Prawdopodobieństwo zdarzenia A jest równe
+P(A) = A/(Ω) =^16 .
+49`,`Odpowiedź: Prawdopodobieństwo zdarzenia polegającego na tym, że suma wylosowanych
+liczb będzie liczbą podzielną przez 3, jest równe 16/49 .
+Uwaga
+Zdający może zapisać zbiór wszystkich zdarzeń elementarnych jako zbiór sum możliwych
+do utworzenia w wyniku losowania, tzn. może zastosować zapis:
+Ω ={110, 111, 112, 113, 114, 115, 116,
+210, 211, 212, 213, 214, 215, 216,`,`310, 311, 312, 313, 314, 315, 316,
+410, 411, 412, 413, 414, 415, 416,
+510, 511, 512, 513, 514, 515, 516,
+610, 611, 612, 613, 614, 615, 616,
+710, 711, 712, 713, 714, 715, 716 .}
+Wtedy zbiór
+A={111,114, 210, 213, 216, 312, 315, 411, 414,510, 513, 516, 612, 615, 711, 714 .}`,`II sposób
+Rysujemy tabelę, która przedstawia model rozważanego doświadczenia.
+100 200 300 400 500 600 700
+10  
+11   `],"MMAP-P0-100-1805-n34":[`Przyjmijmy oznaczenia jak na rysunku.
+Rozważany graniastosłup ma 5 ścian, a każda z nich ma takie samo pole. Obliczamy pole
+podstawy, a zarazem pole jednej ściany bocznej:
+45 3 : 5=9 3.
+Podstawą graniastosłupa jest trójkąt równoboczny, więc jego pole jest równe`,`a^2 3
+P = .
+ABC
+4
+Obliczamy długość krawędzi podstawy:`,`a^2 3
+=9 3,
+4
+a =6.
+Ściana boczna jest prostokątem o bokach długości a i h, więc pole każdej ściany bocznej jest`,`równe
+P = ah.
+ABED
+Z warunków zadania wynika, że:
+ah =9 3.`,`Znamy długość krawędzi podstawy a, zatem:
+6h =9 3.
+Obliczamy wysokość graniastosłupa
+h =^3 3 .
+2`,`Objętość graniastosłupa jest równa
+3 3 81
+V = P ⋅h = 9 3⋅ = .
+ABC
+2 2`],"MMAP-P0-100-1905-n26":["Iloczyn (x^3 −8)(x^2 −4x−5) = 0 jest równy 0, jeśli przynajmniej jeden z czynników jest równy 0.","Zatem x^3 −8 = 0 lub x^2 −4x−5 = 0 .","Równanie x^3 −8 = 0 ma jedno rozwiązanie x = 2.","Równanie x^2 −4x−5 = 0 doprowadzamy do postaci iloczynowej (x+1) (⋅ x−5) = 0.","Przynajmniej jeden z czynników (x+1) lub (x−5) jest równy 0, czyli x = −1 lub x =5.","Zatem rozwiązaniami równania (x^3 −8)(x^2 −4x−5) = 0 są liczby: x = 2, x = −1 oraz x = 5."],"MMAP-P0-100-1905-n28":[`I sposób
+Przekształcamy równoważnie nierówność i otrzymujemy kolejno:
+3a^2 −2ab+3b^2 ≥ 0 ,
+2a^2 +a^2 −2ab+b^2 +2b^2 ≥ 0,
+2a^2 +(a−b)^2 +2b^2 ≥ 0.
+Lewa strona nierówności jest sumą trzech liczb nieujemnych: 2a^2 – jako wielokrotność
+kwadratu liczby, (a−b)^2 – jako kwadrat liczby, 2b^2 – jako wielokrotność kwadratu liczby.`,`Zatem z lewej strony nierówności występuje wyrażenie przyjmujące wartość nieujemną, czyli
+nierówność jest prawdziwa dla dowolnych rzeczywistych liczb a i b.
+To kończy dowód.
+Uwaga
+Całe rozumowanie można zapisać w postaci
+3a^2 −2ab+3b^2 ≥ a^2 −2ab+b^2 = (a−b)^2 ≥ 0 ,
+co jest prawdą dla dowolnych liczb rzeczywistych a, b.`,`II sposób
+Przekształcamy równoważnie nierówność i otrzymujemy kolejno:
+3a^2 −2ab+3b^2 ≥ 0 ,
+a^2 − 2/3 ab+b^2 ≥ 0,
+1 1
+()/() a− b ()/() − b^2 +b^2 ≥ 0,
+3 9`,` 
+1 8
+()/() a− b ()/() + b^2 ≥ 0.
+3 9
+ 
+1
+Lewa strona nierówności jest sumą dwóch liczb nieujemnych: ()/() a− b ()/() – jako kwadrat liczby,`,`3
+ 
+8/9 b^2 – jako wielokrotność kwadratu liczby.
+Zatem z lewej strony nierówności występuje wyrażenie przyjmujące wartość nieujemną, czyli
+nierówność jest prawdziwa dla dowolnych rzeczywistych liczb a i b.
+To kończy dowód.
+III sposób`,`Wyrażenie z lewej strony jest trójmianem kwadratowym dla zmiennej a, z parametrem b.
+Obliczamy wyróżnik tego trójmianu kwadratowego:
+Δ = (−2b)^2 −4 3 3⋅ ⋅ b^2 = 4b^2 −36b^2 = −32b^2 .
+Obliczony wyróżnik trójmianu kwadratowego jest niedodatni dla dowolnej liczby rzeczywistej b.
+Zatem trójmian kwadratowy nie ma pierwiastków lub ma jeden pierwiastek rzeczywisty. Przy`],"MMAP-P0-100-1905-n29":[`Z założenia trójkąt CSB jest równoramienny i BS = BC , więc BSC = BCS . Zatem
+BCS = ACS =α. Wynika stąd, że CBS =180° −2α, a więc ABS = 2α . Ponieważ`,`trójkąt ABS jest równoramienny i AS = BS , więc BAS = 2α .
+Zatem ASB =180° −4α.`,`Zauważmy, że
+ASD + ASB + BSC =180°.`,`Otrzymujemy zatem równanie
+ASD +180° −4α +α =180°,`,`skąd wynika, że
+ASD =3α .`,"To kończy dowód."],"MMAP-P0-100-1905-n30":[`I sposób (klasyczna definicja prawdopodobieństwa)
+Zdarzeniami elementarnymi w przestrzeni Ω sąwszystkie pary liczb (a b, ), gdzie a b, ∈{1, 2, 3, 4, 5}.
+Jest to model klasyczny. Liczba wszystkich zdarzeń elementarnych jest równa Ω =5 5⋅ = 25.
+Obliczamy liczbę zdarzeń elementarnych sprzyjających zdarzeniu A polegającym
+na otrzymaniu liczb, których iloczyn jest liczbą nieparzystą, np. wypisując je i zliczając:
+A={(1,1 , 1,3 , 1,5 , 3,1 , 3,3 , 3,5 , 5,1 , 5,3 , 5,5) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )}.
+Liczba zdarzeń elementarnych sprzyjających zdarzeniu A jest więc równa 9.`,`Prawdopodobieństwo zdarzenia A jest równe: P(A) =^9 .
+25
+II sposób (metoda tabeli)
+Wszystkie zdarzenia elementarne możemy
+(1,1) (1, 2) (1, 3) (1, 4) (1, 5) przedstawić w postaci kwadratowej tablicy.
+(2,1) (2, 2) (2,3) (2, 4) (2,5)
+albo`,`((3,1))/((4,1)) ((3, 2))/((4, 2)) ((3, 3))/((4,3)) ((3, 4))/((4, 4)) ((3, 5))/((4,5)) 2 4
+1/X 3/X 5/X
+1
+(5,1) (5, 2) (5, 3) (5, 4) (5, 5) 2
+3 X X X
+4
+5 X X X`,`Stąd Ω =5 5⋅ = 25
+Jest to model klasyczny.
+Zdarzeniami elementarnymi sprzyjającymi zdarzeniu A są pary liczb, których iloczyn jest
+liczbą nieparzystą. Są to wszystkie pary liczb wyróżnione w pierwszej tablicy lub zaznaczone
+w drugiej.
+Jest ich 9. Zatem P(A) =^9 .
+25`,`III sposób (metoda drzewka)
+Przedstawiamy model graficzny doświadczenia.
+P – oznacza liczbę parzystą, N – nieparzystą.
+3/5
+2/5
+P N
+2 3`,`3
+2
+5 5
+5
+5`],"MMAP-P0-100-1905-n31":[`Ponieważ ACD =30°, więc trójkąt ACD jest połową trójkąta równobocznego. Zatem
+AD = 1/2 ⋅ AC = 1/2 ⋅4 = 2.`,`Trójkąt ABD jest prostokątny, więc możemy wykorzystać zależność z twierdzenia Pitagorasa
+BD^2 = AD^2 + AB^2 .`,`Stąd otrzymujemy
+BD^2 = 2^2 +8^2 = 68.`,`Zatem
+BD = 68 = 2 17 .`,`Uwaga
+Wysokość AD trapezu można wyznaczyć także innymi metodami.`,`1. Z pola trójkąta ABC, wyznaczonego na dwa sposoby, np.: 1/2 ⋅8 4 sin 30⋅ ⋅ ° = 1/2 ⋅8⋅ AD .
+2. Z funkcji trygonometrycznej kąta w trójkącie ACD, np.: AD/AC = sin 30°.`],"MMAP-P0-100-1905-n32":[`Z treści zadania otrzymujemy
+a +a +a +a +a +a
+1 2 3 4 5 6
+=16,`,`6
+a +a + −( 4)+a +2⋅ −( 4)+a +3⋅ −( 4)+a +4⋅ −( 4)+a +5⋅ −( 4)
+1 1 1 1 1 1
+=16,`,`6
+6a −60
+1
+=16,`,`6
+a = 26.
+1
+W celu obliczenia liczby k stosujemy wzór na wyraz a i otrzymujemy:`,`k
+26+(k −1)⋅ −( 4) = −78, a stąd k = 27.
+Odpowiedź: a = 26, k = 27.
+1`],"MMAP-P0-100-1905-n33":[`I sposób
+Wyznaczamy równanie prostej prostopadłej do prostej o równaniu y = 3x i przechodzącej
+przez punkt A:
+y = −^1 x+b.
+3
+Punkt A należy do prostej y = −^1 x+b, więc 10 = −^1 (−18)+b. Stąd b = 4.
+3 3`,`Obliczamy współrzędne punktu S przecięcia prostej y = 3x i prostej AB:
+y =3x
+
+y = −^1 x+4
+ 3
+Wtedy 3x = −^1 x+4.
+3`,`Zatem
+6 18  6 18
+x = i y = , czyli S = , .
+ 
+5 5  5 5 
+Ponieważ punkt S jest środkiem odcinka AB , więc
+−18+ x 6 10+ y 18`,`B B
+= i = .
+2 5 2 5
+102 14
+Stąd x = i y = − , czyli B = (102)/() ,− (14)/() .
+B B
+5 5  5 5 `,`II sposób („odległość punktu od prostej”)
+Równanie prostej prostopadłej do danej prostej i przechodzącej przez punkt Ama postać:
+y = −^1 x+b.
+3
+Wtedy 10 = −^1 (−18)+b, stąd b = 4. Zatem równanie prostej AB ma postać: y = −^1 x+4.
+3 3
+Punkt B należy do tej prostej, więc`,`B =(x,−^1 x+4).
+3
+Obliczamy odległość punktu A od prostej o równaniu y = 3x:
+(3⋅ −(18)−1 10⋅)/10 = (32 10)/5 .
+Ponieważ prosta o równaniu y = 3x jest symetralną odcinka AB, więc odległość punktu`],"MMAP-P0-100-1905-n34":[`Przyjmijmy oznaczenia jak na rysunku.
+Ze wzoru na długość przekątnej kwadratu otrzymujemy
+AO = 1/2 ⋅6 2 = 3 2 .
+Pole podstawy ostrosłupa jest równe
+P = 6^2 =36.`,`p
+Pole powierzchni całkowitej ostrosłupa jest 4 razy większe od pola jego podstawy, więc
+P = 4P = 4 36⋅ =144.
+c p
+Zatem pole powierzchni bocznej ostrosłupa jest równe`,`P = P − P = 3 36⋅ =108.
+b c p
+Pole powierzchni bocznej ostrosłupa jest równe
+1
+P = 4⋅P = 4⋅ ⋅6⋅h =12⋅h ,`,`b BCS b b
+2
+więc
+12⋅h =108,
+b`,`h =9.
+b
+Z twierdzenia Pitagorasa dla trójkąta BES otrzymujemy
+b^2 = 3^2 +h^2 = 9+9^2 = 9 10⋅ ,
+b`,`b = 3 10 .
+Z trójkąta AOS otrzymujemy
+2
+cosα = AO/AS = 3/(3 10) = 5/5 .`],"MMAP-P0-100-2203-n9":[`Niech n będzie liczbą całkowitą nieparzystą. Wtedy n = 2k + 1 przy pewnym k ∈ Z, więc
+n^2 + 2023 = (2k + 1)^2 + 2023 = 4k^2 + 4k + 1 + 2023 = 4k(k + 1) + 2024.
+Jeżeli k jest liczbą parzystą, to liczba 4k(k + 1) jest podzielna przez 8 jako iloczyn`,`liczby 4, liczby parzystej k i liczby całkowitej k + 1.
+Jeżeli k jest liczbą nieparzystą, to liczba 4k(k + 1) jest podzielna przez 8 jako iloczyn
+liczby 4, liczby parzystej k + 1 i liczby całkowitej k.`,`Liczba 2024 jest podzielna przez 8, gdyż 2024 = 8 ⋅ 253.
+Zatem liczba 4k(k + 1) + 2024 jest podzielna przez 8 jako suma liczb podzielnych
+przez 8. To kończy dowód.`,`Zauważmy, że n^2 + 2023 = n^2 − 1 + 2024 = (n − 1)(n + 1) + 8 ⋅ 506 .
+Ponieważ n jest liczbą całkowitą nieparzystą, to n − 1 i n + 1 to dwie kolejne liczby
+parzyste. Zatem jedna z tych liczb jest podzielna przez 4. Stąd wynika, że iloczyn`,`(n − 1)(n + 1) jest podzielny przez 2 ⋅ 4 = 8. Suma dwóch liczb podzielnych przez 8 jest
+podzielna przez 8. To kończy dowód.
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom podstawowy)`],"MMAP-P0-100-2203-n10-3":[`Korzystamy ze wzoru na postać kanoniczną funkcji kwadratowej i zapisujemy
+f(x) = a(x − p)^2 + q.`,`Odczytujemy z wykresu funkcji f współrzędne wierzchołka paraboli: p = 1 oraz q = 8.
+Zatem f(x) = a(x − 1)^2 + 8.`,`Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom podstawowy)
+Z wykresu odczytujemy jedno z miejsc zerowych funkcji f, np. x = −1. Ponieważ`,`f(−1) = 0, więc
+0 = a(−1 − 1)^2 + 8`,`a = −2
+Wzór funkcji f w postaci kanonicznej: f(x) = −2(x − 1)^2 + 8.`],"MMAP-P0-100-2203-n13-2":[`Pacjent przyjmuje jedenastą dawkę leku po 40 dniach, licząc od momentu przyjęcia
+pierwszej dawki.
+Tuż przed przyjęciem jedenastej dawki leku w organizmie pacjenta znajduje się:
+100 ⋅ ( 1/2 ) mg leku z pierwszej dawki,
+9
+100 ⋅ ( 1/2 ) mg leku z drugiej dawki,
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom podstawowy)`,`8
+100 ⋅ ( 1/2 ) mg leku z trzeciej dawki,
+⋮
+2
+mg leku z dziewiątej dawki,
+(100⋅( 1/2 ))/1
+100 ⋅ ( 1/2 ) mg leku z dziesiątej dawki.`,`Łącznie w organizmie pacjenta znajduje się
+1^10
+1 2 9 10
+1 − ( )
+1
+(1/(100⋅())/2 ) (1/(+100⋅())/2 ) (1/(+...+100⋅())/2 ) + 100 ⋅ ( (1/()))/2 = 100 ⋅ ⋅ =
+2`,`((2/1)/1−)/2
+= 100(1 − ( 1/2 ) ) ≈ 99,9 mg leku.
+Obliczamy i zapisujemy w lewej tabeli łączną masę leku (w mg), który jest w organizmie
+pacjenta tuż po przyjęciu każdej kolejnej dawki 100 mg tego leku.
+W prawej tabeli obliczamy i zapisujemy masę leku (w mg), który pozostaje w organizmie
+pacjenta tuż przed przyjęciem kolejnej dawki, z uwzględnieniem czasu półtrwania tego leku
+(T = 4 doby) w organizmie pacjenta.`,`tuż po przyjęciu tuż przed przyjęciem
+1. dawki 100 50 2. dawki
+2. dawki 150 75 3. dawki
+3. dawki 175 87,5 4. dawki
+4. dawki 187,5 93,75 5. dawki
+5. dawki 193,75 96,88 6. dawki
+6. dawki 196,88 98,44 7. dawki`,`7. dawki 198,44 99,22 8. dawki
+8. dawki 199,22 99,61 9. dawki
+9. dawki 199,61 99,81 10. dawki
+10. dawki 199,81 99,9 11. dawki
+Zatem tuż przed przyjęciem jedenastej dawki łączna masa tego leku w organizmie pacjenta`],"MMAP-P0-100-2203-n18":[`Ponieważ |∡OAB| = |∡OCD| (z założenia), |∡AOB| = |∡COD| (jako miary kątów
+wierzchołkowych) oraz |∡ABO| = |∡CDO| (z twierdzenia o sumie miar kątów w trójkącie),`,`więc trójkąty ABO i ODC są podobne na mocy cechy kkk podobieństwa trójkątów.
+Zatem`,`(|CO|)/(|AO|) = (|OD|)/(|OB|)
+10/5 = (|OD|)/3`,`|OD| = 6
+Długość boku OD trójkąta ODC jest równa 6.`,"Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom podstawowy)"],"MMAP-P0-100-2203-n28":[`Ponieważ losy są ponumerowane kolejno od 1000 do 9999, więc początkowa liczba
+wszystkich losów na tej loterii jest równa 9999 − 999 = 9000. Zatem |Ω| = 9000.`,`Niech A oznacza zdarzenie polegające na tym, że pierwszy wylosowany z pojemnika los
+był wygrywający. Wtedy`,`A = {1011,1101,1110,1002,1020,1200,2001,2010,2100,3000}, więc |A| = 10.
+Obliczamy prawdopodobieństwo zdarzenia A:`,"P(A) = (|A|)/(|Ω|) = 10/9000 = 1/900"],"MMAP-P0-100-2203-n29":[`D C
+Oznaczmy przez x oraz b długości boków
+równoległoboku o obwodzie równym 200
+i kącie ostrym o mierze 30° (zobacz
+b`,`rysunek).
+30°
+A x B
+Ponieważ 2x + 2b = 200 oraz x > 0 i b > 0, więc b = 100 − x i x ∈ (0,100).
+Wyznaczamy pole P równoległoboku jako funkcję jednej zmiennej x:`,`Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom podstawowy)
+P = x ⋅ b ⋅ sin30°
+P(x) = x ⋅ (100 − x) ⋅ 1/2
+1
+P(x) = − x^2 + 50x`,`2
+dla x ∈ (0,100).
+Wykresem funkcji P jest fragment paraboli skierowanej ramionami do dołu. Z własności
+funkcji kwadratowej wynika, że funkcja P może osiągnąć wartość największą dla argumentu
+50`,`równego pierwszej współrzędnej wierzchołka paraboli, tj. dla x = − = 50. Ponieważ
+2⋅(−^1 )
+2
+50 ∈ (0,100), więc funkcja P osiąga wartość największą dla argumentu x = 50. Wtedy
+b = 100 − x = 100 − 50 = 50 oraz P(50) = 50 ⋅ (100 − 50) ⋅ 1/2 = 1250.`,`Z rozważanych równoległoboków największe pole – równe 1250 – ma ten, który jest
+rombem o boku długości 50.`],"MMAP-P0-100-2005-n27":["Iloczyn jest równy zero, jeśli przynajmniej jeden z czynników jest równy zero.","Zatem x^2 −1= 0 lub x^2 −2x = 0 .","Równanie x^2 −1= 0 ma dwa rozwiązania: x = −1 lub x =1.","Równanie x^2 −2x = 0 ma dwa rozwiązania: x = 0 lub x = 2.","Zatem rozwiązaniami równania (x^2 −1)(x^2 −2x) = 0 są liczby: x = 0, x = 2, x =1, x = −1."],"MMAP-P0-100-2005-n28":[`I sposób
+Przekształcamy równoważnie nierówność i otrzymujemy kolejno:
+a^2 −2ab+2b^2 > 0 ,
+a^2 −2ab+b^2 +b^2 > 0,
+(a−b)^2 +b^2 > 0.
+Nierówność (a−b)^2 +b^2 > 0 jest prawdziwa, ponieważ:
+1) wyrażenie (a −b)^2 jest dodatnie, gdyż z założenia wynika a−b ≠ 0 i kwadrat każdej`,`liczby rzeczywistej różnej od zera jest dodatni,
+2) wyrażenieb^2 jest nieujemne,
+3) suma dwóch liczb rzeczywistych, z których jedna jest liczbą dodatnią, a druga liczbą
+nieujemną, jest liczbą dodatnią.
+To kończy dowód.
+II sposób
+Przekształcamy równoważnie nierówność i otrzymujemy:`,`a^2 −2ab+2b^2 > 0 .
+Wyrażenie a^2 −2ab+2b^2 traktujemy jako trójmian kwadratowy jednej zmiennej np. a.
+Wyróżnik trójmianu kwadratowego a^2 −2ab+2b^2 jest równy:Δ = 4b^2 −8b^2 = −4b^2 .
+Ten wyróżnik jest niedodatni dla każdej rzeczywistej wartości b.
+Gdy Δ <0, to a^2 −2ab+2b^2 > 0 dla każdej rzeczywistej wartości a.
+Gdy Δ =0, to b = 0, stąd a^2 > 0, ponieważ z założenia a ≠b.
+Oznacza to, że dla każdych dwóch różnych liczb rzeczywistych a i b prawdziwa jest`,`nierównośća^2 −2ab+2b^2 > 0 .
+To kończy dowód.
+III sposób
+Przekształcamy równoważnie nierówność a a( −2b)+2b^2 >0i otrzymujemy:
+a^2 −2ab+2b^2 > 0.
+Z założenia wynika, że liczby a i b nie mogą jednocześnie przyjmować wartości 0 .
+Jeżeli b ≠0, to b^2 > 0. Dzielimy obie strony nierówności przez b^2 i otrzymujemy nierówność`,`równoważną
+a
+(a)/() −2 + 2 > 0 .
+
+ b  b
+Niech x = a/b . Otrzymujemy nierówność kwadratową x^2 −2x+2 > 0 z niewiadomą x .
+Zauważamy, że ta nierówność jest prawdziwa dla każdej liczby rzeczywistej x , bo z równości`,`x^2 −2x+2 = (x−1)^2 +1
+wnioskujemy, że (x−1)^2 +1> 0 , wobec oczywistej nierówności (x−1)^2 ≥ 0.
+Natomiast jeżeli a ≠0, to a^2 > 0. Dzielimy obie strony nierówności przez a^2 i otrzymujemy
+nierówność równoważną
+b`],"MMAP-P0-100-2005-n29":[`I sposób
+C
+a
+F
+E
+A B
+D`,`a 3 3
+Niech BC = a . Wtedy CD = . Ponieważ CE = 3/4 CD , to CE = 3a/8 .
+2
+3
+Zatem CF = CE ⋅ 3/2 = 3a/8 ⋅ 3/2 = 9/16 a = 9/16 BC .
+To kończy dowód.
+II sposób`,`C
+y
+F
+E
+A B
+D
+Trójkąt BCD jest trójkątem prostokątnym o kątach ostrych 30° i 60° . Niech BC = y.`,`y 3
+Wtedy CD = . Trójkąt CEF jest połową trójkąta równobocznego. Niech CF = x. Stąd
+2
+3 3 y 3
+CE = 2x/3 . Ponieważ CE = 3/4 CD , to 2x/3 = 3/4 ⋅ . Stąd x = 9/16 y .
+2
+To kończy dowód.`,`III sposób
+C
+F
+E
+A B
+x D
+x`,`Niech x = BD . Trójkąt BCD jest trójkątem prostokątnym o kątach ostrych 30° i 60°, więc
+BC = 2x oraz CD = x 3 .
+3
+Ponieważ CE = CD , więc CE = 3/4 x 3 . Trójkąt CEF jest połową trójkąta równobocznego,
+4`],"MMAP-P0-100-2005-n30":[`I sposób
+Obliczamy liczbę wszystkich zdarzeń elementarnych tego doświadczenia Ω = 6^2 = 36 lub
+opisujemy zbiór zdarzeń elementarnych np. w postaci tabeli
+1 2 3 4 5 6
+1 (1,1) (1,2) (1,3) (1,4) (1,5) (1,6)
+2 (2,1) (2,2) (2,3) (2,4) (2,5) (2,6)
+3 (3,1) (3,2) (3,3) (3,4) (3,5) (3,6)`,`4 (4,1) (4,2) (4,3) (4,4) (4,5) (4,6)
+5 (5,1) (5,2) (5,3) (5,4) (5,5) (5,6)
+6 (6,1) (6,2) (6,3) (6,4) (6,5) (6,6)
+Wskazujemy elementy zbioru A i zliczamy je:
+A =11.
+Obliczamy prawdopodobieństwo zdarzenia A. Ponieważ wszystkie zdarzenia
+jednoelementowe są jednakowo prawdopodobne, więc korzystamy z klasycznej definicji`,`prawdopodobieństwa:
+P(A) = A/(Ω) =^11 .
+36
+II sposób
+Obliczamy liczbę wszystkich zdarzeń elementarnych: Ω = 6^2 = 36.
+A – zdarzenie polegające na tym, że co najmniej jeden raz wypadnie ścianka z pięcioma
+oczkami.`,`A′– zdarzenie polegające na tym, że ani razu nie wypadnie ścianka z pięcioma oczkami.
+Wskazujemy elementy zbioru A′ (wypisujemy lub zaznaczamy w tabeli) i zliczamy je:
+1 2 3 4 5 6
+1 (1,1) (1,2) (1,3) (1,4) (1,5) (1,6)
+2 (2,1) (2,2) (2,3) (2,4) (2,5) (2,6)
+3 (3,1) (3,2) (3,3) (3,4) (3,5) (3,6)
+4 (4,1) (4,2) (4,3) (4,4) (4,5) (4,6)`,`5 (5,1) (5,2) (5,3) (5,4) (5,5) (5,6)
+6 (6,1) (6,2) (6,3) (6,4) (6,5) (6,6)
+A′ = 5^2 = 25.
+Obliczamy prawdopodobieństwo zdarzenia A: P(A)=1− P(A′)=1−^25 =^11 .
+36 36
+III sposób (metoda drzewka)
+Przedstawiamy model graficzny doświadczenia.`,`5 – oznacza wypadnięcie ścianki kostki z pięcioma oczkami, z – oznacza wypadnięcie
+innej ścianki niż z pięcioma oczkami.
+1 5
+6 6
+5 z`],"MMAP-P0-100-2005-n31":[`I sposób
+Równanie (2sinα+3cosα)/(cosα) = 4 przekształcamy równoważnie do postaci:
+(2sinα)/(cosα) + (3cosα)/(cosα) = 4.
+Stąd2tgα +3= 4, czyli tgα = 1/2 .
+II sposób
+Równanie (2sinα+3cosα)/(cosα) = 4 przekształcamy równoważnie do postaci:`,`2sinα +3cosα = 4cosα .
+Stąd 2sinα =cosα , czyli tgα = 1/2 .
+III sposób
+Rysujemy trójkąt prostokątny, w którym oznaczamy długości przyprostokątnych a i b,
+długość przeciwprostokątnej c oraz zaznaczamy kąt ostryα taki, że sinα = a/c lub cosα = b/c .
+c`,`a
+b
+2⋅ a/c +3⋅ b/c
+Podane równanie (2sinα+3cosα)/(cosα) = 4zapisujemy w postaci =4. Następnie
+b
+c`,`wykonujemy przekształcenia na lewej stronie tej równości i otrzymujemy (2a+3b)/b =4. Stąd wynika,
+że 2a+3b=4b, czyli 2a=b. Ostatnia równość oznacza, że a/b = 1/2 . Zatem tgα = 1/2 .
+IV sposób
+Równanie (2sinα+3cosα)/(cosα) = 4 przekształcamy równoważnie do postaci
+2sinα +3cosα = 4cosα .
+Stąd wynika, że 2sinα =cosα . Korzystamy z tożsamości sin^2 α +cos^2 α =1 i otrzymujemy`,`równanie sin^2 α+(2sinα)^2 =1. Stąd sin^2 α =^1 . Ponieważ α jest kątem ostrym, więc sinα =^1 .
+5 5
+1
+2
+Ale cosα = 2sinα , więc cosα = . Ostatecznie tgα = (sinα)/(cosα) = 5/2 = 1/2 .
+5`,"5"],"MMAP-P0-100-2005-n32":[`I sposób
+Prosta AC jest prostopadła do prostej o równaniu y = 4/3 x, więc współczynnik kierunkowy prostej
+3 5
+AC jest równy a = − . Prosta AC przechodzi przez punkt A = 5, − , więc jej równanie ma
+AC ( )
+4 3
+postać`,`y +^5
+(3 (= −)/3 4 ((x−5),)/25)/(y= −)
+x + .
+4 12
+Obliczamy współrzędne punktu O przecięcia się prostych AC i BD, rozwiązując układ równań
+()/() y = 4/3 x
+.`,`(()/(y= −) 3)/() x+ 25/12
+4
+Rozwiązaniem tego układu jest para liczb x =1 i y =^4 . Stąd O=(1,^4 ).
+3 3
+ 4 5^2
+Punkt O jest środkiem przekątnej AC, więc AC = 2 AO = 2 (1−5)^2 + + .
+ `,` 3 3
+9^2
+AC = 2 AO = 2 (−4)^2 + = 2 16+9 = 2 5⋅ =10.
+ 
+ 3
+Przekątna kwadratu ma długość a 2, gdzie a jest długością boku kwadratu.
+Stąda 2 =10, czyli a=5 2 .`,`2
+Zatem pole kwadratu ABCD jest równe a^2 =(5 2) =50.
+Uwaga
+Pole kwadratu ABCD możemy obliczyć, wykorzystując długość przekątnej kwadratu (lub jej
+1 1
+połowy). Wtedy P = ⋅ AC^2 = ⋅10^2 = 50.
+ABCD`,`2 2
+II sposób
+Długość przekątnej kwadratu ABCD (lub jej połowy) możemy obliczyć, korzystając ze wzoru
+na odległość d punktu A od danej prostej. Wtedy
+4/3 ⋅ +5 5/3 25/3`],"MMAP-P0-100-2005-n33":[`I sposób
+Oznaczamy przez q iloraz ciągu (a ). Korzystamy ze wzoru na n-ty wyraz ciągu
+n
+geometrycznego i zapisujemy równość
+6a −5a ⋅q+a ⋅q^2 = 0,
+1 1 1`,`Wyłączamy wspólny czynnik a poza nawias a (6−5⋅q+q^2 )=0.
+1 1
+Ponieważ wyrazy ciągu są dodatnie, więc a ≠ 0. Korzystamy z własności iloczynu równego
+1
+zero i otrzymujemy równanie
+q^2 −5q+6=0.`,`To równanie ma dwa rozwiązania q = 2 lub q =3. Ponieważ q∈ 2 2, 3 2 , więc q =3.
+II sposób
+Niech q oznacza iloraz ciągu geometrycznego (a ) oraz niech a =a a, =b a, =c .
+n 1 2 3
+Zatem równość 6a −5a +a =0 zapisujemy w postaci: 6a−5b+c =0.
+1 2 3`,`Stąd c =5b−6a. Ponieważ wszystkie wyrazy ciągu (a b c, , ) są dodatnie, więc ciąg ten jest
+geometryczny, gdy spełniona jest równość b^2 = ac .
+Podstawiamy do równania b^2 = ac za c i otrzymujemy:
+b^2 = a(5b−6a),
+b^2 −5ab+6a^2 = 0.
+Rozwiązujemy to równanie przyjmując za niewiadomą, np. b.`,`Wtedy Δ = a^2 , Δ = a , ponieważ a > 0.
+Zatem rozwiązaniami równania są
+5a−a 5a+a
+b = = 2a lub b = = 3a.
+1 2
+2 2`,`b 2a b 3a
+Obliczamy iloraz q ciągu (a ):q = = = 2 lub q = = = 3.
+n
+a a a a
+Ponieważ q∈ 2 2, 3 2 , więc iloraz ciągu (a ) jest równy: q =3.
+n`],"MMAP-P0-100-2005-n34":[`I sposób
+Zaznaczmy na rysunku kąt α – kąt nachylenia ściany bocznej do płaszczyzny podstawy
+i wprowadzamy następujące oznaczenia:
+a – krawędź podstawy ostrosłupa, h – wysokość ostrosłupa.
+S
+6
+h`,`D
+C
+α
+E
+O
+A B
+a`,`Korzystając z definicji tangensa kąta ostrego w trójkącie prostokątnym SOE otrzymujemy
+związek = 7 , czyli h = 7/2 a .
+((h/1)/a)/2
+2
+Z twierdzenia Pitagorasa w trójkącie SOC wynika równanie h (2 (a)/(+))/() (()/())/() = 6^2 .
+2
+ `,`Wykorzystując wcześniejszą zależność otrzymujemy
+7
+(()/())/() (()/(a))/() ((a)/(+))/() ((2)/())/() = 6^2
+2 2
+   
+7/4 a^2 + 2/4 a^2 = 36
+9/4 a^2 = 36, stąda^2 =16 , czyli a = 4.`,`7
+Stąd h = 4⋅ 7/2 = 2 7 . Obliczamy objętość ostrosłupa: V = 1/3 ⋅4^2 ⋅2 7 = 32/3 .
+II sposób
+Zaznaczmy na rysunku kąt α – kąt nachylenia ściany bocznej do płaszczyzny podstawy
+i wprowadzamy następujące oznaczenia:
+a – krawędź podstawy ostrosłupa, h – wysokość ostrosłupa, hb – wysokość ściany bocznej
+ostrosłupa`,`S
+6
+hb
+h
+D`],"MMAP-P0-100-2105-n30":[`Z założenia wiadomo, że a, b, c są dowolnymi liczbami rzeczywistymi dodatnimi i a < b.
+Przekształcamy równoważnie nierówność (a)/(b) < (a+c)/(b+c) :
+(a)/(b) − (a + c)/(b + c) < 0
+(a(b + c) − b(a + c))/(b(b + c)) < 0
+(a(b + c) − b(a + c))/(b(b + c)) < 0
+(ab + ac − ab − bc)/(b(b + c)) < 0
+(ac − bc)/(b(b + c)) < 0`,`(c(a − b))/(b(b + c)) < 0
+Z założenia liczby b i c są dodatnie, więc b(b + c) > 0.
+Z założenia c jest dodatnia i a − b < 0, więc c(a − b) < 0.
+Zatem (c(a−b))/(b(b+c)) jest liczbą ujemną (jako iloraz liczby ujemnej i dodatniej), czyli nierówność
+(c(a−b))/(b(b+c)) < 0 jest prawdziwa. To należało wykazać.
+Z założenia wiadomo, że a, b, c są dowolnymi liczbami rzeczywistymi dodatnimi i a < b.
+Przekształcamy równoważnie nierówność (a)/(b) < (a+c)/(b+c) :`,`(a)/(b) − (a + c)/(b + c) < 0 /⋅ b(b + c)
+(zwrot nierówności nie zmieni się, gdyż b ⋅ (b + c) > 0)
+a(b + c) − b(a + c) < 0
+ab + ac − ab − bc < 0
+c(a − b) < 0
+Z założenia c > 0 oraz a − b < 0 , więc c(a − b) < 0.
+Zatem nierówność (a)/(b) < (a+c)/(b+c) jest prawdziwa. To należało wykazać.`,`Z założenia wiadomo, że a, b, c są dowolnymi liczbami rzeczywistymi dodatnimi i a < b.
+Przekształcamy równoważnie nierówność (a)/(b) < (a+c)/(b+c) :
+(a)/(b) < (a + c)/(b + c) /⋅ b(b + c)
+(zwrot nierówności nie zmieni się, gdyż b ⋅ (b + c) > 0)
+a(b + c) < b(a + c)
+ab + ac < ab + bc
+ac < bc`,`Z założenia c > 0, więc otrzymujemy a < b, co jest prawdą.
+Zatem nierówność (a)/(b) < (a+c)/(b+c) jest prawdziwa. To należało wykazać.
+Przekształcamy równoważnie nierówność (a)/(b) < (a+c)/(b+c) :
+(a)/(b) − 1 < (a + c)/(b + c) − 1
+(a − b)/(b) < (a + c − b − c)/(b + c)
+(a − b)/(b) < (a − b)/(b + c)
+Z założenia a i b są liczbami dodatnimi oraz a < b, więc liczniki ułamków oraz (a−b)/(b+c)`,`((a−b)/(b))/(a−b)
+są równe i ujemne. Ponadto ich mianowniki są dodatnie i mianownik ułamka jest większy
+b+c
+od mianownika ułamka (a−b)/(b) , więc (a−b)/(b+c) < (a−b)/(b) . To oznacza, że nierówność (a)/(b) < (a+c)/(b+c) jest
+prawdziwa.`],"MMAP-P0-100-2105-n31":[`Z warunku f(0) = 2 wnioskujemy, że współczynnik b we wzorze funkcji f(x) = ax + b
+jest równy 2.
+Obliczamy współczynnik kierunkowy a :`,`f(x ) − f(x )
+2
+a = 1/(x1− x2)`,`a = (f(4) − f(2))/(4 − 2) = 6/2 = 3
+Zapisujemy wzór funkcji f(x) = 3x + 2.
+Funkcja liniowa f(x) = ax + b przyjmuje wartość 2 dla argumentu 0, czyli f(0) = 2,`,`więc b = 2.
+Z treści zadania wiemy, że f(4) − f(2) = 6. Stąd
+4a + b − (2a + b) = 6`,`2a = 6
+a = 3
+Zatem f(x) = 3x + 2.`],"MMAP-P0-100-2105-n32":[`Równanie ma sens liczbowy dla x ≠ 2/3 .
+Przekształcamy równanie:`,`(3x + 2)/(3x − 2) = 4 − x
+3x + 2 = (3x − 2)(4 − x)`,`3x + 2 = 12x − 3x^2 − 8 + 2x
+3x^2 − 11x + 10 = 0`,`Rozwiązujemy otrzymane równanie kwadratowe.
+Obliczamy wyróżnik trójmianu kwadratowego 3x^2 − 11x + 10: Δ = (−11)^2 − 4 ⋅ 3 ⋅ 10 = 1`,`i stąd x1 = 5/3 oraz x2 = 12/6 = 2.
+Otrzymane pierwiastki są różne od liczby 2/3 , więc są rozwiązaniami danego równania.`],"MMAP-P0-100-2105-n33":[`Z twierdzenia o stosunku pól figur podobnych i warunków zadania otrzymujemy
+(PΔABC)/(PΔAKL) = ( 3/2 )
+więc
+9√3/(PΔAKL) = ( 3/2 )
+PΔAKL = 9√3: ( 9/4 ) = 9√3 ⋅ 4/9 = 4√3
+Korzystamy ze wzoru na pole trójkąta równobocznego i obliczamy długość b boku
+trójkąta AKL:`,`PΔAKL = 4√3
+b^2
+√3/4 = 4√3
+b = 4
+Długość boku trójkąta AKL jest równa 4.
+Przyjmijmy następujące oznaczenia:
+a – długość boku trójkąta równobocznego ABC,`,`b – długość boku trójkąta równobocznego AKL.
+Obliczamy długość boku trójkąta ABC:
+a^2
+√3/4 = 9√3
+a = 6
+Stosunek długości boków trójkątów ABC i AKL jest równy 3/2 , więc
+(a)/(b) = 3/2`,`6/(b) = 3/2
+czyli b = 4.
+Długość boku trójkąta AKL jest równa 4.
+Niech x oznacza długość boku trójkąta AKL. Ponieważ stosunek długości boku trójkąta ABC
+do długości boku trójkąta AKL jest równy^3 , więc długość boku trójkąta ABC jest równa^3 x.
+2 2
+Pole trójkąta ABC jest równe 9√3 , więc ze wzoru na pole trójkąta równobocznego`,`otrzymujemy równanie
+2
+( 3/2 x) √3
+= 9√3
+4
+Stąd
+( (3 2/(x)))/2 = 36`,`3/2 x = 6
+x = 4
+Długość boku trójkąta AKL jest równa 4.`],"MMAP-P0-100-2105-n34":[`Zdarzeniami elementarnymi są wszystkie uporządkowane pary liczb (a, b),
+gdzie a, b ∈ {1, 2, 3, 4, 5, 6}.
+Liczba wszystkich zdarzeń elementarnych jest równa |Ω| = 36.
+Zdarzeniu A sprzyjają następujące zdarzenia elementarne:
+(1, 3), (1, 4), (1, 5), (2, 2), (2, 3), (2, 4), (3, 1), (3, 2), (3, 3), (4, 1), (4, 2), (5, 1),
+więc |A| = 12.
+Prawdopodobieństwo zdarzenia A jest równe: P(A) = (|A|)/(|Ω|) = 12/36 = 1/3 .`,`Zdarzeniami elementarnymi są wszystkie uporządkowane pary liczb (a, b),
+gdzie a, b ∈ {1, 2, 3, 4, 5, 6}.
+Jest to model klasyczny. Budujemy tabelę ilustrującą sytuację opisaną w zadaniu.
+I losowanie
+1 2 3 4 5 6
+1 × × ×
+2 × × ×`,`3 × × ×
+4 × ×
+II losowanie
+5 ×
+6
+Symbolem × oznaczono zdarzenia elementarne sprzyjające zdarzeniu A.
+Wszystkich zdarzeń elementarnych w tym doświadczeniu jest 36.`,`Wszystkich zdarzeń elementarnych sprzyjających zdarzeniu A jest 12.
+Stąd P(A) = (|A|)/(|Ω|) = 12/36 = 1/3 .
+Rysujemy drzewo stochastyczne rozważanego doświadczenia.
+1 1 1 1
+1 1
+6 6 6 6
+6 6`,`1 4 5 6
+2 3
+3 3
+3 2 1
+6 6
+6 6 6
+3, 1, 2, 1, 1, 4, 1, 3, 1 2,`,`4, 2, 3, 5, 2, 5, 2 4, 3,
+5 6 4 6 3 6 5, 4,
+6 5,
+6
+Prawdopodobieństwo zdarzenia A jest równe`],"MMAP-P0-100-2105-n35":[`Obliczamy współczynnik kierunkowy prostej AB:
+aAB = (3 − 12)/(7 − (−20)) = − 9/27 = − 1/3
+Zatem współczynnik kierunkowy symetralnej k odcinka AB jest równy
+ak = 3
+Symetralna k przechodzi przez środek M odcinka AB. Obliczamy współrzędne punktu M:
+M = ( (−20 + 7)/2 , (12 + 3)/2 ) = (− 13/2 , 15/2 )
+Zatem prosta k ma równanie postaci`,`y − 15/2 = 3 (x − (− 13/2 ))
+y − 15/2 = 3x + 39/2
+y = 3x + 27
+Ponieważ punkt C leży na osi Oy i na prostej k, więc współrzędne punktu C są równe
+C = (0, 27).
+Obliczamy długości boków trójkąta:
+2`,`|AC| = √(0 − (−20)) + (27 − 12)^2 = √400 + 225 = √625 = 25
+2
+|AB| = √(7 − (−20)) + (3 − 12)^2 = √729 + 81 = √810 = 9√10
+Obliczamy obwód L trójkąta ABC:
+L = |AB| + |BC| + |CA| = 9√10 + 25 + 25 = 50 + 9√10
+Ponieważ wierzchołek C trójkąta równoramiennego ABC leży na osi Oy, więc jego
+współrzędne są równe C = (0, y ).`,`C
+Ponieważ |AC| = |BC|, więc |AC|^2 = |BC|^2 . Stąd i ze wzoru na odległość między dwoma
+punktami otrzymujemy równanie
+2
+(0 − (−20)) + (yC − 12)^2 = (0 − 7)^2 + (yC − 3)^2
+400 + y^2 − 24yC + 144 = 49 + y^2 − 6yC + 9
+C C`,`−18yC = −486
+yC = 27
+Zatem C = (0, 27).
+Obliczamy długości boków trójkąta:
+2
+|AC| = √(0 − (−20)) + (27 − 12)^2 = √400 + 225 = √625 = 25
+2`,`|AB| = √(7 − (−20)) + (3 − 12)^2 = √729 + 81 = √810 = 9√10
+Obliczamy obwód L trójkąta ABC:
+L = |AB| + |BC| + |CA| = 9√10 + 25 + 25 = 50 + 9√10
+Niech y oznacza drugą współrzędną wierzchołka C, tj. C = (0, y).
+Obliczamy współrzędne środka M odcinka AB:`],"MMAP-P0-100-2205-n30":[`Korzystamy ze wzoru na n −ty wyraz ciągu arytmetycznego i zapisujemy wzór na a4:
+a4 = a1 + 3 ∙ r
+Zatem 8 = −1 + 3r, więc r = 3.
+Korzystamy ze wzoru na sumę n początkowych wyrazów ciągu arytmetycznego`,`i obliczamy S100:
+2a + (100 − 1) ∙ r −2 + 297
+1
+S100 = ∙ 100 = ⋅ 100 = 14 750`,`2 2
+Korzystamy ze wzoru na n −ty wyraz ciągu arytmetycznego i zapisujemy wzór na czwarty
+wyraz tego ciągu:
+a4 = a1 + 3 ∙ r`,`gdzie r oznacza różnicę ciągu.
+Podstawiamy a1 = −1 oraz a4 = 8 i otrzymujemy równanie 8 = −1 + 3r, skąd r = 3.
+Sumę n początkowych wyrazów ciągu arytmetycznego obliczymy ze wzoru
+Sn = (a1+an)/2 ∙ n`,`Obliczamy setny wyraz ciągu (a ):
+n
+a100 = a1 + 99 ∙ r = −1 + 99 ∙ 3 = 296
+Zatem suma stupoczątkowych wyrazów tego ciągu jest równa`,"S100 = (−1+296)/2 ∙ 100 = 295 ⋅ 50 = 14 750"],"MMAP-P0-100-2205-n31":[`2 2
+a^2
+Przekształcamy równoważnie nierówność (+b)/2 > ( (a+b)/2 ) :
+a^2
+(+b)/2 > ( (a+b 2/()))/2
+a^2 a^2
+(+b)/2 > (+2ab+b)/4`,`2a^2 + 2b^2 > a^2 + 2ab + b^2
+a^2 − 2ab + b^2 > 0
+(a − b)^2 > 0
+Z założenia wiadomo, że b ≠ a, więc (a − b)^2 jest liczbą dodatnią jako kwadrat liczby
+rzeczywistej a − b różnej od zera. Ponieważ nierówność (a − b)^2 > 0 jest prawdziwa,
+2 2
+a^2`,`więc nierówność (+b)/2 > ( (a+b)/2 ) również jest prawdziwa. To należało pokazać.
+Z założenia wiadomo, że a ≠ b, zatem różnica a − b ≠ 0. Stąd wynika, że (a − b)^2 jest
+liczbą dodatnią. Nierówność (a − b)^2 > 0 jest równoważna nierówności
+a^2 + b^2 > 2ab
+Zauważmy teraz, że tożsamość (a + b)^2 = a^2 + 2ab + b^2 można zapisać w równoważnej
+postaci
+(a + b)^2 − (a^2 + b^2 ) = 2ab`,`Nierówność a^2 + b^2 > 2ab zapisujemy więc w postaci
+a^2 + b^2 > (a + b)^2 − (a^2 + b^2 )
+Zatem
+2(a^2 + b^2 ) > (a + b)^2
+Dzielimy obie strony tej nierówności przez 4 i otrzymujemy nierówność
+a^2
+(+b)/2 > ((a+b))/4`,`Ta nierówność jest równoważna nierówności
+a^2
+(+b)/2 > ( (a+b 2/()))/2
+zapisanej w tezie twierdzenia. To należało pokazać.
+2 2
+a^2
+Obie strony nierówności (+b)/2 > ( (a+b)/2 ) są nieujemne, więc pierwiastkując je,`,`otrzymujemy nierówność równoważną
+a^2
+√ (+b)/2 > | (a+b)/2 |
+czyli
+a^2`],"MMAP-P0-100-2205-n32":[`Ponieważ tgα = 2, więc i stąd sinα = 2cosα. Korzystając z tego związku
+((sinα)/(cosα) =2)/2
+i tożsamości sin^2 α + cos α = 1, otrzymujemy
+(2cosα)^2 + cos^2 α = 1
+5cos^2 α = 1
+1`,`cos^2 α =
+5
+Ponownie korzystamy z tożsamości sin^2 α + cos^2 α = 1 i obliczamy sin^2 α:
+sin^2 α + cos^2 α = 1
+1
+sin^2 α + = 1`,`5
+4
+sin^2 α =
+5
+Niech ABC będzie trójkątem prostokątnym, w którym |∡CAB| = 90° oraz |∡ABC| = α.
+C`,`α
+A B
+Ponieważ tgα = 2, więc (|AC|)/(|AB|) = 2, czyli |AC| = 2 ⋅ |AB|. Wyznaczamy długość odcinka
+BC w zależności od długości odcinka AB. Korzystamy z twierdzenia Pitagorasa
+i otrzymujemy
+|BC|^2 = |AC|^2 + |AB|^2`,`|BC|^2 = (2 ⋅ |AB|)^2 + |AB|^2
+|BC|^2 = 5 ⋅ |AB|^2
+|BC| = √5 ⋅ |AB|
+2 2
+|AC| 2⋅|AB| 4
+Zatem sin^2 α = ( ) = ( ) = .`,"|BC| √5⋅|AB| 5"],"MMAP-P0-100-2205-n33":[`C
+Oznaczmy przez 2α miarę kąta BAC. Odcinek AD jest zawarty
+w dwusiecznej kąta BAC, więc |∡BAD| = |∡CAD| = α.
+Ponieważ |AC| = |BC|, więc |∡ABC| = 2α (zobacz rysunek D
+obok).
+α
+α 2α`,`A B
+Trójkąty ABC i BDA są podobne, miary kątów przy podstawie AB trójkąta ABC są
+równe 2α i ponadto |∡ABD| = 2α, więc trójkąt ABD jest równoramienny oraz
+|∡ADB| = |∡ABD| = 2α.
+Stosujemy do trójkąta ABD twierdzenie o sumie miar kątów wewnętrznych trójkąta
+i otrzymujemy
+|∡BAD| + |∡ABD| + |∡ADB| = 180°`,`α + 2α + 2α = 180°
+5α = 180°
+α = 36°
+Zatem |∡BAC| = 2α = 2 ⋅ 36° = 72°.
+Oznaczmy przez 2α miarę kąta BAC. Odcinek AD jest zawarty w dwusiecznej kąta BAC,
+więc |∡BAD| = |∡CAD| = α. Ponieważ |AC| = |BC|, więc |∡ABC| = 2α (zobacz
+rysunek).`,`C
+180° − 4α
+3α
+D
+α
+α 2α
+A B`,`Stosujemy do trójkąta ABD twierdzenie o sumie miar kątów wewnętrznych trójkąta
+i otrzymujemy
+|∡ADB| = 180° − (α + 2α) = 180° − 3α
+Kąty ADC i ADB są przyległe, zatem |∡ADC| = 3α.
+Stosujemy do trójkąta ADC twierdzenie o sumie miar kątów wewnętrznych trójkąta
+i otrzymujemy
+|∡ACD| = 180° − 4α`,`Trójkąty ABC i BDA są podobne, miary kątów między ramionami są równe, więc
+180° − 4α = α
+5α = 180°
+α = 36°
+Zatem |∡BAC| = 2α = 2 ⋅ 36° = 72°.`],"MMAP-P0-100-2205-n34":[`Zdarzeniami elementarnymi są wszystkie uporządkowane pary liczb (a,b), gdzie a, b ∈ M.
+Liczba wszystkich zdarzeń elementarnych jest równa |Ω| = 9 ⋅ 9 = 81.
+Zdarzeniu A sprzyjają następujące zdarzenia elementarne:
+(3,8),(4,6),(6,4),(8,3),
+więc |A| = 4.
+Prawdopodobieństwo zdarzenia A jest równe: P(A) = (|A|)/(|Ω|) = 4/81 .
+Zdarzeniami elementarnymi są wszystkie uporządkowane pary liczb (a,b), gdzie a, b ∈ M.`,`Jest to model klasyczny. Budujemy tabelę ilustrującą sytuację opisaną w zadaniu.
+I losowanie
+1 2 3 4 5 6 7 8 9
+1
+2
+3 ×
+4 ×`,`5
+II losowanie
+6 ×
+7
+8 ×
+9
+Symbolem × oznaczono pola odpowiadające zdarzeniom elementarnym sprzyjającym`,`zdarzeniu A.
+Wszystkich zdarzeń elementarnych w tym doświadczeniu jest 81.
+Liczba wszystkich zdarzeń elementarnych sprzyjających zdarzeniu A jest równa 4.
+Stąd P(A) = (|A|)/(|Ω|) = 4/81 .
+Rysujemy fragment drzewa stochastycznego rozważanego doświadczenia z uwzględnieniem
+wszystkich istotnych gałęzi.
+1 1 1`,`1
+9 9 9
+9
+3 4 6 8
+1 1 1 1
+9 9 9 9
+8 6 4 3`,`Prawdopodobieństwo zdarzenia A jest równe
+P(A) = 1/9 ∙ 1/9 + 1/9 ∙ 1/9 + 1/9 ∙ 1/9 + 1/9 ∙ 1/9 = 4/81`],"MMAP-P0-100-2205-n35":[`Ponieważ parabola, która jest wykresem funkcji f, przecina oś Ox układu współrzędnych
+w punktach A = (−5,0) i B = (3,0), więc pierwiastkami trójmianu są liczby x = −5
+1
+oraz x2 = 3. Zatem wzór funkcji f możemy zapisać w postaci iloczynowej
+f(x) = a(x + 5)(x − 3).
+Znając pierwiastki trójmianu, obliczamy odciętą p wierzchołka tej paraboli
+p = (x1+x2)/2 = (−5+3)/2 = −1`,`Ponieważ parabola ma z prostą o równaniu y = 6 dokładnie jeden punkt wspólny, więc
+rzędna q wierzchołka tej paraboli jest równa 6. Podstawiając współrzędne wierzchołka
+paraboli do wzoru funkcji f, otrzymujemy
+6 = a(−1 + 5)(−1 − 3)
+6 = −16a
+a = − 6/16 = − 3/8
+Zapisujemy funkcję kwadratową w postaci ogólnej`,`3 3 3 45
+f(x) = − (x + 5)(x − 3) = − x^2 − x +
+8 8 4 8
+Stąd odczytujemy wartości współczynników trójmianu: a = − 3/8 , b = − 3/4 , c = 45/8 .
+Ponieważ parabola, która jest wykresem funkcji f, przecina oś Ox układu współrzędnych
+w punktach A = (−5,0) i B = (3,0), więc pierwiastkami trójmianu są liczby x = −5
+1`,`oraz x2 = 3. Znając pierwiastki trójmianu, obliczamy odciętą p wierzchołka tej paraboli
+p = (x1+x2)/2 = (−5+3)/2 = −1
+Ponieważ parabola ma z prostą o równaniu y = 6 dokładnie jeden punkt wspólny, więc
+rzędna q wierzchołka tej paraboli jest równa 6.
+Zapisujemy wzór funkcji f w postaci kanonicznej f(x) = a(x + 1)^2 + 6.
+Ponieważ f(3) = 0, więc
+0 = a(3 + 1)^2 + 6`,`0 = 16a + 6
+(a=− 6/16 =− 3/8)/3
+3 3 3 45
+Zatem f(x) = − (x + 1)^2 + 6 = − (x^2 x^2 −
+8 8
+((+2x+1)+6=−)/3 8)/(a=−) (4 (x+)/3)/(,b=−) (8 ./45)/(,c=)
+Stąd odczytujemy wartości współczynników trójmianu: .`,`8 4 8
+Punkty A = (−5,0) i B = (3,0) należą do wykresu funkcji f, więc
+a ⋅ (−5)^2 + b ⋅ (−5) + c = 0 i a ⋅ 3^2 + b ⋅ 3 + c = 0
+Odejmując stronami te dwa równania otrzymujemy
+(25a − 5b + c) − (9a + 3b + c) = 0`],"MMAP-R0-100-1605-n7":[`I sposób
+1 1
+Pierwszym wyrazem ciągu (a ) jest a = . Ilorazem tego ciągu jest q = .
+n 1
+2x−371 2x−371`,`Ponieważ wszystkie wyrazy tego ciągu są dodatnie, więc szereg jest zbieżny, gdy
+0 < 1/2x−371 <1. Zatem
+2x−371> 0 i 2x−371>1.
+Stąd
+2x > 372,`,`x >186.
+Zatem szukaną liczbą całkowitą jest 187.
+II sposób
+1
+Pierwszym wyrazem ciągu (a ) jest a = , ilorazem tego ciągu zaś jest`,`n 1
+2x−371
+q = 1/2x−371 . Szereg geometryczny jest zbieżny wtedy i tylko wtedy, gdy: 1/2x−371 <1.
+Rozwiązujemy powyższą nierówność:
+−1< 1/2x−371 <1,`,`0 < 2x−370/2x−371 ∧ (−2x+372)/2x−371 < 0,
+x ≠185,5 ∧ (x−185)(x−185,5) > 0 ∧ (x−186)(x−185,5) > 0,
+x∈ −∞( , 185)∪(186, + ∞).
+Wszystkie wyrazy ciągu (a ) sądodatnie, więc x∈(186, + ∞). Zatem szukanąliczbącałkowitą
+n`,"jest 187."],"MMAP-R0-100-1605-n8":[`I sposób
+Dla dowolnych liczb dodatnich x i y takich, że x^2 + y^2 = 2 nierówność x+ y ≤ 2 jest`,`równoważna kolejno nierównościom
+(x+ y)^2 ≤ 4,`,`x^2 +2xy+ y^2 ≤ 4,
+x^2 +2xy+ y^2 ≤ 2 2⋅ ,`,`x^2 + y^2 +2xy ≤ 2(x^2 + y^2 ),
+x^2 + y^2 +2xy ≤ 2x^2 +2y^2 ,`,`x^2 + y^2 −2xy ≥ 0,
+(x− y)^2 ≥ 0.`,`Ta ostatnia nierówność jest prawdziwa dla dowolnych liczb rzeczywistych x i y. To kończy
+dowód.`],"MMAP-R0-100-1605-n9":[`I sposób
+Poprowadźmy promienie SE i SF okręgu o środku S do punktów E i F styczności tego okręgu
+odpowiednio z przekątną BD i bokiem AB prostokąta. Niech G będzie rzutem punktu N na
+bok AB, jak na rysunku.
+D C
+E
+r`,`α N
+M
+r S
+r
+r/G α
+A F B
+Wówczas SM = SE = SF = MA = NG oraz DE = BN .`,`Trójkąty DMS i DES są prostokątne, więc z twierdzenia Pitagorasa dla tych trójkątów
+otrzymujemy
+DM = DS^2 − SM^2 = DS^2 − SE^2 = DE .
+Odcinek MN jest równoległy do AB, więc kąty GBN i ENS są równe. Trójkąty BGN i NES są
+prostokątne, więc kąty BNG i NSE także są równe. To z kolei wraz z równością
+SE = NG oznacza, że trójkąty BGN i NES są przystające. Zatem BN = NS .
+Stąd`,`MN = MS + SN = MA + BN = MA + DE = MA + DM = AD .
+To kończy dowód.
+Uwaga:
+Równość odcinków DM i DE wynika też bezpośrednio z twierdzenia o odcinkach stycznych.
+II sposób
+Poprowadźmy promienie SE i SF okręgu o środku S do punktów E i F styczności tego okręgu
+odpowiednio z przekątną BD i bokiem AB prostokąta. Połączmy punkty S oraz B, jak na`,`rysunku.
+D C
+E
+r
+N
+M α
+r S`,`α
+r
+α
+A F B
+Wówczas SM = SE = SF = MA oraz DE = BN .`],"MMAP-R0-100-1605-n10":[`I sposób
+Wyznaczymy najpierw współrzędne punktu przecięcia. Przyrównujemy f (x)i g(x),
+a otrzymane równanie zapisujemy w postaci
+(a+1)x=7.
+Ponieważ x > 0, więc a+1> 0, czyli a > −1.
+Zatem
+y = f ( )x = 7/(a+1) −2 = 5−2a/(a+1) .`,`Ponieważ y > 0 , a ponadto a+1> 0, więc wynika stąd, że 5−2a >0, skąd otrzymujemy
+a < 5/2 .
+Łączymy oba warunki x > 0 i y > 0 i zapisujemy odpowiedź: punkt przecięcia wykresów
+funkcji ma obie współrzędne dodatnie dla −1< a < 5/2 .
+II sposób
+Zilustrujmy w układzie współrzędnych sytuację opisaną w treści zadania.
+y`,`11
+10
+9/8 y = x+5
+7/6 y = x−2
+5
+4
+3`,`2
+1
+x
+-7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13
+-1
+-2
+y = − 5/2 x + 5`,`-3
+Ponieważ równanie y = −ax + 5 opisuje pęk prostych przechodzących przez punkt
+o współrzędnych (0,5), więc rysując proste o równaniach y = x +5 oraz y = −^5 x + 5 (linie
+2
+przerywane) otrzymujemy graniczne położenia linii prostych należących do tego pęku –
+prosta o równaniu y = x +5 nie ma żadnego punktu wspólnego z prostą o równaniu y = x − 2,
+natomiast prosta o równaniu y = − 5/2 x + 5 ma jeden punkt wspólny z prostą o równaniu`,`y = x −2, jest nim punkt (2,0), którego współrzędne nie spełniają warunku określonego
+w treści tego zadania.
+Zapisujemy odpowiedź: Punkty przecięcia wykresów funkcji mają dwie dodatnie
+współrzędne wtedy i tylko wtedy, gdy −1< a < 5/2 .`],"MMAP-R0-100-1605-n11":[`2 cosx− 3
+Ponieważ cos^2 x ≥ 0 dla każdego x, to nierówność < 0 jest równoważna
+cos^2 x
+koniunkcji 2 cosx− 3 < 0 i cosx ≠ 0, czyli cosx < 3/2 i cosx ≠ 0.
+11π π`,`Zatem +2kπ ()/() , gdzie k jest liczbą całkowitą, i x ≠ +mπ, gdzie m jest
+(x∈ (π)/() +2kπ,)/(6)
+6  2
+liczbą całkowitą.
+W przedziale 0, 2π rozwiązaniem tej nierówności jest każda liczba`,`x∈ (π)/() , (π)/() ∪ (π)/() , (3π)/() ∪ (3π)/() , (11π)/() .
+ 6 2  2 2   2 6 
+Uwaga:
+Nierówności cosx < 3/2 i cosx ≠ 0 możemy rozwiązać, np. odczytując odpowiednie
+argumenty funkcji f (x) = cos x , dla których przyjmuje ona wartości mniejsze od 3/2 i różne`,`od zera.
+y
+1
+x
+0 π/6 π/3 π/2 2π/3 5π/6 π 7π/6 4π/3 3π/2 5π/3 11π/6 2π`,`-1
+Funkcja cosinus przyjmuje w przedziale 0,2π wartość 3/2 dla dwóch argumentów: x = π/6 ,
+x = 11π/6 . Ma również w tym przedziale dwa miejsca zerowe: x = π/2 , x = 3π/2 .
+2 cosx− 3
+Zatem zbiorem rozwiązań nierówności < 0 w przedziale 0, 2π jest suma`,`cos^2 x
+przedziałów
+(π)/() , (π)/() ∪ (π)/() , (3π)/() ∪ (3π)/() , (11π)/() .
+ 6 2   2 2   2 6 `],"MMAP-R0-100-1605-n12":[`Rozwiązanie zadania dzielimy na cztery etapy. W pierwszym etapie wyznaczymy wszystkie
+wartości parametru m, dla których trójmian f ma dwa różne pierwiastki. W drugim,
+wyznaczymy te wartości parametru m, dla których pierwiastki trójmianu spełniają warunek
+x − x <3. W trzecim wyznaczamy te wartości parametru m, dla których pierwiastki x , x
+1 2 1 2
+są tego samego znaku. W czwartym – końcowym etapie, wyznaczymy wszystkie szukane
+wartości parametru m.`,`I etap
+Ponieważ trójmian f ma dwa różne pierwiastki, więc wyróżnik Δ tego trójmianu jest dodatni,
+zatem
+Δ = (2(m+1))^2 −4 1⋅ ⋅(6m+1) > 0.
+Nierówność (2(m+1))^2 −4 1⋅ ⋅(6m+1) > 0 przekształcamy w sposób równoważny
+4(m^2 +2m+1)−4⋅(6m+1) > 0,
+m^2 +2m+1−6m−1> 0,`,`m^2 −4m > 0,
+m m( −4) > 0.
+Rozwiązaniem tej nierówności jest każda liczba m∈ −∞( , 0)∪(4,+∞).
+II etap
+I sposób
+Nierówność x − x <3 można zapisać, stosując wzory na pierwiastki trójmianu
+1 2`,`kwadratowego, w postaci
+Δ Δ
+−b−/2a − (−b+)/2a <3,
+− Δ
+<3,
+a
+− Δ`,`<3,
+1
+Δ < 3.
+Ponieważ Δ > 0, więc Δ > 0. Zatem obie strony nierówności są dodatnie. Stąd 0 < Δ < 9.
+Zatem
+4(m^2 +2m+1)−4 6( m+1)−9 < 0,
+4m^2 −16m−9 < 0,`,`1
+(m∈ ()/() −)/() (, (9)/() .)/(2)
+2
+II sposób
+Obie strony nierówności x − x <3 są dodatnie, więc podnosząc je do kwadratu,`],"MMAP-R0-100-1605-n13":[`Zauważamy, że jeżeli AC jest przekątną czworokąta ABCD, wpisanego w okrąg i prosta
+AC jest osią symetrii tego czworokąta, to ten czworokąt jest deltoidem, a trójkąty ABC
+i ADC są prostokątne. Obliczymy najpierw współrzędne wierzchołka D , który jest obrazem
+wierzchołka B , w symetrii osiowej względem prostej AC . Ponieważ prosta BD jest
+prostopadła do prostej AC i przechodzi przez punkt B , więc jej równanie ma postać
+y = −x +8 .`,`Obliczamy współrzędne środka S przekątnej BD. Ponieważ jest to punkt przecięcia
+prostych AC i BD, więc wystarczy rozwiązać układ równań
+y = x+2
+
+y = −x+8
+`,`Otrzymujemy stąd x = 3 i y = 5 . Zatem punkt S ma współrzędne S=(3,5). Współrzędne
+punktu D spełniają zatem równania
+x +0 y +8
+D D
+= 3 i = 5.
+2 2`,`Stąd wynika, że x =6 i y =2, czyli D=(6,2).
+D D
+Obliczymy teraz współrzędne wierzchołka C . Zauważamy, że jest to punkt przecięcia prostej
+AC i prostej CD , która jest prostopadła do prostej AD i przechodzi przez punkt D.
+Ponieważ współczynnik kierunkowy prostej AD jest równy^(2−32) =^5 , więc prosta CD ma
+6−30 4`,`równanie postaci
+y = −^4 (x −6)+ 2 .
+5
+(y=x+2)/() x =^24 =^8
+ 9 3
+Rozwiązujemy układ równań i otrzymujemy  .`,` 4
+y = − (x −6)+ 2 y =^42 =^14
+  9 3
+ 5
+Zatem C = (^814 , ).
+3 3`],"MMAP-R0-100-1605-n14":[`I sposób
+10
+Miejsce dla cyfry 1 wybieramy na sposobów. Na pozostałych siedmiu miejscach
+( 3 )
+rozmieszczamy cyfry 2 lub 3 w dowolnym porządku na 2^7 sposobów. Stosujemy regułę
+mnożenia i otrzymujemy
+10/((3)) ⋅2^7 =120 128⋅ =15360`,`różnych liczb dziesięciocyfrowych, które można zapisać za pomocą cyfr 1, 2, 3, w zapisie
+których cyfra 1 występuje w dokładnie trzy razy.
+II sposób
+Rozpatrzymy trzy rozłączne przypadki, w zależności od tego, jaka cyfra została zapisana na
+pierwszym miejscu.
+1. Jeżeli na pierwszym miejscu jest cyfra 1, to miejsce dla pozostałych dwóch jedynek
+9`,`wybieramy na sposobów, na pozostałych siedmiu miejscach rozmieszczamy cyfrę 2 lub
+( 2)
+cyfrę 3 w dowolnym porządku na 2^7 sposobów. Stosujemy regułę mnożenia i otrzymujemy
+9
+1⋅ ⋅2^7 =36 128⋅ = 4608
+( 2)
+liczb dziesięciocyfrowych, które można zapisać za pomocą cyfr 1, 2, 3, w których zapisie`,`cyfra 1 występuje w dokładnie trzy razy, przy czym na pierwszym miejscu jest cyfra 1.
+9
+2. jeżeli na pierwszym miejscu jest cyfra 2, to miejsce dla trzech jedynek wybieramy na
+(3)
+sposobów, na pozostałych sześciu miejscach rozmieszczamy cyfrę 2 lub cyfrę 3 w dowolnym
+porządku na 2^6 sposobów. Stosujemy regułę mnożenia i otrzymujemy
+1⋅ 9/((3)) ⋅2^6 =84 64⋅ =5376`,`liczb dziesięciocyfrowych, które można zapisać za pomocą cyfr 1, 2, 3, w których zapisie
+cyfra 1 występuje w dokładnie trzy razy, przy czym na pierwszym miejscu jest cyfra 2.
+3. (rozumowanie analogiczne jak w p. 2.). Jeżeli na pierwszym miejscu jest cyfra 3, to
+9
+miejsce dla trzech jedynek wybieramy na sposobów, na pozostałych sześciu miejscach
+(3)
+rozmieszczamy cyfrę 2 lub cyfrę 3 w dowolnym porządku na 2^6 sposobów.`,`Stosujemy regułę mnożenia i otrzymujemy
+1⋅ 9/((3)) ⋅2^6 =84 64⋅ =5376
+liczb dziesięciocyfrowych, które można zapisać za pomocą cyfr 1, 2, 3, w zapisie których
+cyfra 1 występuje w dokładnie trzy razy, przy czym na pierwszym miejscu jest cyfra 3.
+Sumujemy liczby powstałe w każdym z trzech przypadków i otrzymujemy:`],"MMAP-R0-100-1605-n15":[`Strategię rozwiązania zadania można zrealizować na wiele sposobów. Każdy z nich różni się
+zestawem i kolejnością zastosowanych związków między odcinkami w ostrosłupie.
+Przyjmijmy następujące oznaczenia jak na rysunku.
+S
+l
+b F
+H`,`α
+D
+C
+O E
+a
+A B
+a 2`,`Wtedy OB = , OE = a/2 , BFO = 60°.
+2
+Ponieważ trójkąt BFO jest prostokątny, stąd BO/BF = sin 60°. Zatem
+a 2
+BO a 2 2 a 6
+BF = = 2/3 = ⋅ = .
+sin 60° 2 3 3`,`2
+a 6
+SE BF l b 6
+Trójkąty SEC i BFC są podobne, stąd = , czyli = 3/a . Zatem l = .
+SC BC b 3
+Korzystamy z twierdzenia Pitagorasa w trójkątach prostokątnych EOS i BOS, skąd
+otrzymujemy układ równań:`,`2
+ 2
+a b 6 
+ 
+H^2 + =
+  
+()/(2)`,` ()/() 3 ()/()
+
+
+(()/(H) 2 (a)/(+))/() ((2)/())/() = b^2
+2`],"MMAP-R0-100-1605-n16":[`Niech C = (x y, ) będzie wierzchołkiem trapezu ABCD. Wówczas C =(x, 2−^12 ), gdzie
+0 < x < 2. Ponieważ AB = 4 , CD = 2x , a wysokość trapezu jest równa ((2 x/1)/(h=2−))/2 x^2 , więc
+pole P tego trapezu określone jest wzorem
+4+2x 2 2 2 3 2 3
+P x( ) = ⋅(2−^1 x ) =(x+2)⋅^1 (4− x ) =^1 (8+4x−2x − x ) = 4+2x− x −^1 x
+2 2 2 2
+2`,`dla każdej liczby rzeczywistej 0 < x < 2.
+Pochodna funkcji P x( ) = 4+2x− x^2 −^1 x^3 jest równa P′(x) = 2−2x−^3 x^2 dla x∈(0, 2).
+2 2
+Obliczamy miejsca zerowe pochodnej i badamy jej znak.
+2
+Ponieważ P′(x) = −^3 x^2 +^4 x−^4 = −^3 x+^2 −^16 = −^3 x−^2 x+2)
+( ) (( ) ) ( )(`,`2 3 3 2 3 9 2 3
+oraz −^3 (x+2) < 0 dla każdego x∈(0, 2), więc:
+2
+P′(x) = 0 wtedy i tylko wtedy, gdy x =^2 ,
+3
+P′(x) > 0 wtedy i tylko wtedy, gdy x−^2 < 0 i x∈(0, 2), czyli dla x∈(0,^2 ),
+3 3`,`P′(x) < 0 wtedy i tylko wtedy, gdy x−^2 > 0 i x∈(0, 2), czyli dla x∈^2 , 2 .
+( )
+3 3
+Zatem w przedziale (0,^2 funkcja P jest rosnąca, w przedziale 2/3 , 2) jest malejąca,
+3
+2
+a w punkcie x =^2 osiąga maksimum. Jeżeli x =^2 , to C =^2 , 2−^1 ⋅(^2 ) =(^216 , ).`,`3 3 ( 3 2 3 ) 3 9
+Uwaga:
+Zdający może zauważyć, że z nierówności dla średniej arytmetycznej i średniej
+geometrycznej wynika, że dla x∈(0, 2) iloczyn
+(x+2)(4− x^2 ) = (x+2)(x+2)(2− x) = 4(^(x) +1)(^(x) +1)(2− x)
+2 2
+przyjmuje największą wartość równą`,`3
+3
+( x/2 +1+ x/2 +1+2−x)/(4)
+ = 4⋅(^4 ) , gdy^(x) +1= 2− x, czyli dla x =^2 .
+3 2 3`],"MMAP-R0-100-1705-n6":[`Pochodna funkcji f jest równa
+f ′(x) =^(x) =^(−x) dla każdej liczby rzeczywistej x.`,`(((+1−2x x(−1))/2)/2)/((x) (((+2x+1)/2)/2)/(+1))
++1) (x`,`Współczynnik kierunkowy szukanej stycznej jest równy:
+f ′( )1 =^2 =^1 ,`,`4 2
+zatem równanie stycznej do wykresu funkcji f w punkcie P = (1, 0) ma postać:`,`y =^1 (x−1)+0,
+2`,"y = 1/2 x− 1/2 ."],"MMAP-R0-100-1705-n7":[`I sposób
+Przekształcamy nierówność równoważnie:
+2
+x y^2 −4xy+4+2x^2 −4xy+2y^2 > 0,
+(xy−2)^2 +2(x^2 −2xy+ y^2 ) > 0,
+(xy−2)^2 +2(x− y)^2 > 0.
+Ponieważ x ≠ y, więc (x− y)^2 > 0. Zatem lewa strona tej nierówności jest sumą liczby`,`nieujemnej (xy−2)^2 oraz liczby dodatniej 2(x− y)^2 , a więc jest dodatnia.
+To kończy dowód.
+II sposób
+2
+Zapiszmy nierówność x y^2 +2x^2 +2y^2 −8xy+4 > 0 w postaci równoważnej
+(y^2 +2)x^2 −8y x⋅ +2y^2 +4 > 0.
+Ponieważ y^2 +2 > 0 dla każdej liczby rzeczywistej y, więc możemy potraktować tę`,`nierówność jak nierówność kwadratową z niewiadomą x i parametrem y (lub z niewiadomą y
+i parametrem x). Wystarczy więc wykazać, że wyróżnik trójmianu kwadratowego
+(y^2 +2)x^2 −8y x⋅ +2y^2 +4 zmiennej x jest ujemny.
+2 2
+Δ =(−8y) −4⋅(y^2 +2) (⋅ 2y^2 +4) = 64y^2 −8(y^2 +2) =
+2
+=8 8( y^2 − y^4 −4y^2 −4) =8(−y^4 +4y^2 −4) = −8(y^2 −2) .`,`Dla każdej liczby rzeczywistej y, takiej, że y^2 ≠ 2 wyróżnik jest ujemy. Gdy y^2 = 2, to
+2
+wówczas nierówność x y^2 +2x^2 +2y^2 −8xy+4 > 0 ma postać
+4x^2 −8 2x+8 > 0 lub 4x^2 +8 2x+8 > 0
+x^2 −2 2x+2 > 0 lub x^2 +2 2x+2 > 0,
+(x− 2)^2 > 0 lub (x+ 2)^2 > 0.
+Ponieważ z założenia wynika, że x ≠ y, więc x^2 ≠ 2, a to oznacza, że każda z otrzymanych`,`nierówności jest prawdziwa.
+To kończy dowód.
+III sposób
+2
+Rozpatrzmy nierówność x y^2 +2x^2 +2y^2 −8xy+4 > 0 w trzech przypadkach.
+I. Gdy co najmniej jedna z liczb x, y jest równa 0, np. gdy x = 0. Wtedy nierówność
+przyjmuje postać`,`2y^2 +4 > 0.
+Ta nierówność jest prawdziwa dla każdej liczby rzeczywistej y.
+II. Gdy żadna z liczb x, y nie jest równa 0 i gdy xy < 0. Wtedy po lewej stronie nierówności
+2
+x y^2 +2x^2 +2y^2 −8xy+4 > 0 wszystkie składniki są dodatnie, więc nierówność jest`],"MMAP-R0-100-1705-n8":[`I sposób
+Przyjmijmy oznaczenia jak na rysunku.
+C
+E
+a
+d
+β`,`2
+β
+2
+A B
+c
+Pole trójkąta ABC jest równe
+1`,`P = a c⋅ ⋅sinβ .
+ABC
+2
+Pola trójkątów ABE i CBE są równe
+1 β 1 β
+P = d c⋅ ⋅sin oraz P = d a⋅ ⋅sin .
+ABE CBE`,`2 2 2 2
+Suma pól trójkątów ABE i CBE jest równa polu trójkąta ABC, zatem
+1/2 a c⋅ ⋅sinβ = 1/2 d c⋅ ⋅sin (β)/2 + 1/2 d a⋅ ⋅sin (β)/2 .
+Stąd a c⋅ ⋅2sin (β)/2 cos (β)/2 = d ⋅(a+c)⋅sin (β)/2 .
+β
+2ac⋅cos = d ⋅(a+c),
+2`,`β
+d = 2ac/(a+c) ⋅cos .
+2
+To kończy dowód.
+II sposób
+Przyjmijmy oznaczenia jak na rysunku.
+C`,`y
+E
+a
+x
+d β`],"MMAP-R0-100-1705-n9":[`Niech K będzie środkiem odcinka BC, a M i O spodkami wysokości trójkąta AKD
+opuszczonymi z wierzchołków A i D. Płaszczyzny AKD i ABC są prostopadłe, bo prosta BC
+jest prostopadła do płaszczyzny AKD.
+Niech T będzie punktem wspólnym wysokości AM i DO. Odległości punktu T od prostych AK
+i DK są równe, bo AK = DK . Są to też odległości punktu T od płaszczyzn ABC i BCD. Ten
+sam punkt T otrzymamy rozpatrując trójkąt LCD, gdzie L jest środkiem odcinka AB lub
+trójkąt ŁBD, gdzie Ł jest środkiem odcinka AC. Wynika stąd, że odległość punktu T od każdej`,`ściany czworościanu ABCD jest taka sama. Wobec tego S =T .
+Niech H oznacza wysokość czworościanu, h wysokość ściany czworościanu, a R – promień
+kuli, o której mowa w treści zadania. Pozostałe oznaczenia przyjmijmy takie jak na rysunku.
+D
+6
+H
+R M`,`S
+C
+R
+A 6
+O K
+L
+6`,`B
+Wyznaczymy wysokość H czworościanu.
+Odcinki AK i DK to wysokości przystających trójkątów równobocznych ABC i BCD o boku
+długości 6, więc
+6 3
+AK = DK = = 3 3.
+2`,`Spodek O wysokości DO czworościanu jest środkiem ciężkości trójkąta ABC, więc
+KO = 1/3 AK = 3.
+Z twierdzenia Pitagorasa dla trójkąta DOK otrzymujemy
+DO^2 + KO^2 = DK^2 ,
+2 2
+H^2 +( 3) = (3 3) .
+Stąd`,`2 2
+H^2 = (3 3) −( 3) ,
+H = 2 6 .
+Wyznaczamy odległość d środka S kuli od płaszczyzny π .
+I sposób`],"MMAP-R0-100-1705-n10":[`Równanie można przekształcić równoważnie do postaci:
+2 cos^2 x+3cosx+1= 0.
+Podstawiamy t = cosx, przy czym t∈ −1, 1 .`,`Rozwiązujemy równanie kwadratowe:
+2t^2 +3t +1= 0.
+Δ = 9−8=1, Δ =1,`,`−3−1
+t = = −1,
+1`,`4
+−3+1 1
+t = = − .`,`2
+4 2
+Wyznaczamy wartości x w przedziale 0, 2π :`,`cosx = −1 lub cosx = − 1/2 ,
+x = π lub x = 2π/3 , lub x = 4π/3 .`],"MMAP-R0-100-1705-n11":[`Jest to model klasyczny. Za każdym razem mamy 8 możliwości wyciągnięcia jednej piłeczki.
+Zbiór wszystkich zdarzeń elementarnych Ω jest zbiorem wszystkich ciągów trójwyrazowych
+o wyrazach ze zbioru liczb całkowitych od 1 do 8. Zatem Ω =8 8 8⋅ ⋅ = 512.
+Niech A oznacza zdarzenie zapisania takich trzech liczb, że ich iloczyn dzieli się przez 4.
+Wtedy możliwe są 3 przypadki.`,`I. Wszystkie zapisane liczby są parzyste.
+II. Dwie z zapisanych liczb są parzyste, a jedna z zapisanych jest nieparzysta.
+III. Dwie z zapisanych liczb są nieparzyste, a jedna z zapisanych jest podzielna przez 4.
+Obliczamy liczbę zdarzeń elementarnych w każdym z tych przypadków.
+I. 4 4 4⋅ ⋅ = 64.`,`II. 4 4 4 3⋅ ⋅ ⋅ =192.
+III. 4 4 2 3⋅ ⋅ ⋅ = 96.
+Obliczamy prawdopodobieństwo zdarzenia, polegającego na tym, że iloczyn trzech
+zapisanych liczb jest podzielny przez 4: P(A) =^(64+192+96) =^352 =^11 .
+512 512 16`,`Uwaga
+Prawdopodobieństwo zdarzenia A możemy też wyznaczyć po uprzednim obliczeniu
+prawdopodobieństwa zdarzenia przeciwnego A’. Jeżeli iloczyn trzech zapisanych liczb nie
+dzieli się przez 4, to oznacza, że zachodzi jeden z poniższych przypadków.
+I. Wszystkie zapisane liczby są nieparzyste.`,`II. Dwie z zapisanych liczb są nieparzyste, a jedna z zapisanych jest równa 2 lub 6.
+Obliczamy liczbę zdarzeń elementarnych w każdym z tych przypadków.
+I. 4 4 4⋅ ⋅ = 64.
+II. 4⋅4⋅2⋅3= 96.
+Obliczamy prawdopodobieństwo zdarzenia, polegającego na tym, że iloczyn trzech`,`zapisanych liczb nie jest podzielny przez 4: P(A′)=^(64+96) =^160 =^5 .
+512 512 16
+Zatem P(A)=1−^5 =^11 .
+16 16`],"MMAP-R0-100-1705-n12":[`I sposób
+Zapisujemy układ warunków
+Δ > 0
+
+
+(4x −4x )^2 −1< 0
+ 1 2`,`Rozwiązujemy nierówność Δ > 0, czyli 36m^2 −16 2( m^2 −3m−9) > 0. Po uporządkowaniu
+otrzymujemy nierówność 4(m+6)^2 > 0 , której rozwiązaniem są wszystkie liczby
+rzeczywiste oprócz m = −6.
+Drugą nierówność przekształcamy równoważnie i otrzymujemy kolejno:
+16(x − x )^2 −1< 0,
+1 2
+16(x^2 −2x x + x^2 )−1< 0,`,`1 1 2 2
+2
+16 x + x −4x x −1< 0.
+( 1 2 ) 2
+ 1/2 
+36m 2m^2 −3m−9
+Stosujemy wzory Viete'a i otrzymujemy: 16 −4⋅ −1< 0.`,` 
+16 4
+ 
+Przekształcamy nierówność równoważnie otrzymujemy kolejno:
+36m^2 −32m^2 +48m+143< 0,
+4m^2 +48m+143< 0.
+Rozwiązujemy tę nierówność.`,`Δ = 2304−2288 = 4^2
+−48−4 13 −48+4 11
+m = = − , m = = − ,
+1 2
+8 2 8 2
+ 13
+m∈ −`,` (,− (11)/() .)/(2)
+ 2
+ 13
+Wyznaczamy część wspólną obu warunków: m∈ − ,−6 ()/() ∪ ()/() −6,− (11)/() .
+`],"MMAP-R0-100-1705-n13":[`I sposób
+Środek S szukanego okręgu jest punktem przecięcia prostej x−3y+1= 0 oraz symetralnej
+odcinka AB.
+Wyznaczmy współrzędne środka D odcina AB: D = (−5+0)/() , (3+6)/() = (−5)/() , (9)/() .
+ 2 2   2 2
+Obliczamy współczynnik kierunkowy prostej przechodzącej przez punkty A i B:
+6−3 3`,`a = = .
+AB
+0+5 5
+Z warunku prostopadłości prostych wyznaczamy współczynnik kierunkowy symetralnej
+odcinka AB: a = − 5/3 . Wyznaczamy równanie symetralnej odcinka AB: y = − 5/3 x+b.
+5 9 5
+Przechodzi ona przez punkt , (9)/() , stąd otrzymujemy = − ⋅ ()/() − (5)/() +b. Zatem`,`(D= ()/() −)/()
+2 2 2 3  2
+b = 1/3 . Wobec tego symetralną odcinka AB jest prosta y = − 5/3 x+ 1/3 .
+x−3y+1= 0
+
+Obliczamy współrzędne punktu S, rozwiązując układ równań 5 1 Środkiem
+x+ .`,`(()/() y= −)/()
+3 3
+okręgu jest S = ()/() 0, (1)/() .
+ 3
+17
+Wyznaczamy promień okręgu r obliczając np.: AS = 5^2 + (8)/() = .
+`,`3 3
+17
+Wyznaczamy równanie okręgu o środku w punkcie i promieniu r = :
+(S= ()/() 0, (1)/())/()
+3 3
+289
+x^2 = .`,`(+ ()/() y− (1)/())/()
+3 9
+II sposób
+Środkiem okręgu jest punkt S, który leży na prostej x−3y+1= 0. Zatem S =(3y−1, y).
+Ponieważ AS^2 = BS^2 , więc możemy zapisać równanie (x+5)^2 +(y−3)^2 = x^2 +(y−6)^2 .`],"MMAP-R0-100-1705-n14":[`I sposób
+Oznaczmy przez r różnicę ciągu arytmetycznego. Skoro suma wyrazów ciągu arytmetycznego
+jest równa 27, to b−r +b+b+r = 27, a stąd b =9. Wówczas ciąg geometryczny
+(7−r,9, 2r +19) spełnia warunek 81=(7−r) (⋅ 2r +19). Równanie to ma dwa rozwiązania
+r = 4 i r = − 13/2 .
+W pierwszym przypadku otrzymujemy ciąg arytmetyczny (5,9,13), a w drugim przypadku
+ciąg arytmetyczny (31)/() ,9, (5)/() .`,` 2 2
+II sposób
+Liczby a, b, c są odpowiednio pierwszym, drugim i trzecim wyrazem ciągu arytmetycznego,
+zatem (a+c)/2 = b. Suma liczb a, b, c równa 27, stąd a+b+c = 27. Ciąg (a−2,b, 2c+1) jest
+geometryczny, zatem b^2 =(a−2) (⋅ 2c+1).
+(((a+c)/() =b)/2)/()
+Zapisujemy układ trzech równań z trzema niewiadomymi: a+b+c = 27 .`,` 2
+=(a−2) (⋅ 2c+1)
+ b/()
+Z pierwszego równania wyznaczamy a+c = 2b, podstawiamy do drugiego równania
+i otrzymujemy b =9.
+Do trzeciego równania podstawiamy b =9 i a = 2b−c i otrzymujemy równanie kwadratowe:
+2c^2 −31c+65 = 0. Równanie to ma dwa rozwiązania: c = 5/2 oraz c =13. W pierwszym`,`przypadku otrzymujemy: a = 5, b = 9, c =13 a w drugim przypadku otrzymujemy: a = 31/2 ,
+b = 9, c = 5/2 .
+III sposób
+Niech q oznacza iloraz ciągu geometrycznego, natomiast a −2 pierwszy wyraz tego ciągu.
+(a−2)q^2 −1
+Wtedy b =(a−2)q i 2c+1=(a−2)q^2 . Z ostatniej zależności otrzymujemy c = .
+2`,`Ponieważ suma liczb a, b, c jest równa 27, więc możemy zapisać równość
+−1
+a+(a−2)q+ ((a−2)q)/2 = 27.
+Z własności ciągu arytmetycznego wynika równanie
+b = (a+c)/2 ,
+które możemy zapisać w postaci
+−1`,`(a−2)q = (2a+(a−2)q)/4 .
+Otrzymaliśmy zatem układ równań z niewiadomymi a i q:
+2a+2(a−2)q+(a−2)q^2 = 55
+4(a−2)q = 2a+(a−2)q^2 −1.
+Ten układ jest równoważny układowi`],"MMAP-R0-100-1705-n15":[`Niech r oraz h oznaczają, odpowiednio, promień podstawy walca i wysokość walca. Pole P
+powierzchni całkowitej tego walca jest równe P = 2πr^2 +2πrh. Stąd
+h = P−2πr/2πr .
+2
+Objętość walca V =πr h zapisujemy jako funkcję zmiennej r :
+2 P−2πr^2 Pr −2πr^3
+V (r) =πr = , gdzie 0 < r < P/2π .`,`2πr 2
+Pochodna funkcji V jest określona wzorem
+P
+V′(r) =^1 (P−6πr^2 ) dla 0 < r < .
+2 2π
+Wyznaczamy miejsca zerowe i badamy znak pochodnej
+P`,`V′(r) = 0 wtedy i tylko wtedy, gdy r = ,
+6π
+P
+V′(r) > 0 wtedy i tylko wtedy, gdy 0 < r < ,
+6π
+P P
+V′(r) < 0 wtedy i tylko wtedy, gdy < r < .`,`6π 2π
+P P P
+Wynika stąd, że w przedziale (0, funkcja V jest rosnąca, a w przedziale ,
+6π 6π 2π )
+jest malejąca. Zatem V P/(6π)) jest największą wartością tej funkcji. Wartość ta jest równa
+(
+3`,`P⋅ P/6π −2π ⋅ P/(6π))
+(
+P P
+V P/(6π)) = = ⋅ .
+(
+2 3 6π
+P−2πr^2`,`Gdy r = P/6π , to wtedy h = = 2P/3π .
+2πr`],"MMAP-R0-100-1805-n6":[`I sposób
+Rozważmy funkcję kwadratową f określoną wzorem f (x) = 3x^2 −1.
+Współczynnik kierunkowy stycznej do wykresu tej funkcji w punkcie P = (x , y )
+0 0
+nachylonej do osi Ox pod kątem 30° jest równy tg30° = 3/3 i jest równocześnie wartością
+pochodnej funkcji f w punkcie x .
+0`,`Wyznaczamy pochodną funkcjif: f '(x) = 2 3x .
+Współrzędna x punktu styczności spełnia więc równanie
+0
+3
+2 3x = .
+0
+3`,`Stąd
+1
+x = .
+0
+6
+1
+Wartość funkcjif dla argumentu x = jest równa`,`0
+6
+3 36−
+f (x ) = 3^1 −1= .
+0 ( )
+6 36
+1 3 36−`,`Zatem punktP ma współrzędne: x = , y = .
+0 0
+6 36
+II sposób
+Styczna do paraboli nachylona do osi Ox pod kątem 30° ma współczynnik kierunkowy
+równy tg30° = 3/3 , więc jej równanie jest postaci y = 3/3 x+b.
+Punkt P to jedyny punkt wspólny paraboli i tej stycznej, więc układ równań y = 3x^2 −1`,`i y = 3/3 x+b ma dokładnie jedno rozwiązanie. Tak jest wtedy i tylko wtedy, gdy równanie
+3x^2 −1= 3/3 x+b, czyli 3x^2 − 3/3 x−1−b = 0 ma jedno rozwiązanie, którym jest
+3
+1
+3`],"MMAP-R0-100-1805-n7":[`I sposób – bilans kątów
+Oznaczmy miary kątów trójkąta ABC odpowiednio przez 2α, 2β, 2γ , a punkt wspólny
+dwusiecznej d i odcinka KL przez P, dwusiecznej d i odcinka LM przez R oraz
+A C
+dwusiecznej d i odcinka MN przez Q.
+B
+C`,`L
+R
+M
+P
+Q
+A B
+K N`,`Wówczas 2α + 2β + 2γ =180°, stąd α + β +γ =90°. Wtedy
+KAP =α , zatem AKP = 90° −α i LKN =180° −(90° −α) = 90° +α
+oraz
+CMR = 90° −γ oraz BMQ = 90° −β ,
+zatem LMN =180° −(90° −γ )−(90° −β) = β +γ .
+Suma kątów LKN i LMN jest więc równa
+LKN + LMN = (90° +α)+(β +γ ) =α + β +γ +90° =180°.`,`To oznacza, że na czworokącie KNML można opisać okrąg.
+II sposób – symetralne
+C
+L
+R
+M
+O`,`P
+Q
+A B
+K N
+Rozważmy trójkąt KLM. Z definicji symetrii osiowej wynika, że dwusieczna d jest
+A
+symetralną boku KL. Analogicznie dwusieczna d jest symetralną boku LM. Symetralne`,`C
+boków trójkąta przecinają się w jednym punkcie, który jest środkiem okręgu opisanego na
+tym trójkącie – oznaczmy go przez O. Czyli punkt wspólny dwusiecznych d i d
+A C
+(symetralnych boków trójkąta KLM) jest środkiem okręgu, którego promieniem jest`],"MMAP-R0-100-1805-n8":[`I sposób
+Zauważmy, że k^3 m − km^3 = km(k^2 − m^2 )= km(k + m)(k − m).
+Rozwiązanie zadania składa się z dwóch etapów:
+• uzasadnienie podzielności przez 2;
+• uzasadnienie podzielności przez 3.
+Podzielność przez 2.
+Gdy którakolwiek z liczb k, m jest parzysta, to iloczyn km(k^2 − m^2 ) jest parzysty, a gdy obie`,`liczby k, m są nieparzyste, to ich suma k +m jest liczbą parzystą, więc iloczyn
+km k( +m)(k −m) jest podzielny przez 2.
+Podzielność przez 3. (I sposób)
+Dowód przeprowadzimy w czterech rozłącznych sytuacjach: A, B, C, D.
+A. Którakolwiek z liczb k, m jest podzielna przez 3
+Wtedy iloczyn km(k^2 − m^2 ) jest podzielny przez 3.
+B. Obie liczby k, m przy dzieleniu przez 3 dają resztę 1`,`Wtedy liczba k − m jest podzielna przez 3, więc iloczyn km k( +m)(k −m) jest
+podzielny przez 3.
+C. Obie liczby k, m przy dzieleniu przez 3 dają resztę 2
+Wtedy liczba k − m jest podzielna przez 3, więc iloczyn km k( +m)(k −m) jest
+podzielny przez 3.
+D. Jedna z liczb k, m przy dzieleniu przez 3 daje resztę 1, a druga przy dzieleniu przez 3
+daje resztę 2`,`Wtedy liczba k + m jest podzielna przez 3, więc iloczyn km k( +m)(k −m) jest
+podzielny przez 3.
+Podzielność przez 3. (II sposób)
+Dowód przeprowadzimy w dwóch rozłącznych sytuacjach: E, F.
+E. Którakolwiek z liczb k, m jest podzielna przez 3.
+Wtedy iloczyn km(k^2 − m^2 ) jest podzielny przez 3.
+F. Żadna z liczb k, m nie jest podzielna przez 3.`,`Wtedy kwadrat każdej z nich przy dzieleniu przez 3 daje resztę 1, więc różnica
+k^2 −m^2 jest podzielna przez 3.
+3
+Wykazaliśmy zatem, że liczba k m−km^3 jest podzielna przez 2 i przez 3, więc jest podzielna
+przez 2⋅3, czyli przez 6. To kończy dowód.
+II sposób
+Zauważmy, że`,`3
+k m−km^3 = km k^2( −1+1−m^2 ) = km k^2( −1)−km m^2( −1) = km k( −1)(k +1)−km m( −1)(m+1)
+Iloczynk(k −1)(k +1) to iloczyn trzech kolejnych liczb całkowitych, więc dokładnie jedna
+z nich jest podzielna przez 3 i co najmniej jedna jest podzielna przez 2, więc iloczyn jest
+podzielny przez 2 i przez 3, a więc jest podzielny przez 6. Analogicznie iloczyn`],"MMAP-R0-100-1805-n9":[`I sposób
+Zdarzeniami elementarnymi są permutacje (bez powtórzeń) zbioru ośmioelementowego
+{1, 2, 3, 4, 5, 6, 7, 9}.
+Liczba wszystkich zdarzeń elementarnych jest równa Ω =8!.
+Niech A będzie zdarzeniem, polegającym na tym, że żadne dwie liczby parzyste nie są
+sąsiednimi wyrazami utworzonego ciągu. Ustalmy liczbę wszystkich zdarzeń elementarnych
+sprzyjających zdarzeniu A.`,`I metoda
+W zbiorze Z jest 5 liczb nieparzystych, więc możemy je ustawić w ciąg na 5! sposobów.
+Otrzymamy wtedy sytuację:
+_(1)_ n _(2)_ n _(3)_ n _(4)_ n _(5)_ n_(6)_
+Pierwszą z pozostałych liczb (parzystych) zbioru Z możemy ustawić na jednym z sześciu
+miejsc _(1)_ – _(6)_, drugą na jednym z pozostałych pięciu, a trzecią na jednym z pozostałych
+czterech.`,`Zatem A = 5! 6 5 4⋅ ⋅ ⋅ .
+II metoda
+W zbiorze Z jest 5 liczb nieparzystych, więc możemy je ustawić w ciąg na 5! sposobów.
+Otrzymamy wtedy sytuację:
+_(1)_ n _(2)_ n _(3)_ n _(4)_ n _(5)_ n_(6)_
+Trzy pozostałe liczby (parzyste) ze zbioru Z musimy ustawić na wybranych trzech miejscach
+6`,`spośród sześciu miejsc _(1)_ – _(6)_. Te trzy miejsca możemy wybrać na sposobów. Na
+( )
+3
+tych trzech ustalonych miejscach możemy trzy liczby parzyste ze zbioru Z ustawić na 3!
+sposobów.
+6
+Zatem A =5!⋅ ⋅3!.`,`( )
+3
+III metoda (ustalenie kolejności parzystych, a następnie ustalenie pozycji parzystych)
+W zbiorze Z mamy 3 liczby parzyste: 2, 4, 6. Możemy ustawić je w kolejności na 3!= 6
+sposobów. Jedną z takich możliwości jest kolejność: 2, 4, 6.
+Wypiszmy wszystkie przypadki ustawienia tych trzech liczb w kolejności 2, 4, 6 w ciągu
+8-wyrazowym:`,`(a) 2 na pierwszym miejscu
+2 – 4 – 6 – – –, 2 – 4 – – 6 – –, 2 – 4 – – – 6 –, 2 – 4 – – – – 6, 2 – – 4 – 6 – –,
+2 – – 4 – – 6 –, 2 – – 4 – – – 6, 2 – – – 4 – 6 –, 2 – – – 4 – – 6, 2 – – – – 4 – 6,
+(b) 2 na drugim miejscu
+– 2 – 4 – 6 – –, – 2 – 4 – – 6 –, – 2 – 4 – – – 6, – 2 – – 4 – 6 –, – 2 – – 4 – – 6,`],"MMAP-R0-100-1805-n10":[`Przekrojem osiowym stożka jest trapez równoramienny ABCD. Niech DE oznacza wysokość
+stożka opuszczoną z punktu D.
+D C`,`E
+A B
+Po podstawieniu danych do wzoru na objętość otrzymujemy równanie kwadratowe`,`1/3 π ⋅10⋅(6^2 +6R + R^2 ) =840π.
+Stąd
+R^2 +6R −216 = 0.`,`Rozwiązując je, otrzymujemy
+Δ = 36+ 4 216⋅ = 900, Δ = 30,
+R = −6−30/2 = −18< 0 lub R = (−6+30)/2 =12.`,`Przekrojem osiowym tego stożka jest trapez równoramienny o podstawach długości 24 i 12
+oraz wysokości 10. Długość odcinka EB jest równa
+EB = R+r =12+6 =18.`,`Z twierdzenia Pitagorasa dla trójkąta BDE otrzymujemy
+BD = 10^2 +18^2 = 424 = 2 106 .
+Zatem cos DBE = 18/(2 106) = 9/106 .`],"MMAP-R0-100-1805-n11":[`Przekształcamy równanie w sposób równoważny
+sin 6x +cos 3x = 2 sin 3x +1,`,`2 sin 3xcos 3x+cos 3x = 2 sin 3x+1,
+cos 3x(2sin 3x+1) = 2sin 3x+1,`,`(2sin 3x+1)(cos 3x−1) = 0,
+sin 3x = − 1/2 lub cos 3x =1.`,`Stąd 3x = 7π/6 +2kπ lub 3x = 11π/6 +2kπ lub 3x = 2kπ , k – liczba całkowita.
+Zatem x = 7π/18 + 2kπ/3 lub x = 11π/18 + 2kπ/3 lub x = 2kπ/3 .`,"W przedziale 0,π mamy następujące rozwiązania równania: x = 7π/18 , x = 11π/18 , x = 0 , x = 2π/3 ."],"MMAP-R0-100-1805-n12":[`Równanie ma dwa różne rozwiązania rzeczywiste, gdy jego wyróżnik jest dodatni, czyli
+Δ =(m+1)^2 −4 1⋅ ⋅ −( m^2 +1) >0
+5m^2 +2m−3> 0
+m = −1, m = 3/5 .
+1 2
+Stąd m∈ −∞ −( , 1)∪^3 , + ∞
+( )`,`5
+Warunek x^3 + x^3 > −7x x możemy zapisać w postaci równoważnej
+1 2 1 2
+(x + x )(x^2 −x x + x^2 ) > −7x x ,
+1 2 1 1 2 2 1 2
+(x + x ) (x + x )^2 −3x x > −7x x .
+1 2 ( 1 2 1 2 ) 1 2`,`Ze wzorów Viète’a na sumę i iloczyn pierwiastków trójmianu kwadratowego możemy tę
+nierówność zapisać w postaci:
+−b  −b^2 c  c
+( ) −3
+a (> −7)/() a
+(a () ()/() a)/2
+−(m+1) (−(m+1)) −3(−m^2 +1) > −7(−m^2 +1)`,`( )
+−(m+1)^3 +3(m+1)(−m^2 +1) > −7(−m^2 +1)
+−(m+1)^3 +3(m+1)(−m^2 +1)+7(−m^2 +1) > 0
+(m+1) −(m+1)^2 +3(−m^2 +1)+7(−m+1) > 0
+( )
+(m+1)(−m^2 −2m−1−3m^2 +3+7−7m) > 0
+(m+1)(−4m^2 −9m+9) > 0`,`3
+m = −3 lub m = lub m = −1.
+1 2 3
+4
+m∈ −∞ −( , 3)∪ −( 1,^3 ).
+4
+Wyznaczamy część wspólną zbiorów (−∞ −, 1)∪(^3 ,+ ∞) i (−∞ −, 3)∪ −( 1,^3 ).`,`5 4
+Odpowiedź m∈ −∞ −( , 3)∪(^33 , ).
+5 4`],"MMAP-R0-100-1805-n13":[`Niech a będzie pierwszym wyrazem ciągu geometrycznego, zaś q jego ilorazem.
+1
+Z treści zadania otrzymujemy układ równań:
+a q^2 + a q^5 = −84
+ 1 1
+(()/(a))/() q^3 + a q^6 =168
+1 1`,`a q^2 (1+ q^3 )= −84
+
+()/(a)
+q^3 (1+ q^3 )=168
+ 1
+Dzieląc stronami te równania, co możemy zrobić, gdyż gdyby którakolwiek z liczb a , q ,
+1`,`1+q^3 była równa 0, to otrzymalibyśmy sprzeczność, otrzymujemy
+q = −2.
+Zatem
+a (−2)^2 1+ −( 2)^3 = −84,
+1 ( )
+−28⋅a = −84,
+1`,`a = 3.
+1
+Otrzymaliśmy ciąg geometryczny (a ), w którym:
+n
+a = 3
+^1
+q = −2`,`
+Wykorzystując wzór na sumę n początkowych wyrazów ciągu geometrycznego,
+doprowadzamy do równania postaci
+3 (−2)^(n) −1
+( )
+= 32769.
+−2−1`,`Przekształcając to równanie, otrzymujemy (− 2)^(n) = −32768. Ponieważ (− 2)^(n) = (− 2)^15 , więc
+n =15.`],"MMAP-R0-100-1805-n14":[`I sposób − analitycznie − styczne AC i AB
+Proste AC i AB przechodzą przez punkt A= (7,−1), żadna z nich nie jest prostopadła do osi
+Ox układu współrzędnych, więc mają równania postaci
+y = a x( −7)−1,
+ax− y−7a−1= 0.
+Obie te proste są styczne do okręgu, zatem ich odległości od środka okręgu są równe
+promieniowi okręgu. Stąd otrzymujemy równanie`,`= 10 ,
+(−7a−1/2)/a
++1
+(−7a−1)^2 =10(a^2 +1),
+49a^2 +14a+1=10a^2 +10
+39a^2 +14a−9 = 0
+a = (−14 40−)/78 = − 9/13 lub a = (−14 40+)/78 = 1/3 .`,`Szukane styczne mają więc równania: y = − 9/13 x+ 50/13 , y = 1/3 x− 10/3 . Tylko druga z tych
+prostych przechodzi przez trzecią ćwiartkę układu współrzędnych, więc prosta AC ma
+równanie y = 1/3 x− 10/3 , a prosta AB ma równanie y = − 9/13 x+ 50/13 .
+Trójkąt ABC jest równoramienny, a jego ramionami są boki AC i BC. Zatem wierzchołek C
+leży na przecięciu prostej AC i symetralnej l boku AB. Prosta l jest prostopadła do prostej AB
+i przechodzi przez punkt S = (0 0, ). Zatem współczynnik kierunkowy prostej l jest równy
+13`,`a = . Stąd l ma równanie postaci
+l
+9
+y = 13/9 x .
+Współrzędne wierzchołka C obliczymy, rozwiązując układ równań
+y = 1/3 x− 10/3 i y = 13/9 x .
+Stąd otrzymujemy równanie`,`1/3 x− 10/3 = 13/9 x,
+10/9 x = − 30/9
+x = −3,
+więc y =^13 ⋅ −( 3) = −^13 , czyli C = (−3, −^13 ).
+9 3 3
+Obliczamy współrzędne punktu D styczności prostej AB z danym okręgiem. Jest to punkt
+przecięcia prostej l z prostą AB. Wystarczy więc rozwiązać układ równań`,`y = − 9/13 x+ 50/13 i y = 13/9 x .
+Stąd otrzymujemy równanie
+− 9/13 x+ 50/13 = 13/9 x,
+250/117 x = 50/13
+x = 9/5 ,`],"MMAP-R0-100-1805-n15":[`Przyjmijmy oznaczenia jak na rysunku.
+Wyznaczmy dziedzinę funkcji L. Z warunków zadania wynika, że a > h, więc a > 2−a.
+Stąd a >1. Jeśli a =1, to czworokąt jest kwadratem. Ponadto a < 2. Jeśli a = 2, to h = 0
+i zamiast trapezu mamy do czynienia z odcinkiem o długości 2.
+Rozważany trapez istnieje jedynie dla a∈(1, 2).
+Z warunków zadania otrzymujemy
+a+h = 2, skąd h = 2−a .`,`Ponieważ w trapez można wpisać okrąg, więc
+a+b = 2c .
+Obwód L trapezu jest więc równy
+L = a+b+2c = 2(a+b).
+Trapez jest równoramienny, więc odcinki AE i FB mają tę samą długość równą
+p = a−b/2 .
+Z twierdzenia Pitagorasa dla trójkąta BCF otrzymujemy`,`p^2 +h^2 = c^2 ,
+(a−b)/() +h^2 = (a+b)/() ,
+ 
+ 2   2 
+a/4 = a/4 + ab/2 + b/4 ,
+(− ab/2 + b/4 +h)/2
+h = ab,`,`(2−a)^2 = ab,
+2
+a^2
+b = ((2−a))/a = (−4a+4)/a .
+Zatem
+ a^2 −4a+4 2a^2 −4a+4
+L = a+b+2c = 2(a+b) = 2 a+ = 2⋅ ,`,` 
+a a
+ 
+czyli
+4a^2
+L a( ) = (−8a+8)/a dla a∈(1, 2).
+Pochodna funkcji L jest równa`,`2
+2 4 a− 2 a+ 2
+(8a−8)⋅a−(4a −8a+8)⋅1 ( )( )
+4a
+L′(a) = = −8/2 = dla a∈(1, 2).`],"MMAP-R0-100-1905-n5":[`Ponieważ
+11
+9+
+n^2 1
+9n^3 +11n^2
+n lim =lim
+oraz`,`lim/(n→∞) 3 2 (=lim)/(n→∞)
+5 3 1 n→∞ 3n^2 +1 n→∞ 1
+7n +5n +3n +1
+7 + + + 3+
+n n^2 n^3 n^2
+11 5
+a ponadto = = = = 0,`,`lim/(n→∞) lim/(n→∞) lim/(n→∞) (3/2)/n lim/(n→∞) (1/3)/n
+n n
+więc
+11
+9+
+9+0 9
+lim n/3 = = .`,`n→∞ 5 7 +0+0+ 0 7
+7 + + +
+(1/3)/n
+n n^2
+Podobnie, wykorzystując to, że 1/2 = 0, otrzymujemy
+lim/(n→∞n)
+1 1 1`,`n/2 = = .
+lim/(n→∞3n) (=lim)/(n→∞)
++1 3+0 3
+3+
+(1/2)/n
+Zatem istnieją (skończone) obie granice ciągów. Stąd granica różnicy tych ciągów jest równa
+różnicy ich granic i`,` 9n^3 +11n^2 n^2 
+− =^9 −^1 =^20 = 0, 952380( ).
+(lim/(n→∞) )/() 7n^3 +5n^2 +3n +1 3n^2 +1 ()/() 7 3 21`],"MMAP-R0-100-1905-n6":[`I sposób
+Wszystkich liczb spełniających warunki zadania jest tyle, ile permutacji zbioru
+5-elementowego, czyli 5!=120 liczb.
+Zapisując te liczby, jedna pod drugą, można zauważyć, że każda z cyfr – 1, 3, 5, 7, 9 –
+pojawia się w każdej kolumnie dokładnie 24 razy.
+Dodając do siebie wszystkie cyfry z kolumny jedności otrzymujemy
+24⋅(1+3+5+7+9) = 24 25⋅ = 600.`,`Dodając do siebie wszystkie cyfry z kolumny dziesiątek otrzymujemy
+10 24⋅ ⋅(1+3+5+7+9) =10 24 25⋅ ⋅ = 6000.
+Dodając do siebie wszystkie cyfry z kolumny setek otrzymujemy
+100 24⋅ ⋅(1+3+5+7+9) =100 24 25⋅ ⋅ = 60000.
+Dodając do siebie wszystkie cyfry z kolumny tysięcy otrzymujemy
+1000 24⋅ ⋅(1+3+5+7+9) =1000 24 25⋅ ⋅ = 600000.
+Dodając do siebie wszystkie cyfry z kolumny dziesiątek tysięcy otrzymujemy`,`10000 24⋅ ⋅(1+3+5+7+9) =10000 24 25⋅ ⋅ = 6000000.
+Zatem suma wszystkich rozważanych liczb jest równa 6666600.
+Rozwiązanie tą metodą można przedstawić w sposób skrócony
+(10000+1000+100+10+1) (⋅ 1+3+5+7+9)⋅24 =11111 25 24⋅ ⋅ = 6666600
+II sposób
+Wszystkich liczb spełniających warunki zadnia jest tyle, ile permutacji zbioru
+5-elementowego, czyli 5!=120 liczb.`,`Wśród nich są 24 liczby, w których na pierwszej pozycji znajduje się cyfra 1.
+Obliczymy ich sumę:
+10000 24⋅ +6 3000⋅ +6 5000⋅ +6 7000⋅ +6 9000⋅ +6 300⋅ +6 500⋅ +6 700⋅ +6 900⋅ +
++ 6 30⋅ +6 50⋅ +6 70⋅ +6 90⋅ +6 3⋅ +6 5⋅ +6 7⋅ +6 9⋅ = 399984
+Rozważmy następnie 24 liczby, w których na pierwszej pozycji znajduje się cyfra 3.
+Obliczymy ich sumę:
+30000 24⋅ +6 1000⋅ +6 5000⋅ +6 7000⋅ +6 9000⋅ +6 100⋅ +6 500⋅ +6 700⋅ +6 900⋅ +`,`+ 6 10⋅ +6 50⋅ +6 70⋅ +6 90⋅ +6 1⋅ +6 5⋅ +6 7⋅ +6 9⋅ =866652
+Rozważmy z kolei 24 liczby, w których na pierwszej pozycji znajduje się 5.
+Obliczymy ich sumę:
+50000 24⋅ +6 1000⋅ +6 3000⋅ +6 7000⋅ +6 9000⋅ +6 100⋅ +6 300⋅ +6 700⋅ +6 900⋅ +
++ 6 10⋅ +6 30⋅ +6 70⋅ +6 90⋅ +6 1⋅ +6 3⋅ +6 7⋅ +6 9⋅ =1333320
+Rozważmy z kolei 24 liczby, w których na pierwszej pozycji znajduje się cyfra 7.
+Obliczymy ich sumę:`,`70000 24⋅ +6 1000⋅ +6 3000⋅ +6 5000⋅ +6 9000⋅ +6 100⋅ +6 300⋅ +6 500⋅ +6 900⋅ +
++ 6 10⋅ +6 30⋅ +6 50⋅ +6 90⋅ +6 1⋅ +6 3⋅ +6 5⋅ +6 9⋅ =1799988
+Rozważmy wreszcie 24 liczby, w których na pierwszej pozycji znajduje się cyfra 9.
+Obliczymy ich sumę:
+90000 24⋅ +6 1000⋅ +6 3000⋅ +6 5000⋅ +6 7000⋅ +6 100⋅ +6 300⋅ +6 500⋅ +6 700⋅ +`],"MMAP-R0-100-1905-n7":[`I sposób
+Przyjmujemy, że funkcja f jest określona wzorem f ( )x = 2x^2 + x+2219.
+Równanie stycznej do krzywej w punkcie P = (x , f (x )) ma postać:
+0 0
+y − f (x ) = f ′(x )(x− x ).
+0 0 0
+Z danych zadania wynika, że: x =10, f (x ) = f (10) = 2429.`,`0 0
+Pochodna funkcji f jest określona wzorem: f ′( )x = 4x+1.
+Wartość tej pochodnej dla argumentux =10 jest równa f ′(x ) = f ′(10) = 4 10⋅ +1= 41.
+0 0
+Ponieważ f ′(x ) = a, zatem a = 41.
+0
+Na podstawie równania stycznej do krzywej w danym punkcie mamy: y −2429 = 41(x−10),`,`a stąd po przekształceniach otrzymujemy: y = 41x+ 2019. Zatem b = 2019.
+Odpowiedź: Współczynnik b = 2019.
+II sposób
+Prosta o równaniu kierunkowym y = ax+b jest styczna do paraboli określonej równaniem
+y = ax+b
+()/()
+y = 2x^2 + x+2219. Zatem układ równań ma dokładnie jedno`,`y = 2x^2 + x+2219
+
+rozwiązanie.
+Stąd otrzymujemy: 2x^2 + x+ 2219 = ax+b. Po przekształceniach mamy:
+2x^2 +(1−a x) +2219−b = 0.
+Powyższe równanie musi mieć tylko jedno rozwiązanie w zbiorze liczb rzeczywistych, które
+jest jednocześnie odciętą punktu styczności paraboli i prostej. Oznacza to, że x =10(odcięta`,`0
+punktu styczności). Z drugiej strony równanie 2x^2 +(1−a x) +2219−b = 0 ma tylko jedno
+1−a
+rozwiązanie w zbiorze liczb rzeczywistych, gdy Δ = 0 i jest ono równe x = − , czyli
+0
+2 2⋅
+10 = − 1−a/(2 2⋅) .`,`Stąd wynika, że a = 41.
+Współczynnik b możemy wyznaczyć na trzy sposoby:
+1. sposób
+Podstawiając do równania prostej y = ax+b wartość a = 41 oraz współrzędne punktu P,
+otrzymujemy 2429 = 41 10⋅ +b. Stąd b = 2019.`],"MMAP-R0-100-1905-n8":[`I sposób
+Nierówność możemy przekształcić w sposób równoważny
+(x+a)/(y+a) + y/x −2 > 0,
+(x x(+a)+y(y+a)−2x(y+a))/(x(y+a)) > 0,
+x^2 + ay −2xy −2ax
+> 0,
+((+ax+y)/(x(y+a)))/2`,`+a(y − x)
+((x−y))/(x(y+a)) > 0.
+Z założenia y > 0, x >0 i a >0. Zatem y+a > 0 i x >0, co oznacza, że mianownik ułamka
+stojącego po lewej strony otrzymanej nierówności jest dodatni. Kwadrat (x− y)^2 jest
+nieujemny, a z założenia x < y wynika, że y − x > 0, więc a(y − x) > 0. Stąd licznik
+rozważanego ułamka jest dodatni. W rezultacie otrzymana nierówność jest prawdziwa.
+To kończy dowód.`,`II sposób
+Z założenia wynika, że y > 0, x >0 i a >0. Zatem y +a > 0 . Mnożąc obie strony nierówności
+(x+a)/(y+a) + y/x > 2 przez liczbę dodatnią (y+a x) , otrzymujemy
+x(x+a)+ y(y+a) > 2x(y+a),
+x^2 +ax+ y^2 +ay−2xy −2ax > 0,
+(x− y)^2 +a(y − x) > 0.
+Ta nierówność jest prawdziwa, gdyż (x− y)^2 >0 oraz a(y − x) > 0, bo z założenia x < y`,`i a >0. To kończy dowód.
+III sposób
+Wykażemy najpierw, że jeżeli licznik i mianownik ułamka większego od 1 zwiększymy o tę
+samą liczbę dodatnią, to otrzymamy ułamek mniejszy od wyjściowego, gdyż przy założeniu,
+że liczby x, y i a są dodatnie, nierówność (y+a)/(x+a) < y/x jest równoważna kolejno nierównościom
+x(y+a) < y x( +a),
+xy+ xa < xy+ ya,`,`xa < ya,
+x < y
+1< y/x ,
+co jest prawdą.
+Zatem y/x > (y+a)/(x+a) , więc (x+a)/(y+a) + y/x > (x+a)/(y+a) + (y+a)/(x+a) > 2, gdyż suma liczby dodatniej i jej
+odwrotności jest co najmniej równa 2. Ta równość zachodzi wtedy i tylko wtedy, gdy tą liczbą
+jest 1, co w naszym przypadku nie zachodzi, bo równość (y+a)/(x+a) =1 oznaczałaby, że x = y , co`,`jest sprzeczne z założeniem x < y .
+IV sposób
+Niech f a( ) = (x+a)/(y+a) + y/x −2 dla a ≥0.
+y−x
+Obliczamy = , zatem f ′( )a > 0 dla każdego a ≥0, więc`],"MMAP-R0-100-1905-n9":[`I sposób („przystawanie trójkątów – I”)
+Niech P będzie środkiem podstawy AB tego trójkąta. Poprowadźmy przez punkty M i N
+proste równoległe do podstawy AB trójkąta, a ich punkty przecięcia z prostą CP oznaczmy
+odpowiednio K i L. Oznaczmy też x = AM = CN , y = MC , p = AS , q = MK , jak na
+rysunku.
+Ponieważ trójkąt ABC jest równoramienny, więc NB = MC = y . Trójkąty ASM i NLC są
+przystające, gdyż oba są prostokątne, AM = CN oraz BAC = ABC = LNC oraz`,`AMS =90° − BAC =90° − LNC = NCL . Podobnie uzasadniamy, że trójkąty MKC
+i BTN są przystające.
+Zatem
+PT = LN = AS = p oraz SP = MK = TB = q.
+Stąd wynika, że
+ST = SP + PT = q+ p =^1 ⋅(2p +2q) =^1 ⋅ AB .
+2 2`,`II sposób („przystawanie trójkątów – II”)
+Niech P będzie środkiem podstawy AB tego trójkąta. Poprowadźmy przez punkt N prostą
+równoległą do podstawy AB trójkąta, a punkt jej przecięcia z prostą CP oznaczmy przez L.
+Oznaczmy też x = AM = CN , p = AS , jak na rysunku.
+Trójkąty ASM i NLC są przystające, gdyż oba są prostokątne, AM = CN ,
+BAC = ABC = LNC oraz AMS =90° − BAC =90° − LNC = NCL .
+Stąd wynika, że PT = LN = AS = p.`,`Ponieważ trójkąt ABC jest równoramienny, więc AP = BP .
+Stąd wynika, że
+ST = SP + PT = ( AP − p)+ p = AP =^1 ⋅ AB .
+2
+Uwaga
+Analogiczne rozumowanie możemy przeprowadzić, wychodząc od pary trójkątów
+przystających MKC i BTN (oznaczenia jak w I sposobie oceniania).`,`III sposób („podobieństwo trójkątów”)
+Niech P będzie środkiem podstawy AB tego trójkąta. Oznaczmy też x = AM = CN ,
+b = AC = BC , a = AP , jak na rysunku.
+Ponieważ P jest spodkiem wysokości trójkąta równoramiennego, więc BP = AP = a.
+Trójkąty ASM i APC są podobne na mocy cechy kkk , ponieważ obydwa są trójkątami
+prostokątnymi (odcinki SM i PC są równoległe), a kąt PAC jest kątem wspólnym obu
+trójkątów. Stąd wynika, że`,`AS/AM = AP/AC , czyli p/x = a/b .
+Stąd p = ax/b . Zatem SP = AP − p = a− ax/b .
+Ponieważ NT  CP i kąt CBP jest kątem wspólnym, więc na mocy cechy kkk trójkąt BTN
+jest podobny do trójkąta BPC . Stąd wynika, że
+BT/BN = BP/BC , czyli BT/b−x = a/b .`],"MMAP-R0-100-1905-n10":[`I sposób
+Przyjmijmy oznaczenia jak na rysunku.
+Z twierdzenia cosinusów dla trójkąta ADC otrzymujemy
+14^2 =16^2 +6^2 −2 16 6 cos⋅ ⋅ ⋅ α .
+Stąd
+16^2 −14^2
+cosα = (+6)/(2 16 6⋅⋅) = 1/2 .`,`Zatem α =60°.
+Z twierdzenia cosinusów dla trójkąta ABC otrzymujemy
+a^2 =16^2 +(a+6)^2 −2 16⋅ ⋅(a+6)⋅cosα ,
+a^2 = 256+a^2 +12a+36−2 16⋅ ⋅(a+6)⋅^1 ,
+2
+4a =196,
+a = 49.`,`Obwód trójkąta ABC jest równy
+L =16+6+2 49⋅ =120.
+ABC
+II sposób
+Przyjmijmy oznaczenia jak na rysunku.
+Z twierdzenia cosinusów dla trójkąta ADC otrzymujemy
+16^2 =14^2 +6^2 −2 14 6 cos⋅ ⋅ ⋅ δ .`,`Stąd
+14^2 −16^2
+cosδ = (+6)/(2 14 6⋅⋅) = − 1/7 .
+Zatem
+ 1
+cosω = cos 180( ° −δ ) = −cosδ = − − =^1 .
+ `,` 7 7
+Z twierdzenia cosinusów dla trójkąta BCD otrzymujemy
+14^2 = a^2 +a^2 −2⋅a a⋅ ⋅cos 180( ° −2ω),
+196 = 2a^2 (1+cos 2ω),
+98 49
+a^2 = = = = = 49^2 , a = 49
+(98/2)/(1+2 cos) (49/2)/cos 2`,`1+cos 2ω ω −1 ω
+(^1 )
+7
+albo
+a^2 = a^2 +14^2 −2 14⋅ a⋅cosω ,`],"MMAP-R0-100-1905-n11":[`I sposób
+Okrąg o równaniu x^2 + y^2 −12x−8y+43=0 ma środek punkcie S = (6, 4) i promień r = 3,
+1 1
+a okrąg o równaniu x^2 + y^2 −2ax+4y+a^2 −77 =0 ma środek w punkcie S = (a,−2)
+2
+i promień r = 9 . Ponieważ te okręgi mają dokładnie jeden punkt wspólny, więc odległość
+2`,`pomiędzy środkami okręgów jest równa sumie promieni lub różnicy promieni:
+S S = r + r lub S S = r − r
+1 2 1 2 1 2 2 1
+Otrzymujemy zatem równania
+(a − 6)^2 + 6^2 =12 lub (a − 6)^2 + 6^2 = 6
+Zatem
+(a − 6)^2 = 108 lub (a − 6)^2 = 0`,`Równanie (a − 6)^2 = 108 ma dwa rozwiązania: a = 6 1+ 3 oraz a =6 1( − 3), natomiast
+( )
+równanie (a − 6)^2 = 0 ma jedno rozwiązanie a =6. Zatem podane okręgi są styczne
+zewnętrznie dla a =6 1( + 3) lub dla a =6 1( − 3), natomiast są okręgami stycznymi
+wewnętrznie dla a =6.
+II sposób (wspólna styczna)
+Okrąg o równaniu x^2 + y^2 −12x−8y+43=0 ma środek S = (6, 4) i promień r = 3 , a okrąg`,`1 1
+o równaniu x^2 + y^2 −2ax+4y+a^2 −77 =0 ma środek S = (a,−2) i promień r = 9 .
+2 2
+Okręgi te mają różne promienie, więc te okręgi mają dokładnie jeden punkt wspólny wtedy
+i tylko wtedy, gdy mają dokładnie jedną wspólną styczną. Tak jest wtedy i tylko wtedy, gdy
+odległość środka jednego z tych okręgów od tej stycznej jest równa promieniowi tego okręgu.
+Jeśli tę wspólną styczną oznaczymy przez k, to wtedy mamy`,`odl S( ,k) =3.
+1
+Odejmując stronami równania okręgów otrzymujemy
+(12−2a x) +12y+a^2 −120 =0.
+Jest to równanie wspólnej osi potęgowej tych okręgów. Jeśli teraz istnieją takie wartości
+parametru a, dla których spełniony jest warunek odl S( ,k) =3, to wtedy ta oś potęgowa jest
+1`,`jednocześnie wspólną styczną tych okręgów. Otrzymujemy zatem równanie
+−120
+=3,
+(((12−2a)⋅6+12 4⋅+a)/2)/((12−2a)) 2
++12`],"MMAP-R0-100-1905-n12":[`Zakładamy, że a ≠ 0, b ≠ 0, a +b+c ≠ 0.
+Ciąg (a b c, , )jest ciągiem arytmetycznym, a zatem:
+b = (a+c)/2 .
+2 1
+Ciąg (1)/() , , jest ciągiem geometrycznym, a zatem:
+(()/())/(2a+2b+c)
+ a 3b`,`1 1
+(2)/() = ⋅ ,
+
+3b a 2a+2b+c
+stąd po przekształceniach otrzymujemy:
+9/4 b^2 = a(2a+2b+c).
+Po podstawieniu b otrzymujemy:`,`(9a+c)/() = 2a^2 +2a⋅ (a+c)/() +ac,
+ 
+4 2   2 
+a^2 a^2
+9/4 ⋅ (+2ac+c)/4 = 2a^2 +2 (+ac)/2 +ac ,
+9(a^2 +2ac+c^2 ) =32a^2 +16a^2 +16ac+16ac
+Równanie można doprowadzić do postaci:`,`−39a^2 −14ac+9c^2 =0 lub 9c^2 −14ac−39a^2 =0.
+Wyróżnik trójmianu kwadratowego −39a^2 −14ac+9c^2 (atraktujemy jako zmienną) jest równy
+Δ =1600c^2 , Δ = 40c.
+Wyróżnik trójmianu kwadratowego 9c^2 −14ac −39a^2 (c traktujemy jako zmienną) jest równy
+Δ =1600a^2 , Δ = 40a.
+Stąd pierwiastki równańodpowiednio −39a^2 −14ac +9c^2 = 0 i 9c^2 −14ac−39a^2 = 0 sąrówne:
+9 1 13`,`a = − c lub a = c oraz c = − a lub c = 3a.
+1 2 1 2
+13 3 9
+9 13
+Rozwiązania a = − c i c = − a są sprzeczne z założeniem o dodatniości wyrazów ciągu
+1 1
+13 9`,`arytmetycznego.
+A zatem b = 2/3 c lub b = 2a.
+2
+2a 1
+Iloraz ciągu geometrycznego jest równyq = 3b/1 = , a zatem q = .`],"MMAP-R0-100-1905-n13":[`Rozwiązanie składa się z dwóch etapów.
+Pierwszy etap
+Wielomian W (x) jest podzielny przez dwumian x−2, więc 2 jest pierwiastkiem tego
+wielomianu. Zatem W(2) = 0. Stąd otrzymujemy
+16+4m^3 +8−22−4m−2=0,
+4m^3 −4m = 0.
+Przy dzieleniu wielomianu W (x) przez dwumian x+1 otrzymujemy resztę 6, więc`,`W( 1)− = 6. Stąd otrzymujemy
+−2+m^3 +2+11−4m−2=6,
+m^3 −4m+3 = 0.
+4m^3 −4m=0
+Rozwiązujemy układ równań
+()/(m) 3
+−4m+3=0.`,`
+I sposób
+Z równania 4m^3 −4m = 0 otrzymujemy rozwiązania: m =0, m = −1, m=1.
+Z tych trzech liczb tylko liczba 1 spełnia drugie równanie, zatem liczba 1 jest rozwiązaniem
+układu równań.
+II sposób
+Z równania m^3 −4m +3 = 0 otrzymujemy rozwiązania: m=1, m = (− −113)/2 , m = (− +113)/2 .`,`Z tych trzech liczb tylko liczba 1 spełnia pierwsze równanie, zatem liczba 1 jest rozwiązaniem
+układu równań.
+III sposób
+4m^3 −4m =0
+
+Przyrównując lewe strony obu równań otrzymujemy
+()/(m) 3`,`−4m+3=0
+
+4m^3 −4m = m^3 −4m+3
+
+()/(4m) 3
+−4m =0
+`,`3m^3 −3=0
+()/(4m) 3
+−4m =0
+
+m^3 =1 m =1`],"MMAP-R0-100-1905-n14":[`I sposób
+Przekształcamy równanie i otrzymujemy:
+1
+cos x ()/() 2 sin x⋅cos (π)/() = sin x ,
+ 3 2
+sin x⋅cos x− 1/2 sin x = 0,`,`sin x⋅ ()/() cos x − (1)/() = 0,
+ 2 
+sin x = 0 lub cos x − 1/2 = 0.
+Rozwiązania to:
+x = kπ lub x = π/3 + 2kπ, lub x = − π/3 + 2kπ ,
+gdzie k jest liczbą całkowitą.`,`II sposób
+Przekształcamy równanie i otrzymujemy:
+1
+cos x ()/() 2 sin x⋅cos (π)/() = sin x ,
+ 3 2
+sin x⋅cos x− 1/2 sin x = 0,`,`2 sin x⋅cos x −sin x = 0,
+sin 2x −sin x = 0,
+2 cos 3x/2 ⋅sin x/2 = 0,
+cos 3x/2 = 0 lub sin x/2 = 0 ,
+3x/2 = π/2 + kπ lub x/2 = kπ ,
+x = π/3 + 2/3 kπ lub x = 2kπ, gdzie k – liczba całkowita.`,`III sposób
+Przekształcamy równanie i otrzymujemy:
+1
+cos x ()/() 2 sin x⋅cos (π)/() = sin x ,
+ 3 2
+sin x⋅cos x− 1/2 sin x = 0,`,`2 sin x⋅cos x −sin x = 0,
+sin 2x −sin x = 0,
+sin 2x = sin x ,
+2x = x + 2kπ lub 2x =π − x + 2kπ,
+x = 2kπ lub x = π/3 + 2/3 kπ, gdzie k – liczba całkowita.`],"MMAP-R0-100-1905-n15":[`h
+a
+Przyjmijmy oznaczenia jak na rysunku: a – krawędź podstawy, h – wysokość graniastosłupa.
+Objętość graniastosłupa prawidłowego trójkątnego o krawędzi podstawy a i wysokości h
+wyraża się wzorem:
+a^2 3
+V = ⋅h .`,`4
+Stąd otrzymujemy:
+a^2 3
+2 = ⋅h .
+4
+Zatem h = 8/2 .
+a 3`,`Pole powierzchni całkowitej graniastosłupa prawidłowego trójkątnego o krawędzi podstawy a
+i wysokości h jest równe:
+a^2 3 8
+P = 2⋅ +3⋅a ⋅ .
+c
+4 a^2 3
+Stąd po podstawieniu h i przekształceniach otrzymujemy:`,`a^2 3 8 a^2 3 24 a^2 3 8 3
+P = 2⋅ +3⋅a⋅ = + = + .
+c
+4 a^2 3 2 a 3 2 a
+Z geometrycznych warunków zadania wynika, że a∈(0; + ∞).
+Zapiszmy pole powierzchni całkowitej graniastosłupa prawidłowego trójkątnego jako funkcję
+f zmiennej a:`,`a^2 3 8 3 a^3 3 +16 3
+P = f a( ) = + = , dla a∈(0; + ∞).
+c
+2 a 2a
+Wyznaczamy wartość najmniejszą funkcji f w przedziale (0; + ∞).
+W tym celu obliczmy pochodną funkcji f :
+3a^2 3 2⋅ a− a^3 3 +16 3 ⋅2`,`( ) 4a^3 3
+f ′( )a = = .
+(3−32/2)/4a
+4a^2
+Szukamy miejsc zerowych pochodnej funkcji f :`],"MMAP-R0-100-2203-n1":[`Przekształcamy log4 49, stosując wzór na logarytm potęgi oraz wzór na zamianę podstawy
+logarytmu, i otrzymujemy
+1`,`Komunikat o wymaganiach egzaminacyjnych obowiązujących w roku 2023 i 2024,
+https://www.gov.pl/web/edukacja-i-nauka/wymagania-egzaminacyjne-obowiazujace-na-egzaminie-maturalnym-w-
+roku-2023-i-2024`,`log3 7 log2 3 log2 3
+log4 49 = 2 ∙ log4 7 = 2 ∙ = 2 ∙ log37/log24 = 2 ∙ log3 7 ∙ = 2 ∙ log3 7 ∙
+log3 4 log2 4 2`,`log2 3
+Zatem
+log4 49 = 2 ∙ b ∙ (a)/2 = a ∙ b`,`Odp. log4 49 = a ⋅ b.
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)`],"MMAP-R0-100-2203-n2":[`Wyznaczamy pochodną funkcji f:
+2x ⋅ (x − 1) − (x^2 + 3) ⋅ 1 x^2 − 2x − 3
+′`,`f (x) = =
+(x − 1)^2 (x − 1)^2
+dla każdego x ∈ R\\{1}.`,`Obliczamy współczynnik kierunkowy szukanej stycznej:
+(−3)^2 − 2 ⋅ (−3) − 3 9 + 6 − 3 3
+′`,`f (−3) = = =
+(−3 − 1)^2 16 4
+Zatem równanie stycznej do wykresu funkcji f w punkcie P = (−3,−3) ma postać:`,`y = 3/4 x + b
+Obliczamy współczynnik b. Ponieważ punkt P leży na prostej stycznej, więc
+−3 = 3/4 ⋅ (−3) + b. Stąd b = − 3/4 .`,"Równanie stycznej do wykresu funkcji f w punkcie P = (−3,−3) ma postać y = 3/4 x − 3/4 ."],"MMAP-R0-100-2203-n3":[`Ponieważ suma wszystkich wyrazów ciągu (a ) istnieje i jest różna od zera, więc a ≠ 0
+n 1
+i iloraz q tego ciągu spełnia warunek |q| < 1.
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)
+Korzystamy ze wzorów na sumę n początkowych wyrazów ciągu geometrycznego oraz na
+sumę wszystkich wyrazów ciągu geometrycznego i obliczamy iloraz q ciągu (a ):
+n`,`1 − q^3 a1
+a + a + a = a ∙ = ⋅ (1 − q^3 ) = S ⋅ (1 − q^3 )
+1 2 3 1
+1 − q 1 − q
+7 = 8(1 − q^3 )
+q = 1/2
+n`,`1−(^1 n
+Zatem i Sn = a1 ⋅ = 2a1 ⋅ [1 − (^1 ) ]. Stąd, wobec a1 ≠ 0,
+(S=a1⋅ 1/1− 1=2a1)/2 ((2 ())/1)/1−)/2 2
+n n n
+S−S 2a1−2a1⋅[1−(^1 ) ] 2a1⋅(^1 ) (^1 )
+n 2 2
+otrzymujemy = n^2 = = n .`,`S
+n 2a ⋅[1−(^1 ) ] 1−(^1
+1 (((n)/(2a⋅[1−()) 1)/1 ])/2 ())/2
+2
+Rozwiązujemy nierówność | (S−Sn)/(Sn) | < 0,001 w zbiorze liczb całkowitych dodatnich:
+| (S−Sn)/(Sn) | < 0,001
+n`,`(^1 )
+2
+| | < 0,001
+n
+1 − (^1 )
+2
+n ( (1 (n)/()))/2`,`1 1
+Ponieważ q = ∈ (0,1), więc 1 − ( > 0. Zatem nierówność | | < 0,001
+())/2
+2
+1−( (1 (n)/()))/2`],"MMAP-R0-100-2203-n4":[`Zauważmy, że jednym z rozwiązań równania
+(x − 6) ⋅ [(m − 2)x^2 − 4(m + 3)x + m + 1] = 0 (1)
+jest liczba 6. Zatem równanie (1) ma trzy różne rozwiązania rzeczywiste tego samego znaku
+wtedy i tylko wtedy, gdy równanie
+(m − 2)x^2 − 4(m + 3)x + m + 1 = 0 (2)
+ma dokładnie dwa różne rozwiązania dodatnie x1 , x2 takie, że x1 ≠ 6 i x2 ≠ 6.
+Dla m = 2 równanie (2) przyjmuje postać −20x + 3 = 0 i ma tylko jedno rozwiązanie.`,`Pozostaje wyznaczyć te wartości parametru m, dla których warunki zadania są spełnione,
+a równanie (2) jest kwadratowe, tj. wyznaczyć te wartości parametru, dla których spełnione
+są jednocześnie następujące warunki:
+(W1) m − 2 ≠ 0
+(W2) Δ > 0
+(W3) x1 ⋅ x2 > 0
+(W4) x1 + x2 > 0`,`(W5) (m − 2) ⋅ 6^2 − 4 ⋅ (m + 3) ⋅ 6 + m + 1 ≠ 0
+Rozwiązaniem warunku (W1) jest m ≠ 2.
+Rozwiązujemy nierówność Δ > 0:
+[−4(m + 3)]^2 − 4 ⋅ (m − 2) ⋅ (m + 1) > 0
+16m^2 + 96m + 144 − 4m^2 + 4m + 8 = 0
+12m^2 + 100m + 152 > 0
+m ∈ (−∞,− 19/3 ) ∪ (−2,+∞)`,`Korzystając ze wzorów Viète’a, rozwiązujemy warunek (W3):
+x1 ⋅ x2 > 0
+(m+1)/(m−2) > 0
+(m + 1)(m − 2) > 0 ∧ m ≠ 2
+m ∈ (−∞,−1) ∪ (2,+∞)
+Korzystając ze wzorów Viète’a, rozwiązujemy warunek (W4):
+x1 + x2 > 0`,`− (−4(m+3))/(m−2) > 0
+(m + 3)(m − 2) > 0 ∧ m ≠ 2
+m ∈ (−∞,−3) ∪ (2,+∞)
+Rozwiązujemy warunek (W5):
+(m − 2) ⋅ 6^2 − 4 ⋅ (m + 3) ⋅ 6 + m + 1 ≠ 0
+13m − 143 ≠ 0
+m ≠ 11`,`Wyznaczamy część wspólną rozwiązań warunków (W1)–(W5) i otrzymujemy
+m ∈ (−∞,− 19/3 ) ∪ (2,11) ∪ (11,+∞).
+Równanie (1) ma trzy różne rozwiązania tego samego znaku dla
+m ∈ (−∞,− 19/3 ) ∪ (2,11) ∪ (11,+∞).
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)`],"MMAP-R0-100-2203-n5":[`Sumę sześcianów trzech kolejnych liczb całkowitych niepodzielnych przez 4 można zapisać
+w postaci (a − 1)^3 + a^3 + (a + 1)^3 , gdzie a jest liczbą parzystą niepodzielną przez 4.
+Ponieważ
+(a − 1)^3 + a^3 + (a + 1)^3 = a^3 − 3a^2 + 3a − 1 + a^3 + a^3 + 3a^2 + 3a + 1 = 3a(a^2 + 2),
+więc liczba (a − 1)^3 + a^3 + (a + 1)^3 jest podzielna przez 4 jako iloczyn liczby parzystej
+3a i liczby parzystej a^2 + 2.`,`Jeżeli a = 3k, przy pewnym k ∈ Z, to 3a(a^2 + 2) = 9k(9k^2 + 2) jest liczbą podzielną
+przez 9.
+Jeżeli a = 3k + 1, przy pewnym k ∈ Z, to 3a(a^2 + 2) = 3(3k + 1)[(3k + 1)^2 + 2] =
+= 3(3k + 1)(9k^2 + 6k + 3) = 9(3k + 1)(3k^2 + 2k + 1) jest liczbą podzielną przez 9.
+Jeżeli a = 3k + 2, przy pewnym k ∈ Z, to liczba 3a(a^2 + 2) =
+= 3(3k + 2)[(3k + 2)^2 + 2] = 3(3k + 2)(9k^2 + 12k + 6) = 9(3k + 2)(3k^2 + 4k + 2)`,`jest liczbą podzielną przez 9.
+Zatem suma sześcianów trzech kolejnych liczb całkowitych niepodzielnych przez 4 jest
+podzielna przez 9.
+Ponieważ suma trzech kolejnych liczb całkowitych niepodzielnych przez 4 jest liczbą
+podzielną przez 4 i przez 9 oraz liczby 4 i 9 są względnie pierwsze, więc ta suma jest
+liczbą podzielną przez 36.`,`Sumę sześcianów trzech kolejnych liczb całkowitych niepodzielnych przez 4 można zapisać
+w postaci (4k + 1)^3 + (4k + 2)^3 + (4k + 3)^3 , gdzie k ∈ Z.
+Ponieważ (4k + 1)^3 + (4k + 2)^3 + (4k + 3)^3 =
+= 64k^3 + 48k^2 + 12k + 1 + 64k^3 + 96k^2 + 48k + 8 + 64k^3 + 144k^2 + 108k + 27 =
+= 192k^3 + 288k^2 + 168k + 36 = 12(16k^3 + 24k^2 + 14k + 3) =
+= 36(5k^3 + 8k^2 + 4k + 1) + 12k(k^2 + 2), więc wystarczy pokazać, że liczba k(k^2 + 2)`,`jest podzielna przez 3 dla każdego k ∈ Z.
+Jeżeli k = 3m, gdzie m ∈ Z, to liczba k(k^2 + 2) = 3m(9m^2 + 2) jest podzielna przez 3
+jako iloczyn liczby 3 i liczby całkowitej m(9m^2 + 2).
+Jeżeli k = 3m + 1, gdzie m ∈ Z, to liczba k(k^2 + 2) = (3m + 1)[(3m + 1)^2 + 2] =
+= (3m + 1)(9m^2 + 6m + 3) = 3(3m + 1)(3m^2 + 2m + 1) jest podzielna przez 3 jako
+iloczyn liczby 3 i liczby całkowitej (3m + 1)(3m^2 + 2m + 1).`,`Jeżeli k = 3m + 2, gdzie m ∈ Z, to liczba k(k^2 + 2) = (3m + 2)[(3m + 2)^2 + 2] =
+(3m + 2)(9m^2 + 12m + 6) = 3(3m + 2)(3m^2 + 4m + 2) jest podzielna przez 3 jako
+iloczyn liczby 3 i liczby całkowitej (3m + 2)(3m^2 + 4m + 2).
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)`],"MMAP-R0-100-2203-n6-1":[`Ponieważ R ∈ g, więc R = (x,−0,5(x − 0,5)^2 + 4). Zatem
+2
+√
+|PR| = (x − (−1)) + (−0,5(x − 0,5)^2 + 4 − 1)^2`,`Stosując wzór na kwadrat sumy dwóch wyrażeń, otrzymujemy
+|PR| = √x^2 + 2x + 1 + (−0,5(x − 0,5)^2 )^2 + 2 ⋅ (−0,5)(x − 0,5)^2 ⋅ 3 + 9
+1 1 1 1
+√`,`|PR| = x^2 + 2x + 1 + (x^2 − x + )(x^2 − x + ) − 3(x^2 − x + ) + 9
+4 4 4 4
+1 3 1 1 3
+√`,`|PR| = x^2 + 2x + 1 + (x^4 − 2x^3 + x^2 − x + ) − 3x^2 + 3x − + 9
+4 2 2 16 4
+1 1 13 39 593
+√`,`|PR| = x^4 − x^3 − x^2 + x +
+4 2 8 8 64
+To należało pokazać.`],"MMAP-R0-100-2203-n6-2":[`Pokażemy najpierw, że optymalna lokalizacja końca toru regatowego musi znajdować się na
+linii brzegowej określonej przez funkcję g.
+Niech A = (x ,y ) i B = (x ,y ) będą punktami przecięcia wykresów funkcji f i g
+A A B B
+(zobacz rysunek).
+y
+y = g(x)`,`B
+A
+y = f(x)
+1
+P
+0 1 x
+Współrzędne każdego punktu C = (x ,y ) leżącego na fragmencie paraboli (będącej`,`C C
+wykresem funkcji f) pomiędzy punktami A i B spełniają nierówności
+|x − x | ≤ |x − x | ∧ |y − y | ≤ |y − y |
+C P B P C P B P
+więc
+|x − x |^2 + |y − y |^2 ≤ |x − x |^2 + |y − y |^2
+C P C P B P B P`,`|PC|^2 ≤ |PB|^2
+|PC| ≤ |PB|
+Ponieważ B ∈ g, więc optymalna lokalizacja końca toru musi znajdować się na linii
+brzegowej określonej przez funkcję g.
+Obliczamy pierwsze współrzędne punktów przecięcia wykresów funkcji f i g:
+x^2 = −0,5(x − 0,5)^2 + 4
+3 1 31`,`x^2 − x − = 0
+2 2 8
+12x^2 − 4x − 31 = 0
+x = 1−√94/6 ≈ −1,45 ∨ x = (1+√94)/6 ≈ 1,78
+Zatem xA = 1−√94/6 oraz xB = (1+√94)/6 .
+W celu wyznaczenia punktu, w którym należy umiejscowić koniec toru, rozpatrujemy
+funkcję d określoną wzorem`,`1 1 13 39 593
+√
+d(x) = x^4 − x^3 − x^2 + x +
+4 2 8 8 64
+dla każdego x ∈ [ 1−√94/6 , (1+√94)/6 ] i szukamy argumentu, dla którego funkcja ta osiąga`],"MMAP-R0-100-2203-n7":[`Przekształcamy równanie sin(3x) = 2sinx równoważnie do postaci, w której występuje
+tylko jedna funkcja trygonometryczna zmiennej x. Skorzystamy ze wzoru na sinus sumy
+kątów, wzorów na cosinus i sinus podwojonego kąta oraz z jedynki trygonometrycznej:`,`sin(3x) = 2sinx
+sin(2x + x) = 2sinx
+sin(2x) ⋅ cosx + cos(2x) ⋅ sinx = 2sinx`,`2sinxcos^2 x + (cos^2 x − sin^2 x)sinx = 2sinx
+2sinx(1 − sin^2 x) + (1 − 2sin^2 x)sinx = 2sinx
+−4sin^3 x + sinx = 0`,`Stąd otrzymujemy dalej
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)
+(−4sin^2 x + 1)sinx = 0`,`−4sin^2 x + 1 = 0 ∨ sinx = 0
+sinx = 1/2 ∨ sinx = − 1/2 ∨ sinx = 0
+Równanie sinx = 1/2 ma w zbiorze [0,π] dwa rozwiązania: x = 1/6 π oraz x = 5/6 π.`,`Równanie sinx = − 1/2 nie ma w zbiorze [0,π] rozwiązań.
+Równanie sinx = 0 ma w zbiorze [0,π] dwa rozwiązania: x = 0 oraz x = π.
+Równanie sin(3x) = 2sinx ma w zbiorze [0,π] cztery rozwiązania: 0, 1/6 π, 5/6 π, π.`],"MMAP-R0-100-2203-n8":[`b
+D C
+Przyjmijmy następujące oznaczenia:
+a – długość podstawy AB trapezu,
+b – długość podstawy CD trapezu, d
+wysokość trapezu ABCD, c c
+(h)/(c) (–)/(–) h`,`długość ramienia trapezu ABCD,
+α – miara kąta ABC trapezu.
+E – punkt wspólny prostej
+α
+przechodzącej przez C i zawierającej
+A E B
+wysokość trapezu oraz odcinka AB`,`(zobacz rysunek).
+Trapez ABCD jest równoramienny, więc |EB| = (a−b)/2 oraz |AE| = (a+b)/2 .
+Ponieważ a + b + 2c = l (z warunków zadania) oraz a + b = 2c (z własności czworokąta
+opisanego na okręgu otrzymujemy), więc 4c = l, czyli c = 1/4 l. Stąd też |AE| = (a+b)/2 = c.
+Stosujemy twierdzenie Pitagorasa do trójkąta AEC i wyznaczamy wysokość h trapezu:
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)
+|AE|^2 + |EC|^2 = |AC|^2`,`c^2 + h^2 = d^2 .
+2
+l
+h^2 = d^2 − c^2 = d^2 − ( )
+4
+− l^2
+h = (√16d)/4`,`Okrąg opisany na trapezie ABCD jest jednocześnie okręgiem opisanym na trójkącie ABC.
+Stosujemy twierdzenie sinusów do wyznaczenia promienia R okręgu opisanego na
+trójkącie ABC:
+2R = (|AC|)/(sinα)
+Sinus kąta α obliczamy z trójkąta prostokątnego BEC:
+√
+16d^2 −l^2`,`h √16d^2 − l^2
+sinα = = 4/(l) =
+c l
+4
+Zatem promień R jest równy`],"MMAP-R0-100-2203-n9":[`Oznaczmy przez l prostą, która przechodzi przez wierzchołki A i B trójkąta ABC. Prosta
+ta jest styczna do okręgu O. Równanie prostej l można zapisać w postaci kierunkowej
+y = ax + b (prosta o równaniu x = 9 nie jest styczna do okręgu, gdyż równanie
+(9 − 8)^2 + (y − 4)^2 = 16 ma dwa rozwiązania). Ponieważ A ∈ l, więc 12 = 9a + b, czyli
+b = 12 − 9a.
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)`,`Prosta l ma równanie ax − y + 12 − 9a = 0 i jest styczna do okręgu o środku S = (8,4)
+i promieniu 4. Zatem odległość punktu S od prostej l jest równa 4:
+(|a⋅8−4+12−9a|)/2 = 4
+√a + (−1)^2
+Stąd, poprzez przekształcenia równoważne, otrzymujemy kolejno
+|8 − a| = 16√a^2 + 1`,`64 − 16a + a^2 = 16a^2 + 16
+15a^2 + 16a − 48 = 0
+a = 4/3 ∨ a = − 12/5
+Rozważamy przypadek a = 4/3 .
+Gdy a = 4/3 , to b = 0 i równanie prostej l ma postać y = 4/3 x.
+Wierzchołek B trójkąta ABC jest punktem przecięcia prostych k i l.`,`Rozwiązaniem układu równań jest (x,y) = (0,0). Zatem B = (0,0). Ponieważ
+(((y= 4/3 x)/({))/1)/(y=)
+x
+2
+okrąg O jest styczny do osi Ox i B = (0,0), więc prosta o równaniu y = 0 zawiera bok
+BC trójkąta ABC styczny do danego okręgu w punkcie (8,0).`,`Rozważamy przypadek
+(a=− 12/5 .)/168
+Gdy a = − 12/5 , to b = i otrzymujemy prostą l o równaniu y = − 12/5 x + 168/5 .
+5
+Zauważmy jednak, że prosta o równaniu y = 5/12 x jest prostopadła do prostej
+y = − 12/5 x + 168/5 i tworzy z osią Ox kąt ostry o mierze takiej, że tgα = 5/12 . Prosta k`,`tworzy z osią Ox kąt ostry o mierze β takiej, że (((α)/1)/(tanβ=))/2 . Zatem, korzystając
+z własności funkcji tangens, otrzymujemy α < β. Wynika stąd, że |∡ABS| > 90°, gdzie B
+jest punktem przecięcia prostych k i l. To jest jednak niemożliwe, gdyż (z założenia)
+|∡ABS| = 1/2 |∡ABC|, a 1/2 |∡ABC| < 1/2 ⋅ 180°.`],"MMAP-R0-100-2203-n10":[`Ponieważ k jest współczynnikiem liczbowym, który nie zależy od P ani od α, więc
+obliczymy objętość ostrosłupa prawidłowego o polu powierzchni bocznej P = √2 , w którym
+α = 30°.
+Przyjmijmy oznaczenia jak na rysunku:
+a – długość krawędzi podstawy ostrosłupa,
+h – wysokość ściany bocznej ostrosłupa poprowadzonej z wierzchołka S,
+H – wysokość ostrosłupa,`,`O – punkt przecięcia przekątnych podstawy ABCD,
+SE, SF – wysokości sąsiednich ścian bocznych,
+SG – wysokość trójkąta SEG poprowadzona z wierzchołka S.
+S
+60°
+h h
+H`,`D a
+C
+a
+F
+O
+G
+A E B`,`Wyznaczamy wysokość h ściany bocznej ostrosłupa ABCDS poprowadzonej
+z wierzchołka S w zależności od długości a krawędzi podstawy ostrosłupa:
+√2 = 4 ⋅ 1/2 ah
+h = √2/(2a)
+Ponieważ α = 30°, więc trójkąt równoramienny ESF jest równoboczny. Zatem
+h = |EF| = √2 ⋅ |EB| = (a√2)/2 . Stąd
+√2/(2a) = (a√2)/2`,`a = 1
+Arkusz pokazowy z egzaminu maturalnego z matematyki (poziom rozszerzony)
+więc
+2
+1
+h (2 √2/(=())/(2a) ) =
+2`,`Stosujemy twierdzenie Pitagorasa do trójkąta FOS i obliczamy wysokość H ostrosłupa
+ABCDS:
+|OS|^2 = |FS|^2 − |OF|^2
+2
+a`],"MMAP-R0-100-2203-n11":[`Próbą Bernoullego jest losowe wybranie przez studenta odpowiedzi w zadaniu. Sukcesem
+w tej próbie jest wybranie odpowiedzi, która jest poprawna.
+Prawdopodobieństwo sukcesu jest równe p = 0,25, natomiast prawdopodobieństwo porażki
+jest równe q = 0,75.`,`k
+Niech S oznacza zdarzenie polegające na wybraniu przez studenta poprawnych
+15
+odpowiedzi w dokładnie k zadaniach spośród 15.`,`Korzystamy ze schematu Bernoullego. Prawdopodobieństwo zaliczenia przez studenta
+egzaminu jest równe P(S^11 ∪ S^12 ∪ S^13 ∪ S^14 ∪ S^15 ). Zdarzenia S^11 , S^12 ,.S^13 , S^14 , S^15 są
+15 15 15 15 15 15 15 15 15 15
+parami rozłączne, więc`,`P(S^11 ∪ S^12 ∪ S^13 ∪ S^14 ∪ S^15 ) = P(S^11 ) + P(S^12 ) + P(S^13 ) + P(S^14 ) + P(S^15 ) =
+15 15 15 15 15 15 15 15 15 15
+15 15
+= ( ) ⋅ (0,25)^11 ⋅ (0,75) (4 15/(+())/12 ) ⋅ (0,25)^12 ⋅ (0,75)^3 + ( ) ⋅ (0,25)^13 ⋅ (0,75)^2 +`,`11 13
+15
++( ) ⋅ (0,25)^14 ⋅ (0,75) (1 15/(+())/15 ) ⋅ (0,25)^15 =
+14`,`= ( 1/4 ) ⋅ (1365 ⋅ 81 + 455 ⋅ 27 + 105 ⋅ 9 + 15 ⋅ 3 + 1) = ( 1/4 ) ⋅ 123841 ≈ 0,00012
+Prawdopodobieństwo zaliczenia przez studenta egzaminu jest równe
+(123841/3 .)/1024`],"MMAP-R0-100-2005-n6":[`I sposób
+Rozważmy funkcję f określoną wzorem f x x5 i naszkicujmy jej wykres.
+Wnioskujemy stąd, że podane równanie ma dwa pierwiastki dodatnie, jeśli spełniona jest
+nierówność
+0a1^2 45, czyli nierówność 4a1^2 9.
+Stąd otrzymujemy, że 2 a1 3, zatem
+a1  3,22,3.`,`Ostatecznie a  2,13, 4.
+II sposób („podstawianie”)
+Równanie x5 a1^2 4ma dwa dodatnie rozwiązania rzeczywiste, gdy prawdziwa jest
+nierówność
+0 x5 5.
+Ponieważ x5 a1^2 4, więc prawdziwa jest nierówność
+0a1^2 45`,`Nierówność ta jest równoważna koniunkcji nierówności
+a3a10 i a2a40,
+skąd otrzymujemy
+a   , 13, i a  2, 4.
+Zatem dla a  2,13, 4 równanie x5 a1^2 4 ma dwa rozwiązania dodatnie.
+III sposób
+Równanie x5 a1^2 4 ma dwa rozwiązania, gdy spełniona jest nierówność`,`a1^2 40.
+Nierówność ta jest równoważna nierówności a3a10, skąd otrzymujemy
+a  1 lub a  3. (1)
+Równanie x5 a1^2 4 jest równoważne alternatywie równań:
+x5a1^2 4 lub x5 a1^2 4
+x a1^2 1 lub x  a1^2 9
+Rozwiązanie pierwszego z równań jest liczbą dodatnią, dla każdej liczby rzeczywistej a.`,`Zatem, aby równanie miało dwa dodatnie rozwiązania musi być spełniony warunek:
+a1^2 90.
+Stąd otrzymujemy 3a13a10, czyli a24a0, a zatem
+2a4. (2)
+Uwzględniając (1) i (2) otrzymujemy a  2,13, 4.
+IV sposób
+Ponieważ lewa strona równania x5 a1^2 4 jest nieujemna, więc równanie ma co`,`najmniej jedno rozwiązanie rzeczywiste wtedy i tylko wtedy, gdy
+a1^2 40,
+a 1 2a 1 20,
+a3a10,
+a 1 lub a3.`],"MMAP-R0-100-2005-n7":[`I sposób
+Najpierw uzupełnimy rysunek.
+C
+x
+K L
+P
+M`,`A D B
+A K
+Z twierdzenia odwrotnego do twierdzenia Talesa wnosimy, że odcinek KL jest równoległy
+do odcinka AB .
+Oznaczmy środek odcinka KL przez P i niech CP  x.
+Trójkąty CKP i CAD są podobne (cecha KKK) w skali 1:3. Wtedy PD  2x i MD  2x.
+Trójkąty CPK i CMD są podobne (cecha KKK). Stąd PK/CK  MD/CD , czyli PK/2  2x/3x .`,`Stąd PK ^4 , więc AM ^8 oraz MC  6^8 ^10 .
+3 3 3 3
+AM 8/3 4
+Zatem   .
+MC 10/3 5
+To kończy dowód.
+II sposób`,`Najpierw uzupełnimy rysunek.
+C
+P
+K L
+M
+A D B
+A K`,`Z twierdzenia odwrotnego do twierdzenia Talesa wnosimy, że odcinek KL jest równoległy
+do odcinka AB .
+Niech punkt P będzie środkiem odcinka KL.
+Zauważamy, że KM  KP , z twierdzenia o równości odcinków stycznych, łączących punkt
+leżący poza okręgiem z punktami styczności.
+Niech KM  KP t . Wtedy AD 3t i AM 4t . Trójkąt ADM jest podobny do trójkąta
+ACD, na mocy cechy (kąt, kąt, kąt); są to trójkąty prostokątne, a kąt MAD jest wspólny dla`,`obu trójkątów.
+Możemy zatem zapisać równość: AM/AD  AD/AC , czyli (4t)/3t  3t/6 , skąd otrzymujemy równanie
+9t^2 6t 24  0.
+Równanie to ma dwa rozwiązania: t  2,t  4/3 . Odrzucamy ujemne rozwiązanie tego
+równania.`],"MMAP-R0-100-2005-n8":[`I sposób
+Zapisujemy równanie równoważne równaniu z założenia: a^2 2a1 4b^2 4b1.
+Korzystamy ze wzoru skróconego mnożenia i zapisujemy to równanie w postaci
+(a1)^2 (2b1)^2 . Oba wyrażenia w nawiasach są dodatnie, zatem równość kwadratów jest`,`równoważna równości tych wyrażeń, stąd a12b1 i dalej, a2b.
+To kończy dowód.
+II sposób
+Przekształcamy założenie równoważnie:`,`a^2 4b^2  4b2a .
+(a2b)(a2b)  2(a2b)
+(a2b)(a2b2)  0.
+Liczby a i b są dodatnie, zatem a2b20. Stąd a2b0, czyli a2b.`,`To kończy dowód.
+III sposób
+Wyrażenie a^2 2a4b^2 4b traktujemy jako trójmian kwadratowy jednej zmiennej np. a.
+Wyróżnik trójmianu kwadratowego a^2 2a4b^2 4b jest równy: 4b2^2 .`,`Ten wyróżnik jest nieujemny dla każdej rzeczywistej wartości b.
+Obliczamy pierwiastki tego trójmianu
+a   2 2b lub a 2b.
+Ponieważ b0, więc liczba  2 2b0, co jest sprzeczne z założeniem, że a 0.`,`Zatem a 2b.
+To kończy dowód.`],"MMAP-R0-100-2005-n9":[`Przekształcamy dane równanie w sposób równoważny:
+3cos 2x10cos^2 x  24sin x3,
+3 1 2sin^2 x10 1 sin^2 x  24sin x3,
+36sin^2 x1010sin^2 x  24sin x3,`,`1616sin^2 x  24sin x ,
+16sin^2 x24sin x16  0
+2sin^2 x3sin x2  0
+Niech t sinx. Rozwiązujemy równanie kwadratowe:`,`2t^2 3t 2  0,
+ 3^2 4 2 2  916  25,
+ 5,
+35 8`,`t    2 ,
+1
+4 4
+35 2 1`,`t    .
+2
+4 4 2
+Równaniesinx 2 jest sprzeczne, a równanie sin x  1/2 ma w przedziale 0, 2π dwa`,`π 5π
+rozwiązania: x  oraz x  .
+1 2
+6 6`],"MMAP-R0-100-2005-n10":[`I sposób
+Sumując wyrazy ciągu geometrycznego otrzymujemy równość
+21
+a a qa q^2  . (1)
+1 1 1
+4
+Niech b  będzie rosnącym ciągiem arytmetycznym.`,`n
+Zatem b a q^2 , b  a q , b a , więc różnica tego ciągu r a qa q^2 oraz b b 3r ,
+1 1 2 1 4 1 1 1 4 1
+czyli a  a q^2 3a qa q^2 .
+1 1 1 1
+Stąd wynika, że a 3a q2a q^2 i a 2q^2 3q1  0.
+1 1 1 1`,`1
+Ponieważ z równości (1) wynika, żea 0 , więc 2q^2 3q10 . Zatem q 1 lub q  .
+1
+2
+Dla q 1 ciąg a  jest stały. Stąd ciągb  też jest stały. Zatem tylko dla q ^1 ciąg b 
+n n n
+2`,`1
+może być ciągiem rosnącym. Otrzymujemy wtedy r  a . Z równości (1) otrzymujemy
+1
+4
+1 1 21
+a  a  a  , a stąd wynika, że a 3.
+1 1 1 1`,`2 4 4
+II sposób
+W ciągu arytmetycznym b  a , b a r ,b a 3r , gdzie r 0.
+1 3 2 3 4 3
+Ponieważ ciąga 3 ,r a r a,  jest ciągiem geometrycznym, więc zachodzi równość
+3 3 3
+a r^2 a 3ra ,`,`3 3 3
+skąd wynika, że a^2 2a rr^2 a^2 3a r ,
+3 3 3 3
+a zatem r^2 a r.
+3`],"MMAP-R0-100-2005-n11":[`I sposób
+1. Równanie ma dwa różne rozwiązania, gdy wyróżnik trójmianu jest dodatni: 0.
+Obliczamy wyróżnik trójmianu:
+2 2
+   3m2 4 2 m^2 7m15  m^2 16m64m8 .
+m8^2  0, gdy m8.
+Stąd wynika, że trójmian ma następujące pierwiastki: x m5 oraz x  2m3.`,`1 2
+Mamy zatem rozwiązać równanie
+2m5^2 5m52m32 2 m3^2  2.
+To równanie doprowadzamy do postaci równoważnej:
+20m^2 31m9  0.
+9 1
+Ma ono dwa rozwiązania: m   oraz m `,`1 2
+5 4
+Każde z otrzymanych rozwiązań jest różne od 8.
+9 1
+Warunki zadania spełniają dwie wartości parametru m: m   oraz m  .
+1 2
+5 4`,`II sposób
+Przekształcamy równość2x^2 5x x 2x^2  2w sposób równoważny:
+1 1 2 2
+2x^2  x^2 5x x  2,
+1 2 1 2
+2 x  x ^2 2x x 5x x  2,
+ 1 2 1 2  1 2`,`2x  x ^2  x x  2.
+1 2 1 2
+Ze wzorów Viète'a wynika, że
+x x 3m2 oraz x x  2m^2 7m15 ,
+1 2 1 2
+o ile pierwiastki x i x trójmianu istnieją.
+1 2`,`Mamy zatem rozwiązać równanie
+2 3 m2^2 2m^2 7m15 2.
+To równanie doprowadzamy do postaci równoważnej
+20m^2 31m9  0.
+Ma ono dwa rozwiązania:`],"MMAP-R0-100-2005-n12":[`I sposób
+Wyznaczamy współrzędne środka okręgu oraz obliczamy promień tego okręgu,
+doprowadzając równanie okręgu do postaci x4^2 y3^2 17.
+Stąd odczytujemy, że środkiem okręgu jest punkt P 4,3 , a promień okręgu jest równy r  17 .
+x^2 8x6y8 0
+Obliczamy współrzędne punktów K i L rozwiązując układ równań: (y)/(y10x)
+`,`2 2
+
+x 8x6 10  x8 0
+ (10x)/(y10x)
+
+x^2
+ (11x240)/(y10x)`,`
+x 3 x 8
+ lub  .
+y 7 y  2
+ 
+Zatem K 3,7 i L 8,2. Środek cięciwy KL , który jest środkiem jednokładności to punkt
+11 9`,`S  , .
+ 
+ 2 2
+Obrazem danego okręgu w jednokładności o środku S i skali k  3 jest okrąg o promieniu
+ 
+R 3 17 oraz środku P a b,  takim, żeSP   3 SP. Otrzymujemy równość:
+11 11`,`(()/() a)/() (,b (9)/()   3 ()/() 4)/(2) (,3 (9)/())/(2)
+2  2
+Zatem
+11
+, b (9)/()  (9)/() , (9)/() ,
+(()/() a)/()
+2 2 2 2`,`a stąd a 10 i b9.
+Szukany okrąg ma równanie x10^2 y9^2 153.
+Uwaga.
+2y^2
+Zdający może z równania prostej wyznaczyć x 10 y i wtedy otrzyma  (18y280)/(x10y) .`],"MMAP-R0-100-2005-n13":[`I sposób
+Rozważamy trzy przypadki.
+ I. Pierwszą cyfrą rozpatrywanej liczby jest 1. Wtedy na następnych sześciu miejscach
+znajdują się dokładnie dwie cyfry 1, dokładnie dwie cyfry 2 i dokładnie dwie cyfry
+ze zbioru {0,3,4,5,6,7,8,9}. Takich liczb istnieje
+((6 4)/())/() 8^2 15 6 64  5760.
+  `,`2 2
+   
+ II. Pierwszą cyfrą rozpatrywanej jest 2. Wtedy na następnych sześciu miejscach
+znajdują się dokładnie trzy cyfry 1, dokładnie jedna cyfra 2 i dokładnie dwie cyfry ze
+zbioru {0,3,4,5,6,7,8,9}. Takich liczb istnieje
+((6 3)/())/() 8^2  20 3 64  3840.
+  `,`3 1
+   
+ III. Pierwsza cyfra rozpatrywanej liczby jest różna od 1 i od 2. Pierwsza cyfra jest też
+różna od 0. Zatem na pierwszym miejscu stoi jedna z siedmiu cyfr ze zbioru
+{3,4,5,6,7,8,9}. Wtedy na następnych sześciu miejscach znajdują się dokładnie trzy
+cyfry 1, dokładnie dwie cyfry 2 i dokładnie jedna cyfra ze zbioru {0,3,4,5,6,7,8,9}. Takich
+liczb istnieje`,`6 3
+7  87 20 3 8   3360.
+   
+3 2
+   
+Łącznie istnieje zatem 5760+3840+3360=12960 rozważanych liczb.
+Istnieje 12960 siedmiocyfrowych liczb naturalnych, w których zapisie dziesiętnym występują`,`dokładnie trzy cyfry 1 i dokładnie dwie cyfry 2.
+II sposób
+Zliczamy wszystkie „liczby” siedmiocyfrowe, w których zapisie dziesiętnym występują
+dokładnie: trzy cyfry 1, dokładnie dwie cyfry 2 i dokładnie dwie cyfry ze zbioru {0,3,4,5,6,7,8,9}.
+Wtedy na siedmiu miejscach znajdują się dokładnie trzy cyfry 1, dokładnie dwie cyfry 2 i
+dokładnie dwie cyfry ze zbioru {0,3,4,5,6,7,8,9}.
+Takich „liczb” jest`,`((7 4)/())/() 8^2 35 6 64  13440.
+  
+3 2
+   
+Następnie zliczamy wszystkie „liczby” siedmiocyfrowe, których pierwszą cyfrą jest 0 oraz`],"MMAP-R0-100-2005-n14":[`S
+H
+D
+C`,`r r
+O
+Ponieważ w tym ostrosłupie wszystkie ściany boczne nachylone są do podstawy pod tym
+samym kątem, więc spodek O wysokości H ostrosłupa jest środkiem okręgu wpisanego`,`w wielokąt będący podstawą ostrosłupa. Niech r oznacza promień okręgu wpisanego
+w podstawę, h – wysokość trapezu ABCD, H natomiast niech oznacza wysokość
+ostrosłupa.
+D C`,`h
+A B
+E
+Ponieważ w trapez można wpisać okrąg, więc spełniony jest warunek: AB  CD 26.`,`Korzystając z własności trójkąta prostokątnego EBC o kątach30, 60, 90, otrzymujemy:
+h CE 8, a stąd wynika, że r  4.
+Ponieważ tg  9/2 , więc 9/2  H/r i stąd obliczamy H 18.
+Objętość tego ostrosłupa jest zatem równa`,`1 1 AB  CD 1 26
+V  P H   h H   8 18  624.
+ABCD
+3 3 2 3 2`],"MMAP-R0-100-2005-n15":[`I sposób
+Oznaczmy długości boków ekranu smartfona literami x i y (x>y) tak jak na rysunku:
+5 mm
+y
+3 mm 3 mm
+x x
+y`,`5 mm
+Wtedy powierzchnia ekranu jest równa (w mm^2 ):
+xy  6000,
+skąd wynika, że
+y  6000/x .
+Powierzchnia całego smartfona (tj. ekranu z obramowaniem) jest równa
+P x10y6  xy6x10y60  60006x10y60 6x^60000 6060.`,`x
+Ponieważ x10  y6  0 , to x4  6000/x . Stąd otrzymujemy kolejno:
+x^2 4x  6000,
+x^2 4x4  6004,
+x2^2  6004 ,
+x2  2 1501,
+x  2 15012.`,`Otrzymaliśmy funkcję P zmiennej x określoną wzorem
+P x   6x^60000 6060 dla x 2 15012, .
+ 
+x
+Obliczamy pochodną funkcji P:
+6x^2 10000
+Px 6^60000  dla x 2 15012, .`,` 
+x^2 x^2
+Miejscem zerowym pochodnej funkcji P jest x 100, gdyż
+2 150122 152122 39 276100 .
+Ponadto Px0 dla x 2 15012,100 oraz Px0 dla x100, .
+ 
+Zatem w przedziale 2 15012,100 funkcja P jest malejąca, a w przedziale 100,`,`funkcja P jest rosnąca.
+Stąd wynika, że funkcja P dla x 100 przyjmuje najmniejszą wartość. Wtedy y  60.
+Poszukiwanymi wymiarami ekranu smartfona są: x 100 mm, y  60 mm.
+II sposób
+Tak jak w sposobie pierwszym obliczamy w milimetrach kwadratowych powierzchnię ekranu:`],"MMAP-R0-100-2105-n6":[`Przekształcamy wyrażenie log3 4, stosując wzór na zamianę podstawy logarytmu:
+log3 4 = log24/log23
+Aby doprowadzić do uzyskania w liczniku liczby 4, mnożymy licznik i mianownik ułamka
+przez 2. Otrzymujemy:
+(2 ⋅ log24)/(2 ⋅ log23) = (2 ⋅ log24)/log29 = 4/log29
+Stosujemy wzór na różnicę logarytmów o tych samych podstawach i otrzymujemy:`,`4 4 4 4
+= = =
+18
+log2 9 log2 18 − log2 2 c − 1
+log2
+2`,`Zatem log3 4 = 4/(c−1) . To należało wykazać.
+Podstawiamy log2 18 = c do wyrażenia 4/(c−1) i zapisujemy mianownik jako różnicę
+logarytmów o podstawie 2:
+4/(c − 1) = 4/(log218 − log22)
+Przekształcamy wyrażenie w mianowniku:
+4/(log218 − log22) = 4/log29 = 4/(2 log23) = 2/log23`,`Stosujemy wzór na zamianę podstawy logarytmu:
+2
+= 2/1 = 2 log3 2 = log3 4
+log2 3
+log3 2
+Zatem 4/(c−1) = log3 4 . To należało wykazać.`,`Przekształcamy log 18 = log (9 ∙ 2) = log 9 + log 2 = log 9 + 1 = 2 log 3 + 1 = c
+2 2 2 2 2 2
+Obliczamy log2 3 = (c−1)/2 . Stąd
+log2 4 4
+log3 4 = = 2/(c−1) =
+log2 3 c − 1`,`2
+To należało wykazać.`],"MMAP-R0-100-2105-n7":[`Zakładamy, że x ≠ 0 i x ≠ 1. Przekształcamy równoważnie podaną nierówność:
+(2x − 1)/(1 − x) − (2 + 2x)/(5x) ≤ 0
+10x^2
+(− 5x − 2 − 2x + 2x + 2x)/(5x(1 − x)) ≤ 0
+− 5x − 2`,`(12x)/(5x(1 − x)) ≤ 0
+Stąd dostajemy
+12 (x − 2/3 ) (x + 1/4 ) (1 − x) ⋅ 5x ≤ 0 i x ≠ 0 i x ≠ 1.
+Zatem x ∈ (−∞, − 1/4 ⟩ ∪ (0, 2/3 ⟩ ∪ (1, +∞).
+Zakładamy, że x ≠ 0 i x ≠ 1. Przekształcamy równoważnie podaną nierówność:`,`2x − 1 2 + 2x
+− ≤ 0/∙ (1 − x)^2 (5x)^2
+1 − x 5x
+5x(1 − x)[10x^2 − 5x − (2 + 2x − 2x − 2x^2 )] ≤ 0,
+5x(1 − x)[10x^2 − 5x − 2 + 2x^2 ] ≤ 0,`,`12(1 − x) (x + 1/4 ) (x − 2/3 ) 5x ≤ 0 i x ≠ 0 i x ≠ 1.
+Zatem x ∈ (−∞, − 1/4 ⟩ ∪ (0, 2/3 ⟩ ∪ (1, +∞).
+1. Rozwiązujemy nierówność (2x−1)/(1−x) ≤ (2+2x)/(5x) w zbiorze (−∞, 0) ∪ (1, +∞).
+Przekształcamy równoważnie podaną nierówność:
+(2x − 1)/(1 − x) − (2 + 2x)/(5x) ≤ 0 /∙ (1 − x)5x`,`(2x − 1)5x ≥ (2 + 2x)(1 − x)
+12x^2 − 5x − 2 ≥ 0
+Otrzymujemy x1 = − 1/4 , x2 = 2/3 oraz x ∈ (−∞, − 1/4 ⟩ ∪ (1, +∞).
+2. Rozwiązujemy nierówność (2x−1)/(1−x) ≤ (2+2x)/(5x) w zbiorze (0,1).
+Przekształcamy równoważnie podaną nierówność:`,`(2x − 1)/(1 − x) − (2 + 2x)/(5x) ≤ 0 /∙ (1 − x)5x
+(2x − 1)5x ≤ (2 + 2x)(1 − x)
+12x^2 − 5x − 2 ≤ 0
+Otrzymujemy x1 = − 1/4 , x2 = 2/3 oraz x ∈ (0, 2/3 ⟩.
+Zatem zbiorem rozwiązań nierówności (2x−1)/(1−x) ≤ (2+2x)/(5x) jest (−∞, − 1/4 ⟩ ∪ (0, 2/3 ⟩ ∪ (1, +∞).`],"MMAP-R0-100-2105-n8":[`Trójkąty ABE i BCD są przystające, gdyż |AB| = |BC|, |∡BAE| = |∡CBD| = 60° oraz
+|AE| = |BD|. Zatem |∡ABE| = |∡BCD| oraz |∡AEB| = |∡BDC|. Stąd wynika (cecha KKK),
+że trójkąt DBP jest podobny do trójkąta DCB, a skala tego podobieństwa jest równa
+s = (|BD|)/(|CD|) .
+Niech |DB| = a. Wtedy |BC| = 3a. Z twierdzenia cosinusów dla trójkąta DBC otrzymujemy
+1
+|CD| = √|BD|^2 + |BC|^2 − 2 ⋅ |BD| ⋅ |BC| ⋅ cos 60° = √a^2 + (3a)^2 − 2 ⋅ a ⋅ 3a ⋅ = √7a`,`2
+Zatem s = (a)/(a√7) = 1/√7 .
+Pole trójkąta DBC jest trzecią częścią pola trójkąta ABC, gdyż oba te trójkąty mają wspólną
+wysokość opuszczoną z wierzchołka C oraz |BD| = 1/3 |AB|.
+Ponieważ stosunek pól figur podobnych jest równy kwadratowi skali ich podobieństwa, więc
+2
+1 1 1`,`PΔDBP = s^2 ⋅ PΔDBC = ( ) ⋅ ⋅ PΔABC = ⋅ PΔABC
+√7 3 21
+To należało wykazać.
+Uwagi:
+1. Po wyznaczeniu długości |CD| = |BE| można wyznaczyć sinus kąta DBE, korzystając
+z twierdzenia sinusów. Wtedy otrzymujemy
+(|BE|)/√3 = (a)/(sin|∡DBE|)`,`2
+skąd sin|∡DBE| = √3/2√7 , więc
+√3 √3
+PΔDBP = 1/2 ⋅ a ⋅ ( 1/√7 ⋅ 3a) ⋅ √3/2√7 = (3a)/28 = ((3a))/4 ⋅ 1/21 = 1/21 ⋅ PΔABC
+2. Długość odcinka CD możemy też obliczyć w inny sposób. Poniżej przedstawiamy dwa
+z tych sposobów:
+a) Niech M oznacza spodek wysokości trójkąta ABC opuszczonej z wierzchołka C.`,`Wtedy
+|CM| = (3a√3)/2 oraz |MD| = |MB| − |DB| = 1/2 ∙ 3a − a = 1/2 a
+Z twierdzenia Pitagorasa dla trójkąta MDC otrzymujemy
+2
+2
+1
+|CD| = √( a) + ( ((3a√3)/()))/2 (28/(= √))/4 a^2 = a√7`,`2
+b) Z twierdzenia Stewarta otrzymujemy
+(3a)^2 ∙ 2a + (3a)^2 ∙ a = 3a ⋅ (|CD|^2 + 2a ∙ a)
+3a ∙ 2a + 3a ∙ a = |CD|^2 + 2a^2
+|CD|^2 = 7a^2`],"MMAP-R0-100-2105-n9":[`Niech A oznacza zdarzenie, że wylosowana liczba jest podzielna przez 15.
+Niech B oznacza zdarzenie, że wylosowana liczba jest podzielna przez 18.
+W zadaniu mamy obliczyć prawdopodobieństwo P(A|B) = (P(A∩B))/(P(B)) .
+Zbiór liczb naturalnych czterocyfrowych zawiera 9000 elementów, zatem |Ω| = 9000.
+Do zbioru B należą liczby: 1008, 1026, 1044, ..., 1008 + (n − 1) ⋅ 18 (gdzie`,`1008 + (n − 1) ⋅ 18 ≤ 9999, a liczba naturalna n jest liczbą elementów zbioru B).
+Ponieważ
+n ≤ (9999 − 1008)/18 + 1 = 500,5
+więc n = 500.
+Zatem`,`P(B) = 500/9000 = 5/90 = 1/18 .
+Zdarzenie A ∩ B zachodzi tylko wtedy, gdy wylosowana liczba jest jednocześnie podzielna
+przez 15 i przez 18, czyli przez 90.
+Do zbioru A ∩ B należą zatem liczby: 1080, 1170, 1260, ..., 1080 + (m − 1) ⋅ 90 (gdzie
+1080 + (m − 1) ⋅ 90 ≤ 9999, a liczba naturalna m jest liczbą elementów zbioru A ∩ B).`,`Ponieważ
+m ≤ (9999 − 1080)/90 + 1 = 100,1
+więc m = 100.
+Zatem
+P(A ∩ B) = 100/9000 = 1/90 .`,`Z definicji prawdopodobieństwa warunkowego otrzymujemy
+1/90 18 1
+(P(A ∩ B))/(P(A|B) =)
+= = = .
+P(B) 1/18 90 5`],"MMAP-R0-100-2105-n10":[`Wyznaczamy równanie prostej AB.
+Niech y = ax + b będzie równaniem kierunkowym prostej AB.
+Punkty A i B leżą na tej prostej, więc:
+−6 = 8a + b i 15 = 5a + b
+Stąd a = −7 i b = 50.
+Prosta AB ma równanie:
+– w postaci kierunkowej: y = −7x + 50;`,`– w postaci ogólnej: 7x + y − 50 = 0.
+Obliczamy odległość punktu O od prostej AB:
+50
+d(O, AB) = (|7 ⋅ 0 + 0 − 50|)/2 = = √50 = 5√2
+√7 + 1^2 √50
+Obliczona odległość jest długością promienia okręgu: d(O, AB) = r = 5√2.
+Przez P oznaczmy punkt styczności prostej AB do okręgu.`,`Prosta OP przechodzi przez punkt O = (0, 0) i jest prostopadła do prostej AB, więc ma
+równanie: y = 1/7 x.
+Obliczamy współrzędne punktu P:
+y = 1/7 x
+{
+y = −7x + 50
+Rozwiązaniem tego układu jest para liczb x = 7 i y = 1, więc P = (7, 1).`,`Wyznaczamy równanie prostej AB jak w sposobie 1.
+Prosta AB ma równanie:
+– w postaci kierunkowej: y = −7x + 50;
+– w postaci ogólnej: 7x + y − 50 = 0.
+Obliczamy odległość punktu O od prostej AB:
+50
+d(O, AB) = (|7 ⋅ 0 + 0 − 50|)/2 = = √50 = 5√2`,`√7 + 1^2 √50
+Obliczona odległość jest długością promienia okręgu: d(O, AB) = r = 5√2.
+Równanie okręgu o środku w punkcie O = (0, 0) i promieniu r = 5√2 ma postać x^2 + y^2 = 50.
+Przez P oznaczmy punkt styczności prostej AB do okręgu x^2 + y^2 = 50.
+Obliczamy współrzędne punktu P:
+{ (y = −7x + 50)/2
+x + y^2 = 50`,`Rozwiązaniem tego układu jest para liczb x = 7 i y = 1, więc P = (7, 1).
+Wyznaczamy równanie prostej AB jak w sposobie 1.
+Prosta AB ma równanie:
+– w postaci kierunkowej: y = −7x + 50;
+– w postaci ogólnej: 7x + y − 50 = 0.`],"MMAP-R0-100-2105-n11":[`I etap
+Trójmian 4x^2 − 2(m + 1)x + m ma dwa różne pierwiastki rzeczywiste wtedy i tylko wtedy,
+gdy jego wyróżnik jest dodatni, czyli
+Δ = [−2(m + 1)]^2 − 4 ⋅ 4 ⋅ m > 0
+i równoważnie dalej
+4m^2 − 8m + 4 > 0
+4(m − 1)^2 > 0`,`m ≠ 1
+II etap
+Warunek ma sens liczbowy tylko wtedy, gdy żaden z pierwiastków
+(x1+ x2≤ 1/(x))/1 (+ 1/(x))/2
+trójmianu 4x^2 − 2(m + 1)x + m nie jest równy 0, czyli gdy x1x2 ≠ 0. Ze wzoru Viète’a
+otrzymujemy (m)/4 ≠ 0, czyli
+(m ≠ 0.)/1`,`1 x +x
+2
+Nierówność x1 + x2 ≤ + zapisujemy w postaci równoważnej x1 + x2 ≤ i po
+x x (1/(x))/1 ⋅x
+1 2 2
+zastosowaniu wzorów Viète’a otrzymujemy
+2(m + 1) (2(m+1))/4`,`≤
+4 (m)/4
+i równoważnie dalej
+((m + 1))/2 ≤ (2(m + 1))/(m)
+(2(m + 1))/(m) − (m + 1)/2 ≥ 0
+(4(m + 1) − m(m + 1))/(2m) ≥ 0
+2m(m + 1)(4 − m) ≥ 0 i m ≠ 0`,`Stąd m ∈ (−∞, −1⟩ ∪ (0, 4⟩.
+III etap
+Wyznaczamy część wspólną zbiorów rozwiązań nierówności otrzymanych w I i II etapie
+rozwiązania: m ∈ (−∞, −1⟩ ∪ (0, 1) ∪ (1, 4⟩.
+Uwaga:
+Zamiast korzystać ze wzorów Viète’a, możemy wzór trójmianu 4x^2 − 2(m + 1)x + m
+zapisać w postaci równoważnej:`,`4x^2 − 2mx − 2x + m = 2x(2x − m) − (2x − m) = (2x − 1)(2x − m)
+Stąd wynika, że pierwiastkami tego trójmianu są liczby x1 = 1/2 oraz x2 = (m)/2 dla każdej
+wartości parametru m. Pierwiastki są różne wtedy i tylko wtedy, gdy m ≠ 1.
+Pierwiastki te można też wyznaczyć, korzystając ze wzorów na pierwiastki trójmianu
+kwadratowego. Ponieważ wyróżnik Δ trójmianu 4x^2 − 2(m + 1)x + m jest kwadratem`],"MMAP-R0-100-2105-n12":[`Ponieważ
+√2/2 (cos x − sin x) = cos x ⋅ √2/2 − sin x ⋅ √2/2 = cos x ⋅ cos (π)/4 − sin x ⋅ sin (π)/4 = cos (x + (π)/4 ),
+więc równanie cos 2x = √2/2 (cos x − sin x) można zapisać w postaci równoważnej
+cos 2x = cos (x + (π)/4 )
+Jego rozwiązaniami są liczby x spełniające warunek
+2x = x + (π)/4 + 2kπ lub 2x = − (x + (π)/4 ) + 2kπ
+gdzie k jest liczbą całkowitą.`,`Stąd x = (π)/4 + 2kπ lub 3x = − (π)/4 + 2kπ, czyli x = (π)/4 + 2kπ lub x = − (π)/12 + 2/3 kπ.
+Zatem rozwiązaniami równania cos 2x = √2/2 (cos x − sin x) w przedziale 〈0, π〉 są liczby:
+(π)/4 oraz (7π)/12 .
+Po skorzystaniu ze wzoru na cosinus podwojonego argumentu otrzymujemy równanie
+(cos x − sin x)(cos x + sin x) = √2/2 (cos x − sin x)
+Jest ono równoważne alternatywie dwóch równań:
+cos x − sin x = 0 lub cos x + sin x = √2/2`,`Równanie cos x − sin x = 0 można rozwiązać graficznie albo algebraicznie, zapisując je
+z wykorzystaniem wzoru redukcyjnego np. w postaci cos x = cos ( (π)/2 − x) . Rozwiązaniami
+ostatniego równania są liczby spełniające warunek x = (π)/2 − x + 2kπ lub x = − ( (π)/2 − x) + 2kπ,
+gdzie k jest dowolną liczbą całkowitą. Stąd x = (π)/4 + kπ, gdzie k jest dowolną liczbą
+całkowitą, więc rozwiązaniem równania cos x − sin x = 0 w przedziale 〈0, π〉 jest liczba (π)/4 .
+Równanie cos x + sin x = √2/2 rozwiązujemy, stosując wzory redukcyjne oraz wzór na sumę
+sinusów. Otrzymujemy kolejno:`,`sin ( (π)/2 − x) + sin x = √2/2
+π π
+− x + x − x − x
+√2
+2 sin (^2 ) ⋅ cos (^2 ) =
+2 2 2
+2 sin ( (π)/4 ) ⋅ cos ( (π)/4 − x) = √2/2`,`cos ( (π)/4 − x) = 1/2
+Rozwiązaniami otrzymanego równania są liczby spełniające warunek
+lub (π)/4 − x = − (π)/3 + 2kπ, gdzie k jest dowolną liczbą całkowitą.
+((π)/4 − x = (π)/3 + 2kπ)/(π)
+Stąd x = − + 2kπ lub x = (7π)/12 + 2kπ, gdzie k jest dowolną liczbą całkowitą.
+12
+Zatem rozwiązaniem równania cos ( (π)/4 − x) = 1/2 w przedziale 〈0, π〉 jest liczba (7π)/12 .`,`Ostatecznie, rozwiązaniami równania cos 2x = √2/2 (cos x − sin x) w przedziale 〈0, π〉 są
+liczby (π)/4 oraz (7π)/12 .
+równanie
+(cos x − sin x)(cos x + sin x) = √2/2 (cos x − sin x)
+Jest ono równoważne alternatywie dwóch równań:`],"MMAP-R0-100-2105-n13":[`Przyjmijmy następujące oznaczenia:
+a, b, c – długości boków trójkąta ABC
+α, β – miary kątów ostrych trójkąta
+r – promień okręgu wpisanego w trójkąt ABC. (Zobacz rysunek).
+B
+β
+c`,`a
+r
+α
+C A
+b
+a+b−c
+Wtedy a^2 + b^2 = c^2 oraz r = .`,`Z warunków zadania wynika, że (2/(r =) 1)/5 c.
+Zatem
+(c)/5 = (a + b − c)/2
+2c = 5a + 5b − 5c
+b = 7/5 c − a
+Podstawiając otrzymaną zależność do równości wynikającej z twierdzenia Pitagorasa,
+otrzymujemy:`,`2
+7
+a^2 + ( c − a) = c^2
+5
+14 24
+2a^2 − ac + c^2 = 0
+5 25`,`25a^2 − 35ac + 12c^2 = 0
+Potraktujmy otrzymane równanie jak równanie kwadratowe z niewiadomą a i parametrem c.
+Otrzymujemy zatem
+Δ = (−35c)^2 − 4 ⋅ 25 ⋅ 12c^2 = 25c^2
+a = (35c − 5c)/50 = 3/5 c lub a = (35c + 5c)/50 = 4/5 c
+Gdy a = 3/5 c, to wtedy b = 7/5 c − 3/5 c = 4/5 c, a gdy a = 4/5 c, to b = 7/5 c − 4/5 c = 3/5 c. W każdym
+z tych przypadków otrzymujemy więc taki sam trójkąt (z dokładnością do oznaczeń). Bez straty`,`ogólności można przyjąć, że a = 3/5 c i b = 4/5 c. Przy oznaczeniach z rysunku mamy
+a 3/5 c 3 b 4/5 c 4
+sin α = = = oraz sin β = = = . Kąty α i β są ostre, więc ten z nich ma
+c c 5 c c 5
+większą miarę, dla którego sinus przyjmuje większą wartość.`],"MMAP-R0-100-2105-n14":[`a)
+Niech C będzie dowolnym punktem leżącym na paraboli. Wtedy C = (m, m^2 ), gdzie m jest
+dowolną liczbą rzeczywistą.
+Długość odcinka AB jest równa |AB| = √(1 − 0)^2 + (3 − 2)^2 = √2, a prosta AB ma
+równanie postaci y = x + 2, czyli x − y + 2 = 0.
+Wysokość hC trójkąta ABC opuszczona z wierzchołka C jest równa odległości punktu C
+od prostej AB, więc ze wzoru na odległość punktu od prostej otrzymujemy`,`|m − m^2 + 2|
+hC
+(= (|m − m)/2)/√1 ((+ 2|)/2 =)/(+ (−1))
+√2
+Zatem pole P trójkąta ABC jest równe
+1 1 |m − m^2 + 2| 1
+P = ⋅ |AB| ⋅ hC = ⋅ √2 ⋅ = ⋅ |m − m^2 + 2|`,`2 2 √2 2
+dla m ≠ −1 oraz m ≠ 2 (gdy punkt C leży na prostej AB, a więc gdy m − m^2 + 2 = 0,
+to trójkąt ABC nie istnieje).
+Niech C będzie dowolnym punktem leżącym na paraboli. Wtedy C = (m, m^2 ), gdzie m jest
+dowolną liczbą rzeczywistą. Współrzędne wektorów AB⃗⃗⃗⃗⃗ i AC⃗⃗⃗⃗⃗ są równe
+AB⃗⃗⃗⃗⃗ = [1 − 0, 3 − 2] = [1, 1] oraz AC⃗⃗⃗⃗⃗ = [m − 0, m^2 − 2] = [m, m^2 − 2]
+Zatem pole P trójkąta ABC jest równe`,`1
+(1/(P(m) =))/2 ⋅ |m ⋅ 1 − 1 ⋅ (m^2 − 2)| = ⋅ |m^2 − m − 2|
+2
+dla m ≠ −1 oraz m ≠ 2 (gdy punkt C leży na prostej AB, a więc gdy m − m^2 + 2 = 0,
+to trójkąt ABC nie istnieje).
+b)
+Zauważmy, że trójkąt ABC jest ostrokątny wtedy i tylko wtedy, gdy punkt C leży na jednym`,`z fragmentów M1M2 lub N1N2 paraboli, gdzie końce tych fragmentów to punkty przecięcia
+prostych prostopadłych do prostej AB, przechodzących przez punkty A i B, z parabolą (kąt
+przy wierzchołku C tego trójkąta zawsze będzie kątem ostrym).
+y
+7
+N2
+C2 6/5`,`N1 4
+B
+3
+M2
+2 A`],"MMAP-R0-100-2105-n15":[`Przyjmujemy następujące oznaczenia:
+x– długość krawędzi podstawy zbiornika (w metrach),
+h – wysokość zbiornika (w metrach).
+Pojemność zbiornika ma wynosić 144 m^3 , więc ⋅ h. Stąd h = (144/2)/(x) .
+(144 = x)/2
+Koszt f wykonania zbiornika jest równy f = 100x + 75 ⋅ 4xh, więc
+144`,`f(x) = 100x^2 + 4x ⋅ ⋅ 75,
+x^2
+gdzie x ∈ [4, 9].
+Obliczamy pochodną funkcji f:
+43200
+′
+f (x) = 200x −`,`x^2
+Miejscem zerowym pochodnej funkcji f jest x = 6.
+Badamy monotoniczność funkcji f:
+′
+f (x) > 0 dla x ∈ (6, 9),
+′
+f (x) < 0 dla x ∈ (4, 6).`,`Zatem
+funkcja f jest malejąca w przedziale x ∈ [4, 6],
+funkcja f jest rosnąca w przedziale x ∈ [6, 9].
+Stąd funkcja f przyjmuje najmniejszą wartość dla argumentu 6. Wtedy h = 4.
+Wymiary zbiornika dla którego koszt wykonania jest najmniejszy: 6 m x 6 m x 4 m.
+Przyjmujemy następujące oznaczenia:
+x – długość krawędzi podstawy zbiornika (w metrach),`,`h – wysokość zbiornika (w metrach).
+Pojemność zbiornika ma wynosić 144 m^3 , więc 144 = x^2 ⋅ h. Stąd x = √ (144/.)/(h)
+Koszt f wykonania zbiornika jest równy f = 100x^2 + 75 ⋅ 4xh, więc
+f(h) = 100 ∙ 144/(h) + 4h ⋅ √ 144/(h) ⋅ 75,
+gdzie h ∈ [ 16/9 , 9].
+Obliczamy pochodną funkcji f:
+3600 14400 1800`,`= − +
+(f (′ 14400/((h) = −))/2 +)/(h)
+2√h h^2 √h
+Miejscem zerowym pochodnej funkcji f jest h = 4.
+Badamy monotoniczność funkcji f:`],"MMAP-R0-100-2205-n6":[`Przekształcamy równoważnie nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 , korzystając ze
+wzoru skróconego mnożenia na różnicę sześcianów:
+8x^3 − y^3 + 4x^2 y − 2xy^2 ≥ 0
+(2x − y)(4x^2 + 2xy + y^2 ) + 4x^2 y − 2xy^2 ≥ 0
+(2x − y)(4x^2 + 2xy + y^2 ) + 2xy(2x − y) ≥ 0
+(2x − y)(4x^2 + 4xy + y^2 ) ≥ 0
+Korzystamy ze wzoru skróconego mnożenia na kwadrat sumy i otrzymujemy`,`(2x − y)(2x + y)^2 ≥ 0
+Z założenia 2x > y, więc (2x − y) > 0.
+Kwadrat każdej liczby rzeczywistej jest liczba nieujemną, więc (2x + y)^2 ≥ 0.
+Zatem wyrażenie (2x − y)(2x + y)^2 jest nieujemne jako iloczyn liczby dodatniej
+i nieujemnej, więc nierówność (2x − y)(2x + y)^2 ≥ 0 jest prawdziwa. To oznacza, że
+nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 jest także prawdziwa.
+Przekształcamy nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 do postaci`,`8x^3 − y^3 − 2xy^2 + 4x^2 y ≥ 0
+Ponieważ (2x − y)^3 = 8x^3 − y^3 − 12x^2 y + 6xy^2 , więc otrzymujemy
+8x^3 − y^3 − 12x^2 y + 6xy^2 + 16x^2 y − 8xy^2 ≥ 0
+(2x − y)^3 + 16x^2 y − 8xy^2 ≥ 0
+(2x − y)^3 + 8xy(2x − y) ≥ 0
+(2x − y)[(2x − y)^2 + 8xy] ≥ 0
+(2x − y)(4x^2 − 4xy + y^2 + 8xy) ≥ 0`,`(2x − y)(2x + y)^2 ≥ 0
+Z założenia 2x > y, więc (2x − y) > 0.
+Kwadrat każdej liczby rzeczywistej jest liczba nieujemną, więc (2x + y)^2 ≥ 0.
+Zatem wyrażenie (2x − y)(2x + y)^2 jest nieujemne jako iloczyn liczby dodatniej
+i nieujemnej, więc nierówność (2x − y)(2x + y)^2 ≥ 0 jest prawdziwa. To oznacza, że
+nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 jest także prawdziwa.
+Przekształcamy równoważnie nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 , korzystając ze`,`wzoru skróconego mnożenia na różnicę kwadratów:
+8x^3 − 2xy^2 + 4x^2 y − y^3 ≥ 0
+2x(4x^2 − y^2 ) + y(4x^2 − y^2 ) ≥ 0
+(2x + y)(4x^2 − y^2 ) ≥ 0
+(2x + y)(2x + y)(2x − y) ≥ 0
+(2x − y)(2x + y)^2 ≥ 0
+Z założenia 2x > y, więc (2x − y) > 0.`,`Kwadrat każdej liczby rzeczywistej jest liczba nieujemną, więc (2x + y)^2 ≥ 0.
+Zatem wyrażenie (2x − y)(2x + y)^2 jest nieujemne jako iloczyn liczby dodatniej
+i nieujemnej, więc nierówność (2x − y)(2x + y)^2 ≥ 0 jest prawdziwa. To oznacza, że
+nierówność 7x^3 + 4x^2 y ≥ y^3 + 2xy^2 − x^3 jest także prawdziwa.`],"MMAP-R0-100-2205-n7":[`Równanie zapisujemy w każdym z przedziałów (−∞,3), ⟨3,+∞) bez użycia symbolu
+wartości bezwzględnej.
+Gdy x ∈ (−∞,3), to równanie ma postać 3 − x = 2x + 11.
+Równanie 3 − x = 2x + 11 ma jedno rozwiązanie x = − 8/3 . Jest to liczba należąca do
+przedziału (−∞,3), więc jest to jedno z rozwiązań równania |x − 3| = 2x + 11.`,`Gdy x ∈ ⟨3,+∞), to równanie ma postać x − 3 = 2x + 11.
+Równanie x − 3 = 2x + 11 ma również jedno rozwiązanie x = −14. Ta liczba nie należy
+jednak do przedziału ⟨3,+∞), więc nie jest rozwiązaniem równania |x − 3| = 2x + 11.
+W rezultacie równanie |x − 3| = 2x + 11 ma jedno rozwiązanie: x = − 8/3 .
+Jeżeli istnieją rozwiązania równania |x − 3| = 2x + 11, to są one rozwiązaniami`,`alternatywy równań
+x − 3 = 2x + 11 lub x − 3 = −2x − 11
+Stąd otrzymujemy x = −14 lub x = − 8/3 .
+Sprawdzamy, która z tych liczb jest rozwiązaniem równania |x − 3| = 2x + 11.
+Gdy x = −14, to lewa strona równania jest równa | − 14 − 3| = 17, natomiast prawa`,`strona jest równa 2 ⋅ (−14) + 11 = −17. Zatem liczba (−14) nie jest rozwiązaniem
+równania.
+Gdy x = − 8/3 , to lewa strona równania jest równa |− 8/3 − 3| = 17/3 , natomiast prawa strona
+jest równa 2 ⋅ (− 8/3 ) + 11 = 17/3 . Zatem liczba jest rozwiązaniem równania.
+W rezultacie równanie ma jedno rozwiązanie: ((((− 8/3 ))/8)/(x=−))/3 .`,`Gdy 2x + 11 < 0, czyli x < − 11/2 , to równanie |x − 3| = 2x + 11 jest sprzeczne, gdyż
+lewa jego strona jest nieujemna, a prawa ujemna.
+Gdy 2x + 11 ≥ 0, czyli x ≥ − 11/2 , to równanie |x − 3| = 2x + 11 jest równoważne
+alternatywie równań
+x − 3 = 2x + 11 lub x − 3 = −2x − 11`,`Stąd otrzymujemy x = −14 lub x = − 8/3 .
+Tylko druga z tych liczb jest nie mniejsza od (− 11/2 ). Zatem równanie |x − 3| = 2x + 11
+ma tylko jedno rozwiązanie: x = − 8/3 .`],"MMAP-R0-100-2205-n8":[`Oznaczmy przez R2 promień okręgu opisanego na trójkącie CPD, a przez α – miarę kąta
+ostrego CPD.
+Ponieważ odcinki AB i CD są równoległe, więc |∡PCD| = |∡PAB| i |∡ABP| = |∡PDC|
+(kąty naprzemianległe) oraz |∡CPD| = |∡APB| (kąty wierzchołkowe). Zatem trójkąty CPD
+i APB są podobne (na mocy cechy kkk). Stąd wynika, że
+(R2+3)/(|AB|) = (R2)/(|CD|)
+i wobec |AB| = |CD| + 2 otrzymujemy dalej`,`(R2+3)/(|CD|+2) = (R2)/(|CD|)
+2R = 3 ⋅ |CD|
+2
+2
+|CD| = R
+2
+3`,`Do trójkąta CPD stosujemy twierdzenie sinusów i otrzymujemy
+(|CD|)/(sinα) = 2R2
+2
+co w połączeniu ze związkiem |CD| = R prowadzi do równania
+2
+3
+sinα = 1/3`,`Korzystamy z tożsamości trygonometrycznej sin^2 α + cos^2 α = 1 i, uwzględniając, że
+α < 90°, otrzymujemy
+(1/(())/3 ) + cos^2 α = 1
+cosα = 2√2/3
+Do trójkąta CPD stosujemy twierdzenie cosinusów, korzystamy ze związku
+cosα = 2√2/3 i otrzymujemy
+|CD|^2 = |DP|^2 + |CP|^2 − 2 ⋅ |DP| ⋅ |CP| ⋅ cosα`,`2√2
+|CD|^2 = |DP|^2 + |CP|^2 − 2 ⋅ |DP| ⋅ |CP| ⋅
+3
+4√2
+⋅ |DP| ⋅ |CP| = |DP|^2 + |CP|^2 − |CD|^2
+3
+To należało pokazać.`,`Oznaczmy przez R2 promień okręgu opisanego na trójkącie CPD, a przez α – miarę kąta
+ostrego CPD.
+Ponieważ kąty ostre CPD i APB są wierzchołkowe, to |∡CPD| = |∡APB| = α.
+Do trójkątów APB i CPD stosujemy twierdzenie sinusów i otrzymujemy
+|AB| |CD|`],"MMAP-R0-100-2205-n9":[`Reszta z dzielenia wielomianu W przez dwumian x + 2 jest równa (−30), zatem
+W(−2) = −30. Stąd otrzymujemy
+4 ∙ (−2)^3 − 6 ∙ (−2)^2 − (5m + 1)(−2) − 2m = −30`,`Rozwiązaniem tego równania jest m = 3.
+Rozwiązujemy nierówność 4x^3 − 6x^2 − 16x − 6 ≥ 0, stosując przekształcenia
+równoważne, i otrzymujemy kolejno:`,`4x^3 − 6x^2 − 16x − 6 ≥ 0
+2(x + 1)(2x^2 − 5x − 3) ≥ 0
+4(x + 1)(x − 3)(x + 1/2 ) ≥ 0`,`Szkicujemy wykres wielomianu W(x) = 4(x + 1)(x − 3)(x + 1/2 )
+1 x
+−1 3`,`−
+2
+i odczytujemy zbiór rozwiązań nierówności W(x) ≥ 0: ⟨−1, − 1/2 ⟩ ∪ ⟨3, +∞).`],"MMAP-R0-100-2205-n10":[`Korzystamy z własności ciągu geometrycznego i przekształcamy równanie
+5 1 5 1
+a22 = a23 + a21 do postaci a21 ⋅ q^2 + a21 . Dzieląc obie strony równania
+4 5 (a21⋅q=)/5 4 5
+1 2
+przez a21 ≠ 0, otrzymujemy równanie q^2 − q + = 0, którego rozwiązaniem jest q = .
+4 5 5`,`2
+Ponieważ |q| = | | < 1, zatem istnieje suma S wszystkich wyrazów ciągu (a ).
+n
+5
+2
+Obliczamy sumę i a3 = 675 ⋅ ( 2/5 ) = 108.
+((S= 675/2 =1125)/1−)/5`,`Trzeci wyraz ciągu geometrycznego jest równy czwartemu wyrazowi ciągu arytmetycznego,
+więc b4 = b1 + 3r = 108.
+Suma wszystkich wyrazów nieskończonego ciągu geometrycznego (a ) jest równa sumie
+n
+dwudziestu pięciu początkowych wyrazów ciągu arytmetycznego (b ), zatem
+n
+1125 = (2b1+24r)/2 ⋅ 25`,`45 = b1 + 12r
+Z równań b1 + 3r = 108 i b1 + 12r = 45 otrzymujemy r = −7.
+Zatem b = 108 − 3 ⋅ (−7) = 129.
+1
+Korzystamy z własności ciągu geometrycznego i przekształcamy równanie
+5 1 5 1
+a22 = a23 + a21 do postaci a2 ⋅ q^20 = a3 ⋅ q^20 + a1 ⋅ q^20 . Dzieląc obie strony`,`4 5 4 5
+równania przez q (wszystkie wyrazy ciągu są dodatnie, więc q ≠ 0), otrzymujemy
+a2 = 5/4 a3 + 1/5 a1 . Stąd i z własności ciągu geometrycznego otrzymujemy dalej
+( 5/4 a3 + (1 2/(a1)))/5 = 675 ⋅ a3
+25 675
+a^2 − a3 + 18225 = 0
+3`,`16 2
+Rozwiązaniem równania jest a3 = 108. Stosujemy wzór na n-ty wyraz ciągu
+2 2
+geometrycznego i zapisujemy 108 = 675 ⋅ q^2 , skąd lub q = − . Ponieważ
+5`],"MMAP-R0-100-2205-n11":[`Przekształcamy równanie w sposób równoważny:
+sinx + sin3x + sin2x = 0
+2sin2xcos(−x) + sin2x = 0
+sin2x (2cosx + 1) = 0
+sin2x = 0 lub cosx = − 1/2
+Stąd 2x = kπ lub x = (4π)/3 + 2kπ, gdzie k jest liczbą całkowitą.
+(x= (2π)/3 +2kπ)/(2π)`,`Zatem x = k ⋅ ((lub/(π))/lub)/2 x = + 2kπ lub x = (4π)/3 + 2kπ, gdzie k jest liczbą całkowitą.
+3/(sinx+sin2x+sin3x=0)
+Rozwiązaniami równania w przedziale ⟨0, π⟩ są liczby: 0, (π)/2 ,
+(2π)/3 , π.
+Inne przykładowe realizacje.
+1)
+Przekształcamy równanie w sposób równoważny:`,`sinx + sin2x + sin3x = 0
+2sin(1,5x)cos(−0,5x) + sin3x = 0
+2sin(1,5x)cos(−0,5x) + 2sin(1,5x)cos(1,5x) = 0
+2sin(1,5x)(cos(−0,5x) + cos(1,5x)) = 0
+2sin(1,5x) = 0 lub cos(−0,5x) + cos(1,5x) = 0
+2sin(1,5x) = 0 lub 2cos(0,5x)cos(−x) = 0
+Stąd lub 0,5x = (π)/2 + kπ lub x = (π)/2 + kπ, gdzie k jest liczbą całkowitą.`,`((1,5x=kπ)/(2π))/(x=)
+Zatem ⋅ k lub x = π + 2kπ lub x = (π)/2 + kπ, gdzie k jest liczbą całkowitą.
+3
+Rozwiązaniami równania sinx + sin2x + sin3x = 0 w przedziale ⟨0, π⟩ są liczby: 0, (π)/2 ,
+(2π)/3 , π.
+2)
+Przekształcamy równanie w sposób równoważny:`,`sinx + sin2x + sin3x = 0
+sinx + 2sin(2,5x)cos(−0,5x) = 0
+2sin(0,5x)cos(0,5x) + 2sin(2,5x)cos(0,5x) = 0
+2cos(0,5x)(sin(0,5x) + sin(2,5x)) = 0
+2cos(0,5x) = 0 lub sin(0,5x) + sin(2,5x) = 0
+2cos(0,5x) = 0 lub 2sin(1,5x)cos(−x) = 0
+Stąd 0,5x = (π)/2 + kπ lub lub x = (π)/2 + kπ, gdzie k jest liczbą całkowitą.`,`((1,5x=kπ)/(2π))/(x=)
+Zatem x = π + 2kπ lub ⋅ k lub x = (π)/2 + kπ, gdzie k jest liczbą całkowitą.
+3
+Rozwiązaniami równania sinx + sin2x + sin3x = 0 w przedziale ⟨0, π⟩ są liczby: 0, (π)/2 ,
+(2π)/3 , π.`],"MMAP-R0-100-2205-n12":[`Trójmian x^2 − (m + 1)x + m ma dwa różne pierwiastki rzeczywiste wtedy i tylko wtedy,
+gdy jego wyróżnik Δ jest dodatni. Rozwiązujemy warunek Δ > 0:
+(m + 1)^2 − 4m > 0
+m^2 − 2m + 1 > 0
+(m − 1)^2 > 0
+m ≠ 1
+Pierwiastki x1 oraz x2 trójmianu x^2 − (m + 1)x + m są różne od zera tylko wtedy, gdy`,`x1 ⋅ x2 ≠ 0. Ze wzoru Viète’a otrzymujemy m ≠ 0.
+Równość + 2 = przekształcamy równoważnie
+(1/(x))/1 (+ 1/(x))/2
+((1/2 +)/(x) (1/2)/(x))/1
+2
+x1 + x2 x^2 + x^2
++ 2 = 2/2`,`x1 ∙ x2 ((1/2)/(x))/1 ∙ x
+2
+x + x (x + x )^2 − 2x ∙ x
+1 2 1 2 1 2
++ 2 =
+x ∙ x (x ∙ x )^2
+1 2 1 2`,`i stosujemy wzory Viète’a: x1 + x2 = m + 1 i x1 ∙ x2 = m, otrzymując dalej
+m + 1 (m + 1)^2 − 2m
++ 2 =
+m m^2
+m^2 + m + 2m^2 = m^2 + 1
+2m^2 + m − 1 = 0
+(m + 1)(2m − 1) = 0`,`m = −1 lub m = 1/2
+Zatem równanie x^2 − (m + 1)x + m = 0 ma dwa różne rozwiązania spełniające warunki
+zadania, gdy m ∈ {−1, 1/2 }.
+Zauważamy, że trójmian x^2 − (m + 1)x + m można zapisać w postaci iloczynowej:
+(x − 1)(x − m), więc liczby 1 oraz m są pierwiastkami tego trójmianu. Zatem x1 ≠ x2
+gdy m ≠ 1. Pierwiastki te są różne od zera, gdy m ≠ 0.
+Rozwiązujemy warunek + 2 =`,`(1/(x))/1 (+ 1/(x))/2
+((1/2 +)/(x) (1/2 :)/(x))/1
+2
+1 1
+1 + + 2 = 1 + /⋅ m^2`],"MMAP-R0-100-2205-n13":[`Oznaczmy |AD| = a, |AB| = b, |AH| = d, |AF| = e, |FH| = c (zobacz rysunek).
+Ponieważ PΔAFH = 26,4 oraz sinα = 12/13 , więc
+G F
+1
+PΔAFH = ⋅ d ⋅ e ⋅ sinα
+c`,`2
+H E
+26,4 = 1/2 ⋅ d ⋅ e ⋅ 12/13
+d ⋅ e = 57,2
+h d e
+Stosujemy do trójkąta AFH twierdzenie cosinusów`,`i otrzymujemy
+C B
+c^2 = d^2 + e^2 − 2 ⋅ d ⋅ e ⋅ cosα
+α
+b
+c^2 = d^2 + e^2 − 2 ⋅ 57,2cosα`,`D a A
+2
+25
+Obliczamy cosα: cos^2 α = 1 − sin^2 α = 1 − ( (12/()))/13 = i kąt α jest ostry, więc
+169
+cosα = 5/13 . Zatem`,`5
+c^2 = d^2 + e^2 − 2 ⋅ 57,2 ⋅
+13
+c^2 = d^2 + e^2 − 44
+Stąd, wobec c^2 = a^2 + b^2 oraz d^2 = h^2 + a^2 i e^2 = h^2 + b^2 , otrzymujemy
+a^2 + b^2 = h^2 + a^2 + h^2 + b^2 − 44`,"h = √22"],"MMAP-R0-100-2205-n14":[`Obliczamy odległość d punktu A od prostej x − y − 1 = 0: d = (|−3−2−1|)/√2 = 3√2.
+Obliczona odległość d jest równa wysokości trójkąta ABC poprowadzonej z wierzchołka A
+na bok BC.
+Obliczamy długość boku |BC|:
+1
+P = ⋅ d ⋅ |BC|
+ΔABC`,`2
+|BC| = (2PΔABC)/(d) = 5√2
+Niech xC oznacza pierwszą współrzędną punktu C. Punkt C leży na prostej o równaniu
+y = x − 1, zatem C = (x ,x − 1).
+C C
+Korzystając z warunku |AC| = |BC| oraz ze wzoru na długość odcinka, otrzymujemy
+kolejno`,`2
+√
+(x − (−3)) + (x − 1 − 2)^2 = 5√2
+C C
+√(x + 3)^2 + (x − 3)^2 = 5√2
+C C
+x^2 + 6xC + 9 + x^2 − 6xC + 9 = 50`,`C C
+2x^2 − 32 = 0
+C
+2(x − 4)(x + 4) = 0
+C C
+xC = 4 lub xC = −4
+Zatem C = (4,3) lub C = (−4,−5).`,`Niech xB oznacza pierwszą współrzędną punktu B. Punkt B leży na prostej o równaniu
+y = x − 1, zatem B = (x ,x − 1).
+B B
+Ponieważ |BC| = 5√2, więc dla C = (4,3) otrzymujemy
+2
+√
+(4 − x )^2 + (3 − (x − 1)) = 5√2`,`B B
+√(4 − x )^2 + (4 − x )^2 = 5√2
+B B
+2 ⋅ (4 − x )^2 = 50
+B`],"MMAP-R0-100-2205-n15":[`a)
+Przyjmujemy następujące oznaczenia:
+a – długość podstawy trójkąta,
+b – długość ramienia trójkąta,
+h – wysokość trójkąta.
+Obwód trójkąta jest równy 18, więc a + 2b = 18 i stąd a = 18 − 2b.
+Z geometrycznych warunków zadania wynika, że a ∈ (0,+∞) oraz b ∈ (0,+∞), więc`,`18 − 2b > 0, zatem b ∈ (0,9).
+Korzystając z twierdzenia Pitagorasa i związku a = 18 − 2b, otrzymujemy
+2
+h^2 = b (2 1/(−())/2 a)
+2
+h^2 = b (2 1/(−())/2 (18 − 2b))
+h^2 = b^2 − (9 − b)^2`,`h^2 = 18b − 81
+h = √18b − 81
+Musi zachodzić 18b − 81 > 0, więc b > 81/18 . Zatem
+((b∈( 9/2 ,9).)/(ah))/(P=)
+Pole trójkąta o podstawie a i wysokości h jest równe .
+2
+Zapisujemy pole trójkąta jako funkcję P zmiennej b:`,`P(b) = ((18−2b)⋅√18b−81)/2 dla b ∈ ( 9/2 ,9)
+b)
+Z geometrycznych warunków zadania wynika, że a ∈ (0,+∞) oraz b ∈ (0,+∞), więc
+18 − 2b > 0, zatem b ∈ (0,9).
+Z warunku trójkąta 2b > a , czyli 2b > 18 − 2b, więc b > 9/2 . Zatem b ∈ ( 9/2 ,9).
+Dziedziną tej funkcji jest przedział ( 9/2 ,9).
+c)`,`Przekształcamy wzór funkcji P:
+(18b − 81)
+P(b) = ((18−2b)⋅√18b−81)/2 = (√(18−2b))/2
+Tworzymy funkcję pomocniczą f określoną wzorem
+9
+f(b) = (18 − 2b)^2 (18b − 81) dla b ∈ ( ,9).
+2`,`Wyznaczamy pochodną funkcji f:
+′
+f (b) = (−72 + 8b)(18b − 81) + (324 − 72b + 4b^2 ) ∙ 18 = 216b^2 − 3240b + 11664
+Obliczamy miejsce zerowe pochodnej funkcji f:
+′`]};export{n as default};
