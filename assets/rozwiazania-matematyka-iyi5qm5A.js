@@ -8920,4 +8920,794 @@ f(b) = (18 − 2b)^2 (18b − 81) dla b ∈ ( ,9).
 ′
 f (b) = (−72 + 8b)(18b − 81) + (324 − 72b + 4b^2 ) ∙ 18 = 216b^2 − 3240b + 11664
 Obliczamy miejsce zerowe pochodnej funkcji f:
-′`]};export{n as default};
+′`],"MMAP-P0-100-2209-n6":[`Przekształcamy lewą stronę równania do postaci iloczynu:
+3x^3 − 6x^2 − 27x + 54 = 0`,`3x^2 (x − 2) − 27(x − 2) = 0
+(x − 2)(3x^2 − 27) = 0`,`3(x − 2)(x^2 − 9) = 0
+Stąd otrzymujemy kolejno`,`x − 2 = 0 lub x^2 − 9 = 0
+x − 2 = 0 lub (x − 3)(x + 3) = 0`,`x − 2 = 0 lub x − 3 = 0 lub x + 3 = 0
+x = 2 lub x = 3 lub x = −3`,"Rozwiązaniami równania są liczby: (−3), 2 oraz 3."],"MMAP-P0-100-2209-n12-2":[`Obliczamy wartość współczynnika b:
+b = y(0) = 1,2`,`W celu obliczenia wartości współczynnika a obliczamy głębokość basenu w odległości
+15 m od płytszego brzegu, gdzie łączą się obie płaszczyzny dna:`,`y(15) = 0,18 ∙ 15 − 0,9 = 1,8
+Zatem`,`a ∙ 15 + 1,2 = 1,8
+i stąd a = 0,04.`],"MMAP-P0-100-2209-n21":["Oznaczmy miarę największego kąta w rozpatrywanym trójkącie przez α.","W trójkącie największy kąt wewnętrzny znajduje się naprzeciw najdłuższego boku.","Korzystamy z twierdzenia cosinusów i obliczamy cosinus największego kąta:","8^2 = 6^2 + 7^2 − 2 ⋅ 6 ⋅ 7 ⋅ cosα","64 = 36 + 49 − 84cosα","cosα = 1/4"],"MMAP-P0-100-2209-n23":[`Zysk ze sprzedaży jest różnicą przychodu ze sprzedaży wiatraków oraz kosztu ich
+wytworzenia: Z(x) = P(x) − K(x) = −x^2 + 230x − 170.
+Tygodniowo w zakładzie można wyprodukować maksymalnie 150 wiatraków, więc`,`dziedziną funkcji Z jest zbiór wszystkich liczb całkowitych z przedziału [0 ,150].
+Ponieważ funkcja Z(x) = −x^2 + 230x − 170 jest funkcją kwadratową, największą
+wartość przyjmuje dla argumentu będącego pierwszą współrzędną wierzchołka paraboli.`,`Korzystając ze wzoru p = − (b)/(2a) , obliczamy
+x = − 230/(2⋅(−1)) = −230/−2 = 115
+Liczba x = 115 należy do dziedziny funkcji Z.`,`Największy tygodniowy zysk jest osiągany przy produkcji 115 wiatraków tygodniowo.
+Obliczymy go, przyjmując x = 115:
+Z(115) = −115^2 + 230 ∙ 115 − 170 = 13 055 zł`,"Przy produkcji 115 wiatraków tygodniowo zysk firmy będzie równy 13 055 zł."],"MMAP-P0-100-2209-n25":[`Podstawą ostrosłupa jest trójkąt równoboczny o boku 10√3.
+Ponieważ krawędzie boczne ostrosłupa mają taką samą długość, spodek wysokości
+ostrosłupa jest punktem jednakowo odległym od wierzchołków podstawy bryły, czyli jest
+środkiem okręgu opisanego na podstawie.`,`Obliczamy promień okręgu opisanego na
+(R)/(10√3⋅√3) S
+podstawie: R = = 10.
+3`,`Oznaczmy przez A, B, C, S wierzchołki ostrosłupa,
+′
+przez S – spodek wysokości H opuszczonej z
+wierzchołka S na podstawę ABC (patrz rysunek).`,`′
+Stosujemy do trójkąta AS S twierdzenie Pitagorasa H
+i otrzymujemy kolejno
+′ 2 ′`,`|AS | + |S S|^2 = |SA|^2
+R^2 + H^2 = |SA|^2
++ H^2 = 15^2 A C
+R`,`(10/2)/(H) S′
+(=225−100)/(H=5√5) B
+Wysokość ostrosłupa jest równa 5√5.`],"MMAP-P0-100-2209-n26":["Przekształcamy równoważnie dane wyrażenie","10n^2 + 30n + 8 = 10n^2 + 30n + 5 + 3 = 5 ⋅ (2n^2 + 6n + 1) + 3.","Ponieważ wartość wyrażenia 2n^2 + 6n + 1 jest liczbą całkowitą, to 5 ⋅ (2n^2 + 6n + 1)","jest wielokrotnością liczby 5, zatem 5 ⋅ (2n^2 + 6n + 1) + 3 przy dzieleniu przez 5 daje","resztę 3. To należało wykazać."],"MMAP-P0-100-2212-n7-2":["Wzór funkcji f w postaci kanonicznej to","f(x) = a(x − 5)^2 − 3, gdzie a ≠ 0","Obliczamy a. Wykres funkcji przechodzi przez punkt o współrzędnych (4,0), zatem","0 = a ⋅ (4 − 5)^2 − 3, czyli 0 = a − 3","Stąd a = 3.","Wzór funkcji f w postaci kanonicznej to f(x) = 3(x − 5)^2 − 3."],"MMAP-P0-100-2212-n14":["Przedstawiamy liczbę 5n^2 + 15n w postaci iloczynu","5n^2 + 15n = 5n(n + 3)","Liczby n oraz n + 3 różnią się o liczbę nieparzystą. Zatem, jeśli n jest parzysta, wtedy","n + 3 jest nieparzysta. Jeśli n jest nieparzysta, wtedy n + 3 jest parzysta. Wynika stąd,","że liczba 5n(n + 3) dzieli się przez 2 i przez 5, czyli jest podzielna przez 10. To należało","wykazać."],"MMAP-P0-100-2212-n20":[`Przyjmijmy oznaczenia jak na rysunku w zadaniu. Długość liny użytej do wytyczenia
+kąpieliska – po uwzględnieniu warunków zadania – można zapisać równaniem
+2a + b = 200
+Stąd wyznaczamy b: b = 200 − 2a.`,`Z warunków zadania wynika, że
+a > 0 i b > 0
+Powierzchnia P kąpieliska jest równa polu prostokąta o bokach długości a oraz b. Zatem
+P = a ⋅ b`,`Powierzchnię kąpieliska wyrażamy jako funkcję jednej zmiennej a. W tym celu podstawiamy
+b = 200 − 2a i otrzymujemy
+P(a) = a(200 − 2a) = −2a^2 + 200a
+Wyznaczamy dziedzinę funkcji P. Wykorzystamy związek między wymiarami a i b oraz`,`wykorzystamy warunki, jakie te wymiary spełniają
+b = 200 − 2a > 0 oraz a > 0
+Zatem
+a < 100 oraz a > 0`,`Zmienna a może przyjmować wartości z przedziału (0,100).
+Wykresem funkcji P jest fragment paraboli skierowanej ramionami do dołu. Obliczamy
+pierwszą współrzędną wierzchołka paraboli:
+p = − 200/(2⋅(−2)) = 50 ∈ (0,100)`,`Zatem funkcja P przyjmuje wartość największą dla argumentu 50.
+Obliczamy drugi wymiar, dla którego kąpielisko ma największą powierzchnię:
+b = 200 m − 2 ⋅ 50 m = 100 m
+Największą powierzchnię ma kąpielisko o wymiarach: a = 50 m oraz b = 100 m.`],"MMAP-P0-100-2212-n23":[`D H C
+Niech a oznacza długość boku rombu.
+Trójkąty AEF i ADB są podobne oraz
+trójkąty FBG i ABC są podobne (na`,`mocy cechy kkk podobieństwa trójkątów).
+E
+Zatem mamy zależności:
+O`,`G
+(|AF|)/(|EF|) = (|AB|)/(|BD|) oraz (|BF|)/(|FG|) = (|AB|)/(|AC|)
+(|AF|)/(a) = (|AB|)/12 oraz (|BF|)/(a) = (|AB|)/16
+Zatem`,`|AF| = (|AB|⋅a)/12 oraz |BF| = (|AB|⋅a)/16 A F B
+Wobec tego
+|AB| = |AF| + |BF| = (|AB|⋅a)/12 + (|AB|⋅a)/16
+Zatem`,`1 = (a)/12 + (a)/16
+Wynika stąd, że a = 48/7 .
+Długość boku rombu EFGH jest równa 48/7 .`],"MMAP-P0-100-2212-n24":[`C
+Z warunków zadania mamy: |AC| = 4, |AB| = 3.
+4`,`4
+Oznaczmy przez α miarę kąta BAC. Wtedy cosα = .
+5`,`α
+Aby obliczyć pole P trójkąta ABC, zastosujemy wzór
+A 3 B`,`P = 1/2 ∙ |AB| ∙ |AC| ∙ sinα
+Korzystając z tożsamości sin^2 α + cos^2 α = 1, obliczamy sinus kąta α:
+9 3`,`√ √
+sinα = 1 − cos^2 α = 1 − ( (4/()))/5 = √/25 =
+5`,`Zatem
+P = 1/2 ∙ 3 ∙ 4 ∙ 3/5 = 18/5
+Pole trójkąta ABC jest równe 18/5 .`],"MMAP-P0-100-2212-n30-2":[`H G
+W
+Oznaczamy przez O spodek wysokości
+ostrosłupa ABCDW. Wtedy wysokość
+E`,`F
+ostrosłupa jest równa |OW| = 9.
+9
+Odcinek AC jest przekątną kwadratu
+o boku 9, zatem jego długość jest równa`,`9√2. Odcinek stanowi jego połowę,
+(AO)/9√2 D C
+więc |AO| = .
+2 O
+A B`,`Z twierdzenia Pitagorasa dla trójkąta AOW mamy:
+|AO|^2 + |OW|^2 = |AW|^2
+Podstawiamy długości odcinków:
+2
+(9√2/(())/2 ) + 9^2 = |AW|^2`,`|AW|^2 = 9 (2 2/(())/4 + 1)
+|AW| = 9√6/2
+Oznaczamy kąt WAO przez α. Obliczamy cosinus kąta α:
+|AO| 9√2/2 √2 √3
+cosα = = = =`,`|AW| 9 6 6 3
+√ √
+2
+H G`],"MMAP-P0-100-2212-n33":[`Na podstawie wyników eksperymentu obliczamy średnią liczbę wykiełkowanych nasion:
+x̅ = (133+140+119+147+161)/5 = 700/5 = 140`,`Ponieważ odchylenie standardowe w tym doświadczeniu jest równe σ = 14, więc przedział
+określony przez to odchylenie standardowe od średniej będzie równy`,`(x̅ − σ,x̅ + σ) = (126,154)
+Numery donic, w których liczby wykiełkowanych nasion mieszczą się w tym przedziale, to:`,"I, II oraz IV."],"MMAP-R0-100-2212-n1":[`Stosujemy wzór na zamianę podstawy logarytmu i otrzymujemy
+log 27 log3 27
+3
+log 5 ∙ log3 5 ∙
+3`,`log3 5 ∙ log25 27 log 25 log 5^2
+3
+= = 3/1
+log7^6 √49 log7^6 √49
+log (7^2 )6`,`7
+Stosujemy wzór na logarytm potęgi i korzystamy z definicji logarytmu, otrzymując
+log3 27 3
+3
+log3 5 ∙ log 5 ∙`,`3
+log 5^2 2log 5 9
+3 2
+3/1 = = =
+1 1 2`,`log (7^2 )^6 log7 7
+7
+3 3
+1
+Rozporządzenie Ministra Edukacji i Nauki z dnia 10 czerwca 2022 r. w sprawie wymagań egzaminacyjnych dla`,"egzaminu maturalnego przeprowadzanego w roku szkolnym 2022/2023 i 2023/2024 (Dz.U. poz. 1246)."],"MMAP-R0-100-2212-n2-1":[`Obliczamy miejsca zerowe funkcji g:
+1
+|− x^2 + 3x − 5| = 0
+4
+1`,`− x^2 + 3x − 5 = 0
+4
+x = 2 lub x = 10
+1
+Niech f będzie funkcją kwadratową określoną wzorem f(x) = − x^2 + 3x − 5.`,`4
+W przedziale [2,10] funkcja f przyjmuje wartości nieujemne, więc w tym przedziale
+wykres funkcji g pokrywa się z wykresem funkcji f. W przedziałach (−∞,2) oraz
+(10,+∞) funkcja f przyjmuje wartości ujemne, więc w tych przedziałach wykres funkcji g
+jest obrazem wykresu funkcji f w symetrii względem osi Ox układu współrzędnych.`,`Obliczamy pierwszą współrzędną p wierzchołka paraboli będącej wykresem funkcji f:
+3
+p = − = 6.
+2⋅(−^1 )
+4`,`Ponieważ p < 9, więc funkcja g w przedziale [9,10] jest malejąca, a w przedziale
+[10,11] jest rosnąca. Obliczamy g(9) i g(11):
+1 1 1 7
+g(9) = |− ∙ 9^2 + 3 ∙ 9 − 5| = |− ∙ 81 + 27 − 5| = |−20 + 22| =
+4 4 4 4`,`1 1 1 9
+g(11) = |− ∙ 11^2 + 3 ∙ 11 − 5| = |− ∙ 121 + 33 − 5| = |−30 + 28| =
+4 4 4 4
+Zbiorem wszystkich wartości, jakie funkcja g przyjmuje w zbiorze [9,11], jest [0, 9/4 ].`],"MMAP-R0-100-2212-n2-2":[`Obliczamy drugą współrzędną punktu przecięcia wykresu funkcji g z osią Oy:
+g(0) = |−5| = 5
+1`,`Niech f będzie funkcją kwadratową określoną wzorem f(x) = − x^2 + 3x − 5.
+4
+Obliczamy drugą współrzędną q wierzchołka paraboli będącej wykresem funkcji f:`,`1
+3^2 − 4 ⋅ (− ) ⋅ (−5)
+q = − = 4`,`((4/1)/(4⋅(−))/4 )
+Wykres funkcji g jest wykresem funkcji y = |f(x)|, więc funkcja g ma lokalne maksimum
+równe 4.`,`Przyjmijmy k = |m|. Na podstawie analizy własności funkcji g wyznaczamy wartości k
+dla których równanie g(x) = k posiada dwa rozwiązania dodatnie: k ∈ (4,5) ∪ {0}.
+Obliczamy wartości parametru m:`,`|m| = 0 lub 4 < |m| < 5
+Stąd m = 0 lub m ∈ (−5,−4) ∪ (4,5).
+Zatem m ∈ (−5,−4) ∪ {0} ∪ (4,5).`],"MMAP-R0-100-2212-n3":[`Przekształcamy nierówność x^3 + 2xy + y^3 ≥ x^2 + xy(x + y) + y^2 w sposób równoważny
+x^3 + y^3 − xy(x + y) − x^2 + 2xy − y^2 ≥ 0
+(x + y)(x^2 − xy + y^2 ) − xy(x + y) − (x^2 − 2xy + y^2 ) ≥ 0`,`(x + y)[(x^2 − xy + y^2 ) − xy] − (x − y)^2 ≥ 0
+(x + y)(x^2 − 2xy + y^2 ) − (x − y)^2 ≥ 0
+(x + y)(x − y)^2 − (x − y)^2 ≥ 0`,`(x − y)^2 (x + y − 1) ≥ 0
+Ponieważ:
+• z założenia x + y ≥ 1 wynika, że x + y − 1 ≥ 0`,`• kwadrat każdej liczby rzeczywistej jest liczbą nieujemną,
+więc iloczyn (x − y)^2 (x + y − 1) jest liczbą nieujemną jako iloczyn liczb nieujemnych
+x + y − 1 oraz (x − y)^2 .`,`To oznacza, że nierówność x^3 + 2xy + y^3 ≥ x^2 + xy(x + y) + y^2 jest prawdziwa dla
+wszystkich liczb rzeczywistych x oraz y spełniających warunek x + y ≥ 1.
+To należało wykazać.`],"MMAP-R0-100-2212-n4":[`Próbą Bernoullego jest kontrola masy herbaty nasypanej przez maszynę do torebki.
+Sukcesem w tej próbie jest uzyskanie torebki herbaty z niedowagą. Prawdopodobieństwo p
+sukcesu jest równe 0,1, natomiast prawdopodobieństwo q porażki jest równe 0,9.`,`Niech A oznacza zdarzenie polegające na tym, że wśród wylosowanych do kontroli
+20 torebek znajdą się co najwyżej dwie torebki z niedowagą. Przez P (k) oznaczmy
+20`,`prawdopodobieństwo zdarzenia polegającego na tym, że wśród skontrolowanych
+20 torebek znajdzie się dokładnie k torebek z niedowagą.
+Wtedy P(A) = P (0) + P (1) + P (2). Zatem`,`20 20 20
+20
+P(A) = ( ) ∙ (0,1)^0 ∙ (0,9)^20 + ( (20/()∙(0,1)) 1)/1 ∙ (0,9) (19 20/(+())/2 ) ∙ (0,1)^2 ∙ (0,9)^18`,`0
+P(A) = (0,9)^18 ∙ 4,51 ≈ 0,68`],"MMAP-R0-100-2212-n5":[`Rozwiązań równania szukamy wśród liczb x ≠ (π)/2 + kπ, gdzie k ∈ Z, gdyż tangens nie jest
+określony dla liczb postaci (π)/2 + kπ (gdzie k ∈ Z).
+Przekształcamy lewą stronę równania do postaci iloczynu:`,`6 ⋅ (sinx)/(cosx) ∙ cosx + 2√3cosx + 3tgx + √3 = 0
+6tgx ⋅ cosx + 2√3cosx + 3tgx + √3 = 0
+2cosx(3tgx + √3) + (3tgx + √3) = 0`,`(3tgx + √3)(2cosx + 1) = 0
+Otrzymane równanie jest równoważne alternatywie równań:
+3tgx + √3 = 0 lub 2cosx + 1 = 0`,`Stąd
+tgx = − √3/3 lub cosx = − 1/2
+x = − (π)/6 + kπ lub x = (2π)/3 + 2kπ lub x = − (2π)/3 + 2kπ`,`gdzie k ∈ Z. Żadna z otrzymanych liczb nie jest postaci
+((π)/2 +kπ.)/(2π)
+Rozwiązaniami równania są liczby postaci: − (π)/6 + kπ oraz + 2kπ, oraz − (2π)/3 + 2kπ,`,`3
+gdzie k ∈ Z.`],"MMAP-R0-100-2212-n6":[`Przyjmijmy oznaczenia jak na rysunku.
+C
+γ
+L
+K`,`P
+β
+α
+β
+α`,`A B
+Ponieważ na czworokącie CLPK można opisać okrąg, więc |∡LPK| = 180° − γ.
+Z własności kątów wierzchołkowych
+|∡LPK| = |∡APB| = 180° − α − β
+Zatem`,`180° − γ = 180° − α − β
+Stąd
+γ = α + β
+Korzystamy z twierdzenia o sumie miar kątów wewnętrznych trójkąta i otrzymujemy:
+γ + 2α + 2β = 180°`,`γ + 2(α + β) = 180°
+3γ = 180°
+γ = 60°
+Analogicznie, ponieważ na czworokącie BKPM można opisać okrąg, więc |∡ABC| = 60°.
+Stąd`,`|∡CAB| = 180° − |∡ABC| − |∡BCA| = 60°
+Zatem trójkąt ABC jest równoboczny.
+To należało wykazać.`],"MMAP-R0-100-2212-n7":[`22x^2
+Wyznaczamy pochodną funkcji K(x) = (−621,5x+23430)/(480+x) :
+(44x − 621,5)(480 + x) − 1 ∙ (22x^2 − 621,5x + 23 430)
+′`,`K (x) =
+(480 + x)^2
+Obliczamy miejsca zerowe pochodnej:
+′`,`K (x) = 0
+22x^2
+((+44⋅480x−321750)/2 =0)/((480+x))
+22x^2 + 44 ⋅ 480x − 321 750 = 0`,`x^2 + 960x − 14 625 = 0
+x = −975 ∉ [0,50] lub x = 15 ∈ [0,50]
+Ponieważ K′(x) < 0 dla x ∈ [0,15) oraz K′(x) > 0 dla x ∈ (15,50], więc funkcja K
+(określona na przedziale [0,50]) jest malejąca w przedziale [0,15] oraz rosnąca`,`w przedziale [15,50]. Stąd funkcja K osiąga wartość najmniejszą dla argumentu x = 15.
+Przeciętny koszt wytworzenia jednego litra oleju jest najmniejszy przy poziomie produkcji
+495 litrów dziennie.
+Obliczamy najmniejszy przeciętny koszt wytworzenia jednego litra oleju:`,`22 ∙ 15^2
+K(15) = (−621,5∙15+23430)/(480+15) = 38,50 zł`],"MMAP-R0-100-2212-n8":[`Wyznaczamy dziedzinę nierówności − 1/(2−x) ≥ 3/(2+x) + 2:
+((x−1)/2)/(x)
+−4
+x^2 − 4 ≠ 0 i 2 − x ≠ 0 i 2 + x ≠ 0`,`Zatem nierówność ma sens liczbowy dla x ∈ R\\{−2,2}.
+Przekształcamy kolejno nierówność, otrzymując:
+(x−1+x+2)/((x−2)(x+2)) ≥ (2x+7)/(2+x)
+(2x+1)/((x−2)(x+2)) ≥ ((2x+7)(x−2))/((x−2)(x+2))`,`(2x+1)/((x−2)(x+2)) − ((2x+7)(x−2))/((x−2)(x+2)) ≥ 0
++ 3x − 14
+(2x+1)/((x−2)(x+2)) − (2x)/((x−2)(x+2)) ≥ 0
+− x + 15`,`(−2x)/((x−2)(x+2)) ≥ 0
+−2(x − 5/2 )(x + 3)
+≥ 0
+(x − 2)(x + 2)`,`−2(x−^5 )(x+3)
+Ponieważ znak wyrażenia wymiernego 2/((x−2)(x+2)) jest taki sam, jak wyrażenia
+będącego iloczynem licznika i mianownika tego ułamka algebraicznego, więc
+−2(x − 5/2 )(x + 3)(x − 2)(x + 2) ≥ 0`,`Zbiorem wszystkich rozwiązań nierówności wielomianowej
+−2(x − 5/2 )(x + 3)(x − 2)(x + 2) ≥ 0 jest zbiór [−3,−2] ∪ [2, 5/2 ].
+Uwzględniamy dziedzinę nierówności wymiernej i otrzymujemy zbiór wszystkich rozwiązań
+nierówności wymiernej: [−3,−2) ∪ (2, 5/2 ].`],"MMAP-R0-100-2212-n9":[`Trójmian x^2 − (m − 4)x + m^2 − 7m + 12 ma dwa różne pierwiastki rzeczywiste tylko
+wtedy, gdy jego wyróżnik Δ jest dodatni, tj.
+(m − 4)^2 − 4(m^2 − 7m + 12) > 0
+−3m^2 + 20m − 32 > 0
+−3(m − 4)(m − 8/3 ) > 0`,`Zatem
+(m∈( 8/3 ,4).)/3
+Nierówność x + x^3 < 5x^2 x2 + 5x1x^2 przekształcamy równoważnie do postaci, która
+1 2 1 2
+pozwoli na bezpośrednie zastosowanie wzorów Viète’a:`,`x^3 + x^3 < 5x^2 x2 + 5x1x^2
+1 2 1 2
+(x + x )[x^2 − x x + x^2 ] < 5x x (x + x )
+1 2 1 1 2 2 1 2 1 2
+(x + x )[(x + x )^2 − 3x x ] < 5x x (x + x )`,`1 2 1 2 1 2 1 2 1 2
+Stosujemy wzory Viète’a i otrzymujemy:
+(m − 4)[(m − 4)^2 − 3(m^2 − 7m + 12)] < 5(m^2 − 7m + 12)(m − 4)
+(m − 4)[(m − 4)^2 − 8(m^2 − 7m + 12)] < 0
+(m − 4)(−7m^2 + 48m − 80) < 0`,`20
+−7(m − 4)^2 (m − ) < 0
+7
+m ∈ ( 20/7 ,4) ∪ (4,+∞)
+Częścią wspólną zbiorów i ( 20/7 ,4) ∪ (4,+∞) jest ( 20/7 ,4).`,`(( 8/3 ,4))/2
+Równanie x^2 − (m − 4)x + m − 7m + 12 = 0 ma dwa różne rozwiązania rzeczywiste,
+spełniające warunki zadania, dla m ∈ ( 20/7 ,4).`],"MMAP-R0-100-2212-n10":[`S
+Odpowiedni przekrój przedstawiono na rysunku
+obok.
+F
+E
+D
+C`,`G P
+A a B
+P i G – środki krawędzi, odpowiednio, BC i AD.
+E ∈ AS i F ∈ DS, i EF ∥ AD. Podstawa ABCD jest kwadratem o boku a. Krawędzie
+boczne są równej długości.
+Otrzymany przekrój BCFE jest trapezem równoramiennym.
+Wprowadzamy oznaczenia:`,`O – punkt przecięcia przekątnych podstawy ABCD,
+R – środek odcinka EF,
+H – rzut prostokątny punktu R na płaszczyznę podstawy ABCD,
+h – wysokość trapezu BCFE.
+S
+F
+E`,`R
+h
+D
+C
+α
+G H O P
+A a B`,`Trójkąt SOG jest prostokątny, więc z definicji funkcji cosinus otrzymujemy
+cosα = (|OG|)/(|SG|)
+1
+10 a
+√
+= 2/(|SG|)
+10`,`Stąd wysokość ściany bocznej ostrosłupa jest równa |SG| = √10/2 a.
+Trójkąt GPR jest prostokątny, więc z definicji funkcji cosinus otrzymujemy
+cosα = (|RG|)/(|GP|)
+√10/10 = (|RG|)/(a)
+|RG| = √10/10 a`],"MMAP-R0-100-2212-n11":[`Przyjmijmy oznaczenia:
+a – długość dłuższej podstawy trapezu,
+b – długość krótszej podstawy trapezu,
+|∡BAC| = α, |∡ABC| = β,
+CE – wysokość poprowadzona z wierzchołka C trapezu na podstawę AB.
+D b C
+h 6`,`α β
+A a E B
+Ponieważ na trapezie ABCD opisano okrąg, więc trapez jest równoramienny. Promień
+okręgu opisanego na trójkącie ABC jest równy promieniowi okręgu opisanego na trapezie
+ABCD. Ponieważ |AB| > |CD|, więc α < 90° i β < 90°.
+Stosujemy twierdzenie sinusów w trójkącie ABC i obliczamy sinus kąta α:
+(|BC|)/(sinα) = 2R`,`(((6/(sinα) =10)/3)/(sinα=))/5
+Korzystając z jedynki trygonometrycznej, otrzymujemy cosα = 4/5 .
+Obliczamy sinus kąta β.
+Ponieważ (sin|∡BAC|)/(sin|∡ABC|) = 5/8 , więc
+sinβ = 8/5 ⋅ sinα
+sinβ = 8/5 ∙ 3/5 = 24/25
+Korzystając z jedynki trygonometrycznej, otrzymujemy cosβ = 7/25 .`,`Obliczamy sinus kąta (α + β), korzystając ze wzoru na sinus sumy kątów:
+sin(α + β) = 3/5 ∙ 7/25 + 4/5 ∙ 24/25 = 117/125
+Stosujemy twierdzenie sinusów do trójkąta ABC i obliczamy długość dłuższej podstawy
+trapezu:
+(a)/(sin[180°−(α+β)]) = 2R
+(a)/(sin(α+β)) = 10
+(a)/117 = 10`,`125
+a = 234/25
+Trójkąt BEC jest prostokątny. Obliczamy wysokość h trapezu, długość odcinka EB oraz
+długość krótszej podstawy trapezu:
+(h)/(|BC|) = sinβ oraz (|EB|)/(|BC|) = cosβ
+(h)/6 = 24/25 oraz (|EB|)/6 = 7/25
+h = 144/25 oraz |EB| = 42/25`,`b = a − 2 ⋅ |EB|
+b = 234/25 − 2 ∙ 42/25 = 6
+Obliczamy pole P i obwód L trapezu:
+234
++ 6`],"MMAP-R0-100-2212-n12":[`Zapisujemy układ równań prowadzący do obliczenia współrzędnych punktów A i B.
+x + y − 9 = 0
+{ 1 3 1
+y = x^2 − x +
+4 2 4
+Z pierwszego równania wyznaczamy y = −x + 9 i podstawiamy wyrażenie −x + 9
+w miejsce y do drugiego równania, otrzymując:`,`1 3 1
+−x + 9 = x^2 − x +
+4 2 4
+x^2 − 2x − 35 = 0
+x = −5 lub x = 7
+Dla x = −5 otrzymujemy y = 14, więc B = (−5,14).
+Dla x = 7 otrzymujemy y = 2, więc A = (7,2).`,`Oznaczmy pierwszą współrzędną punktu C przez xC. Prosta l jest równoległa do
+prostej k, więc współczynnik kierunkowy obu prostych jest równy (−1). Prosta l jest
+styczna do paraboli w punkcie C, więc współczynnik kierunkowy prostej l jest równy
+1 3 1
+pochodnej funkcji y = x^2 − x + w punkcie x = xC. Zatem
+4 2 4
+1 3`,`′ ′
+y = x − i y (x ) = −1
+C
+2 2
+1/2 xC − 3/2 = −1
+xC = 1
+czyli C = (1,−1).`,`Obliczamy wysokość hC trójkąta ABC poprowadzoną z wierzchołka C na podstawę AB
+(wysokość ta jest równa odległości punktu C od prostej k):
+9
+hC = (|1+(−1)−9|)/2 =
+√1 + 1^2 √2
+Obliczamy długość boku AB: |AB| = √(−5 − 7)^2 + (14 − 2)^2 = 12√2.
+1 1 9`,`Obliczamy pole P trójkąta ABC: P = ⋅ |AB| ⋅ h = ⋅ 12√2 ⋅ = 54.
+C
+2 2 √2
+Uwaga.
+Pole P trójkąta ABC można również obliczyć ze wzoru`],"MMAP-P0-100-2312-n5":["Ponieważ liczba n jest nieparzysta, więc zapisujemy ją w postaci n = 2l + 1, gdzie l ∈ Z.","Wówczas badana liczba ma postać","3n^2 + 4n + 1 = 3(2l + 1)^2 + 4(2l + 1) + 1 = 3(4l^2 + 4l + 1) + 8l + 4 + 1","= 12l^2 + 12l + 3 + 8l + 5 = 12l^2 + 20l + 8 = 4(3l^2 + 5l + 2)","Ponieważ l ∈ Z, więc również 3l^2 + 5l + 2 jest liczbą całkowitą. Zatem iloczyn","4(3l^2 + 5l + 2) jest podzielny przez 4. To należało wykazać."],"MMAP-P0-100-2312-n9":[`Przekształcamy równanie równoważnie, stosując metodę grupowania wyrazów:
+2x^3 + 3x^2 = 10x + 15`,`2x^3 + 3x^2 − 10x − 15 = 0
+x^2 (2x + 3) − 5(2x + 3) = 0`,`(2x + 3)(x^2 − 5) = 0
+(2x + 3)(x − √5)(x + √5) = 0`,`2x + 3 = 0 lub x − √5 = 0 lub x + √5 = 0
+x = − 3/2 lub x = √5 lub x = −√5`,`Rozwiązaniami równania są liczby: (−√5) , (−^3 ), √5 .
+2`],"MMAP-P0-100-2312-n24":[`Z warunków zadania otrzymujemy:
+• |∢ABD| = |∢ACD| , ponieważ są to kąty wpisane oparte na tym samym łuku AD,`,`• |∢BAC| = |∢BDC| , ponieważ są to kąty wpisane oparte na tym samym łuku BC,
+• |∢APC| = |∢BPD| , ponieważ są to kąty wierzchołkowe.`,`Zatem trójkąty ACP oraz BPD są podobne na podstawie cechy KKK (kąt – kąt – kąt).
+Z podobieństwa trójkątów ACP oraz BPD otrzymujemy:`,`(|PA|)/(|PD|) = (|PC|)/(|PB|)
+(|PA|)/5 = 8/4`,`|PA| = 10
+|AB| = |AP| + |PB| = 10 + 4 = 14`,`Zatem promień r okręgu O jest równy:
+r = 1/2 ∙ |AB| = 1/2 ∙ 14 = 7`],"MMAP-P0-100-2312-n26":[`Przyjmujemy oznaczenia:
+α – miara kąta pomiędzy wysokością ściany bocznej a podstawą,
+a – długość krawędzi podstawy,
+H – wysokość ostrosłupa,
+hb – wysokość ściany bocznej ostrosłupa,
+V – objętość ostrosłupa,
+Pp – pole podstawy ostrosłupa.`,`Zauważamy, że α ∈ (0°,90°) oraz a > 0, H > 0 i hb > 0.
+Ponieważ O jest punktem przecięcia przekątnych kwadratu, więc |OE| =^1 a.
+2
+W trójkącie prostokątnym SOE mamy
+|SO| 4
+tgα = = (H)/1 =
+|OE| 3`,`a
+2
+Zatem |SO| = 4x oraz |OE| = 3x (zobacz rysunek)
+S
+hb
+4x
+D C`,`α
+∶ ∶
+O 3x E
+A 6x B
+Z twierdzenia Pitagorasa otrzymujemy:
+|SE|^2 = |SO|^2 + |OE|^2
+2`,`1
+(h )^2 = H^2 + ( a)
+b
+2
+(h )^2 = (4x)^2 + (3x)^2 = 16x^2 + 9x^2 = 25x^2
+b
+hb = 5x`,`Ponadto
+1 1 1 1
+V = ∙ Pp ∙ H = ∙ a^2 ∙ H = ∙ (6x)^2 ∙ 4x = ∙ 36x^2 ∙ 4x = 48x^3
+3 3 3 3
+Stąd, że V = 384, otrzymujemy`],"MMAP-P0-100-2312-n27":[`Liczba wszystkich sześciocyfrowych numerów CAN spełniających warunki zadania jest
+iloczynem liczby możliwości ustawienia cyfr na trzech pierwszych miejscach i liczby`,`możliwości ustawienia czwartej, piątej i szóstej cyfry.
+Na pierwszych trzech miejscach znajdują się cyfry, które tworzą ciąg arytmetyczny o różnicy`,`(−3). Cztery trzywyrazowe ciągi spełniają powyższy warunek: (9,6,3), (8,5,2), (7,4,1),
+(6,3,0).`,`Czwartą cyfrę w numerze CAN możemy ustawić na 7 sposobów. Piątą cyfrę – na 6
+sposobów. Szóstą cyfrę – na 5 sposobów.`,`Zatem liczba wszystkich sześciocyfrowych numerów CAN, spełniających warunki zadania,
+jest równa: 4 ∙ 7 ∙ 6 ∙ 5 = 840.`],"MMAP-P0-100-2312-n30":[`Przyjmujemy oznaczenia:
+a = 12 – dłuższa podstawa trapezu,
+b – krótsza podstawa trapezu,
+h – wysokość trapezu.`,`Z warunków zadania otrzymujemy:
+b + h = 18
+Stąd wyznaczamy h:
+h = 18 − b`,`Pole trapezu wyrażamy jako funkcję zmiennej b:
+P(b) = 1/2 (12 + b)(18 − b) = − 1/2 (b + 12)(b − 18)
+Wyznaczamy dziedzinę funkcji P. Z warunków zadania wynika, że:
+b > 0 oraz h = 18 − b > 0 oraz b < 12`,`Zatem
+b > 0 oraz b < 18 oraz b < 12
+Zmienna b może przyjmować wartość z przedziału (0,12).
+Wykresem funkcji P jest fragment paraboli skierowanej ramionami do dołu. Obliczamy`,`pierwszą współrzędną wierzchołka paraboli:
+p = (−12+18)/2 = 6/2 = 3 ∈ (0,12)
+Zatem funkcja P przyjmuje wartość największą dla argumentu 3.
+Dla b = 3 pole tego trapezu jest równe:`,`P(3) = 1/2 (12 + 3)(18 − 3) = 112,5
+Największe pole równe 112,5 dm^2 ma trapez, którego krótsza podstawa ma 3 dm.`],"MMAP-P0-100-2412-n3":["Korzystamy z własności działań na potęgach i otrzymujemy:","2^100 + 4^49 + 16^24 = 2^100 + (2^2 )^49 + (2^4 )^24 = 2^100 + 2^98 + 2^96","Wyłączamy wspólny czynnik przed nawias","2^100 + 2^98 + 2^96 = 2^96 ⋅ (2^4 + 2^2 + 1) = 2^96 ⋅ 21","Liczba 2^96 jest liczbą całkowitą, zatem liczba 2^100 + 4^49 + 16^24 jest podzielna przez 21."],"MMAP-P0-100-2412-n8":[`Każde z wyrażeń: (x+3)/(x−1) , (x)/(2x−2) ma sens liczbowy dla x ≠ 1.
+Przekształcamy równanie równoważnie:`,`(x+3)/(x−1) = (x)/(2x−2) /⋅ 2(x − 1), gdzie x ≠ 1
+2(x + 3) = x, gdzie x ≠ 1`,`Rozwiązujemy otrzymane równanie liniowe:
+2x + 6 = x`,`x = −6
+Rozwiązaniem równania (x+3)/(x−1) = (x)/(2x−2) jest liczba (−6).`],"MMAP-P0-100-2412-n19":[`Trójkąty ABC oraz CAD są podobne na podstawie cechy kąt – kąt – kąt podobieństwa
+trójkątów. Stąd
+(|CD|)/(|AC|) = (|AC|)/(|AB|)`,`(|CD|)/6 = 6/7,5
+|CD| = 4,8
+Korzystamy z twierdzenia Pitagorasa i obliczamy długość odcinka AD:`,`|AD|^2 = |AC|^2 − |CD|^2
+|AD|^2 = 6^2 − 4,8^2
+|AD|^2 = 12,96`,`|AD| = 3,6
+Obliczamy pole trapezu ABCD:
+1 1`,`P = ⋅ (|AB| + |CD|) ⋅ |AD| = ⋅ (7,5 + 4,8) ⋅ 3,6 = 22,14
+ABCD
+2 2`],"MMAP-P0-100-2412-n26":[`Ze wzoru na objętość stożka otrzymujemy:
+1
+V = ⋅ π ⋅ r^2 ⋅ H`,`3
+1
+8π = ⋅ π ⋅ r^2 ⋅ 2`,`3
+r^2 = 12
+r = √12 = 2√3`,`Niech α oznacza połowę miary kąta rozwarcia stożka. Wtedy
+tgα = 2√3/2 = √3
+Stąd α = 60°.`,"Zatem kąt rozwarcia stożka ma miarę 120°."],"MMAP-P0-100-2412-n28":[`Zdarzeniami elementarnymi są wszystkie uporządkowane pary liczb (x,y), gdzie
+x ∈ {1, 2, 3, 4, 5, 6} oraz y ∈ {7, 8, 9, 10}.`,`Liczbę wszystkich zdarzeń elementarnych obliczamy z wykorzystaniem reguły mnożenia.
+Moc zbioru Ω jest równa 6 ⋅ 4 = 24.`,`Zdarzeniu A sprzyjają następujące zdarzenia elementarne:
+(1,8),(2,8),(2,10),(3,8),(4,7),(4,8),(4,9),(4,10),(5,8),(6,8),(6,10),`,`więc moc zbioru A jest równa 11.
+Zatem prawdopodobieństwo zdarzenia A jest równe 11/24 .`],"MMAP-P0-100-2412-n30":[`Przyjmijmy oznaczenia jak na rysunku.
+H G
+E F
+D C
+A x B`,`Ponieważ |AB| = x, więc |AE| = 3x.
+Suma długości wszystkich dwunastu krawędzi prostopadłościanu jest równa 48, zatem
+4 ⋅ |AB| + 4 ⋅ |AD| + 4 ⋅ |AE| = 48
+|AB| + |AD| + |AE| = 12
+x + |AD| + 3x = 12`,`|AD| = 12 − 4x
+Pole P powierzchni całkowitej prostopadłościanu ABCDEFGH jest równe
+P = 2 ⋅ (|AB| ∙ |AD| + |AB| ⋅ |AE| + |AD| ⋅ |AE|)
+Ponieważ |AB| = x, |AD| = 12 − 4x, |AE| = 3x, więc wzór funkcji P zmiennej x ma
+postać`,`P(x) = 2 ⋅ [x ⋅ (12 − 4x) + x ⋅ 3x + (12 − 4x) ⋅ 3x]
+P(x) = 2 ⋅ (12x − 4x^2 + 3x^2 + 36x − 12x^2 )
+P(x) = 2 ⋅ (−13x^2 + 48x)
+P(x) = −26x^2 + 96x
+Wyznaczamy dziedzinę funkcji P. Z warunków zadania wynika, że:`,`|AB| = x > 0 oraz |AD| = 12 − 4x > 0 oraz |AE| = 3x > 0
+Zatem
+x > 0 oraz x < 3
+Zmienna x może przyjmować wartości z przedziału (0,3).
+Wykresem funkcji P jest fragment paraboli skierowanej ramionami do dołu. Obliczamy`,`pierwszą współrzędną wierzchołka tej paraboli:
+p = −96/(2⋅(−26)) = 24/13 ∈ (0,3)
+Zatem funkcja P przyjmuje wartość największą dla argumentu 24/13 .
+Spośród rozważanych prostopadłościanów największe pole powierzchni całkowitej ma ten,
+w którym x = 24/13 .`],"MMAP-R0-100-2412-n1":[`Z warunków oraz Q(6) = 18 otrzymujemy związki 2 = Q ⋅ β^(−4) oraz
+(Q(4)=2)/−6 0
+18 = Q0 ⋅ β . Stąd
+2 Q0 ⋅ β^(−4)`,`=
+18 Q0 ⋅ β^(−6)
+1
+= β^2`,`9
+β = 1/3
+1
+Rozporządzenie Ministra Edukacji z dnia 28 czerwca 2024 r. zmieniające rozporządzenie w sprawie podstawy`,`programowej kształcenia ogólnego dla liceum ogólnokształcącego, technikum oraz branżowej szkoły II stopnia
+(Dz.U. z 2024 r. poz. 1019).
+−4
+Zatem 2 = Q0 ⋅ ( 1/3 ) , więc Q0 = 2/81 .`,`Obliczamy Q(5):
+2 2
+Q(5) = (1/(⋅())/3 ) = ⋅ 3^5 = 6
+81 81`],"MMAP-R0-100-2412-n2":[`Przyjmijmy następujące oznaczenia:
+D – punkt styczności okręgu O do boku AC trójkąta,
+E – punkt styczności okręgu O do boku BC trójkąta,
+S – środek okręgu O (zobacz rysunek).`,`C
+D
+E
+S`,`B
+N
+A
+M`,`Z twierdzenia o odcinkach stycznych wynika, że |CD| = |CE|.
+Ponieważ |MS| = |NS|, więc trójkąt MNS jest równoramienny i |∡SMN| = |∡SNM|.
+Zatem |∡SMA| = |∡SNB|.
+Jeżeli |AM| = |NB|, to wówczas trójkąty AMS i BNS będą przystające (na podstawie`,`cechy bkb przystawania trójkątów), czyli |AS| = |BS|. Z równości |AS| = |BS| oraz
+|DS| = |ES|, po zastosowaniu twierdzenia Pitagorasa, otrzymamy |AD| = |BE|. Stąd
+|AC| = |AD| + |DC| = |CE| + |EB| = |BC|
+To należało wykazać.`],"MMAP-R0-100-2412-n3":[`Niech r będzie promieniem podstawy walca, natomiast h – wysokością walca.
+Z warunków zadania otrzymujemy 2r ⋅ h = 12√3 oraz 2πr^2 + 2πrh = 12π(√3 + 1).`,`Z pierwszego z tych równań wyznaczamy h = 6√3/(r) i podstawiamy w miejsce h do
+drugiego z równań, otrzymując`,`6√3
+2πr^2 + 2πr ⋅ = 12π(√3 + 1)`,`r
+2πr^2 + 12√3π = 12π(√3 + 1)`,`r^2 = 6
+Zatem r = √6 oraz h = 6√3/√6 = 3√2.`,`Obliczamy objętość V walca:
+V = πr^2 h = π ⋅ 6 ⋅ 3√2 = 18π√2`],"MMAP-R0-100-2412-n4":[`Stosujemy definicję logarytmu oraz wzory na sumę logarytmów oraz na różnicę logarytmów
+i otrzymujemy`,`1/(log235+1) + 1/log7140−log72 + 1/(log57+log52+1) =
+= 1/(log235+log22) + 1/log770 + 1/(log57+log52+log55) =`,`= 1/log270 + 1/log770 + 1/log570
+Stąd, po zastosowaniu wzoru na zamianę podstawy logarytmu oraz na logarytm sumy,`,`dostajemy
+1/log270 + 1/log770 + 1/log570 = log70 2 + log70 7 + log70 5 = log70 70 = 1`,`Zatem
+1/(log235+1) + 1/log7140−log72 + 1/(log57+log52+1) = 1`,"To należało wykazać."],"MMAP-R0-100-2412-n5":[`Zbiór zdarzeń elementarnych Ω to zbiór osób w badanej społeczności.
+Przyjmijmy następujące oznaczenia zdarzeń:
+A – losowo wybrana osoba dobrze włada językiem niemieckim,
+B1 – losowo wybrana osoba ma wyższe wykształcenie,
+B2 – losowo wybrana osoba nie ma wyższego wykształcenia.`,`Zgodnie z warunkami zadania B1 ∪ B2 = Ω, B1 ∩ B2 = ∅ oraz
+P(B ) = 0,35
+1
+P(B ) = 0,65
+2`,`P(A) > 0
+Niech B1|A oznacza zdarzenie: losowo wybrana osoba ma wyższe wykształcenie, pod
+warunkiem, że dobrze włada językiem niemieckim.
+Z warunków zadania
+P(A|B ) = 0,7`,`1
+P(A|B ) = 0,4
+2
+Obliczamy P(B |A), korzystając z twierdzenia Bayesa:
+1`,`P(B ) ⋅ P(A|B ) 0,35 ⋅ 0,7
+1 1
+P(B |A) = = =
+1
+P(A|B ) ⋅ P(B ) + P(A|B ) ⋅ P(B ) 0,7 ⋅ 0,35 + 0,4 ⋅ 0,65`,`1 1 2 2
+= 0,(4851) ≈ 0,49`],"MMAP-R0-100-2412-n6":[`Ponieważ |4x − 8| = 4 ⋅ |x − 2| oraz |2 − x| = |x − 2| dla każdego x ∈ R, więc
+równanie |4x − 8| + |x − 2| = |2 − x| + |x + 2| + 4 można przekształcić równoważnie do
+postaci`,`4 ⋅ |x − 2| = |x + 2| + 4
+Rozważamy trzy przypadki.
+Przypadek 1. (gdy x ∈ (−∞,−2))`,`W tym przypadku równanie ma postać −4x + 8 = −x − 2 + 4, czyli x = 2.
+Ponieważ 2 ∉ (−∞,−2), więc liczba 2 nie jest rozwiązaniem równania.
+Przypadek 2. (gdy x ∈ [−2,2))`,`W tym przypadku równanie ma postać −4x + 8 = x + 2 + 4, czyli x = 2/5 .
+Ponieważ 2/5 ∈ [−2,2), więc liczba 2/5 jest rozwiązaniem równania.
+Przypadek 3. (gdy x ∈ [2,+∞))`,`W tym przypadku równanie ma postać 4x − 8 = x + 2 + 4, czyli x = 14/3 .
+Ponieważ 14/3 ∈ [2,+∞), więc liczba 14/3 jest rozwiązaniem równania.
+Ostatecznie rozwiązaniami danego równania są liczby 2/5 oraz 14/3 .`],"MMAP-R0-100-2412-n7":[`Z warunku |AC| = |BC| wynika, że punkt C leży na symetralnej odcinka AB.
+Współczynnik kierunkowy aAB prostej AB jest równy aAB = 8−4/−6−6 = − 1/3 , więc
+współczynnik kierunkowy prostej, która jest symetralną odcinka AB, jest równy a = 3.`,`Obliczamy współrzędne środka M odcinka AB:
+M = ( (6+(−6))/2 , (4+8)/2 ) = (0,6)
+Ponieważ ta symetralna przechodzi przez punkt M, więc ma ona równanie`,`y = 3(x − 0) + 6, czyli y = 3x + 6.
+Obliczamy współrzędne punktu C, który jest punktem przecięcia symetralnej odcinka AB
+z danym okręgiem:`,`(x + 1)^2 + (3x + 6 − 3)^2 = 50
+(x + 1)^2 + 9(x + 1)^2 = 50
+(x + 1)^2 = 5`,`|x + 1| = √5
+x = √5 − 1 ∨ x = −√5 − 1
+Gdy x = √5 − 1, to y = 3(√5 − 1) + 6 = 3√5 + 3, więc wtedy C = (√5 − 1,3√5 + 3).`,`Gdy x = −√5 − 1, to y = 3(−√5 − 1) + 6 = −3√5 + 3, więc wtedy
+C = (−√5 − 1,−3√5 + 3).
+Odp. C = (√5 − 1,3√5 + 3) lub C = (−√5 − 1,−3√5 + 3).`],"MMAP-R0-100-2412-n8":[`Kolejne składniki sumy 1 + 3 + 5 + 7 + ... + (2n + 1) są kolejnymi wyrazami ciągu
+arytmetycznego o pierwszym wyrazie a1 = 1 oraz różnicy r = 2.
+Niech k oznacza liczbę składników tej sumy. Wyznaczamy k:
+a = a + (k − 1) ⋅ r
+k 1
+2n + 1 = 1 + (k − 1) ⋅ 2`,`k = n + 1
+Zatem suma składa się z (n + 1) składników.
+Stosując wzór na sumę (n + 1) początkowych wyrazów ciągu arytmetycznego,
+otrzymujemy
+[1 + (2n + 1)]
+1 + 3 + 5 + 7 + ... + (2n + 1) = ⋅ (n + 1) = (n + 1)^2`,`2
+Wyznaczamy współczynnik dwumianowy:
+( (n)/2 ) = (n(n−1))/2
+Obliczamy granicę
+(n + 1)^2
+=`,`lim/(n→+∞) ((1+3+5+7+...+(2n+1))/(n) =)/(() lim/(n→+∞n(n−1))
+)
+2
+2
+4
+2 + + 2/2`,`2n^2 + 4n + 2
+n n
+= lim = lim = 2
+1
+n→+∞ n^2 − n n→+∞
+1 −`,"n"],"MMAP-R0-100-2412-n9":[`Przekształcamy równanie równoważnie, korzystając ze wzoru na kwadrat sumy oraz
+z jedynki trygonometrycznej:
+sin^4 x = sinx ⋅ cosx − cos^4 x
+sin^4 x + cos^4 x = sinx ⋅ cosx`,`(sin^2 x + cos^2 x)^2 − 2sin^2 x ⋅ cos^2 x = sinx ⋅ cosx
+1 − 2(sinx ⋅ cosx)^2 = sinx ⋅ cosx
+Korzystamy ze wzoru na sinus podwojonego kąta i otrzymujemy dalej
+1 1`,`1 − sin^2 (2x) = sin(2x)
+2 2
+sin^2 (2x) + sin(2x) − 2 = 0
+sin(2x) = 1 ∨ sin(2x) = −2`,`Rozwiązujemy równanie sin(2x) = 1 w zbiorze R:
+2x = (π)/2 + 2π ⋅ k ∧ k ∈ Z
+x = (π)/4 + π ⋅ k ∧ k ∈ Z
+Rozwiązaniami równania sin(2x) = 1 w zbiorze [−π,2π] są liczby: (− 3/4 π), 1/4 π oraz`,`5/4 π.
+Równanie sin(2x) = −2 nie ma rozwiązań w zbiorze R.
+Zatem rozwiązaniami równania sin^4 x = sinx ⋅ cosx − cos^4 x w zbiorze [−π,2π] są
+liczby: (− 3/4 π), 1/4 π oraz 5/4 π.`],"MMAP-R0-100-2412-n10":[`Niech r oznacza różnicę ciągu (a ). Z warunków zadania oraz ze wzoru na n-ty wyraz
+n
+ciągu arytmetycznego otrzymujemy
+a3 + a5 = 10
+a1 + 2r + a1 + 4r = 10`,`a1 = 5 − 3r
+Z warunków zadania i z własności ciągu geometrycznego otrzymujemy
+1
+(a − 1)^2 = − a ⋅ (2a + 4)
+4 7 1`,`8
+1
+(a + 3r − 1)^2 = − (a + 6r)(2a + 4)
+1 1 1
+8`,`Stąd i ze związku a1 = 5 − 3r dostajemy kolejno
+1
+(5 − 3r + 3r − 1)^2 = − (5 − 3r + 6r)(10 − 6r + 4)
+8
+16 = − 1/8 (3r + 5)(14 − 6r)`,`18r^2 − 12r − 198 = 0
+r = −3 ∨ r = 11/3
+Dla r = 11/3 ciąg (an) jest rosnący, więc warunki zadania nie są spełnione.
+Dla r = −3 ciąg (a ) jest malejący, a = 14 oraz a + a = 8 + 2 = 10. Wtedy
+5`,`(n)/((2a1+4,a4−1,−) 1 1/(a7)=(32,4,) 1
+również ). Ciąg (3/((32,4,) 1)/2 ) jest geometryczny, więc
+8 2
+jest jedynym rozwiązaniem zadania.`],"MMAP-R0-100-2412-n11":[`I etap
+Funkcja kwadratowa f ma dwa różne miejsca zerowe wtedy i tylko wtedy, gdy wyróżnik Δ
+trójmianu kwadratowego x^2 − 3x − m^2 + m + 3 jest dodatni.
+Rozwiązujemy warunek ∆> 0:
+(−3)^2 − 4 ∙ 1 ⋅ (−m^2 + m + 3) > 0
+4m^2 − 4m − 3 > 0
+(2m − 1)^2 − 4 > 0`,`(2m − 1 − 2) ⋅ (2m − 1 + 2) > 0
+4(m − 3/2 )(m + 1/2 ) > 0
+m ∈ (−∞,− 1/2 ) ∪ ( 3/2 ,+∞)
+II etap
+Wyznaczamy wszystkie wartości parametru m, dla których jest spełniony warunek
+|x^2 − x^2 | ≤ 12, korzystając ze wzorów Viète’a.
+1 2`,`|x^2 − x^2 | ≤ 12
+1 2
+|x − x | ⋅ |x + x | ≤ 12
+1 2 1 2
+|x − x | ⋅ 3 ≤ 12
+1 2
+|x − x | ≤ 4`,`1 2
+Ponieważ obie strony nierówności |x − x | ≤ 4 są nieujemne, więc przekształcamy tę
+1 2
+nierówność równoważnie do postaci (x − x )^2 ≤ 16. Stąd otrzymujemy
+1 2
+(x + x )^2 − 4 ⋅ x ⋅ x ≤ 16
+1 2 1 2`,`3^2 − 4 ⋅ (−m^2 + m + 3) ≤ 16
+4m^2 − 4m − 19 ≤ 0
+Obliczamy wyróżnik Δm trójmianu kwadratowego 4m^2 − 4m − 19 i rozwiązujemy
+nierówność 4m^2 − 4m − 19 ≤ 0:
+Δ = (−4)^2 − 4 ⋅ 4 ⋅ (−19) = 20 ⋅ 16
+m
+m = 4−8√5/8 = 1−2√5/2 ∨ m = (4+8√5)/8 = (1+2√5)/2`,`m ∈ [ 1−2√5/2 , (1+2√5)/2 ]
+III etap
+Wyznaczamy wszystkie wartości parametru m, które jednocześnie spełniają warunki
+m ∈ (−∞,− 1/2 ) ∪ ( 3/2 ,+∞) oraz m ∈ [ 1−2√5/2 , (1+2√5)/2 ]:
+m ∈ [ 1−2√5/2 ,− 1/2 ) ∪ ( 3/2 , (1+2√5)/2 ].`],"MMAP-R0-100-2412-n12":[`Przyjmijmy następujące oznaczenia:
+k – prosta prostopadła do AB i przechodząca przez punkt D,
+F – obraz punktu C w symetrii osiowej względem prostej k,
+E – spodek wysokości trapezu poprowadzonej z wierzchołka C na podstawę AB.`,`Czworokąt ABFC jest trapezem równoramiennym o podstawach AB i CF oraz ramionach
+AC i BF. Zatem |∡CBF| = |∡CAB| − |∡CBA| = 2α − α = α oraz
+|∡BCF| = |∡ABC| = α, więc trójkąt BCF jest równoramienny (zobacz rysunek). Stąd
+|CF| = |FB| = |AC|.`,`C F
+α
+k
+α`,`2α β α
+A E D B
+Ponieważ tgβ = (|CE|)/(|ED|) oraz sin(2α) = (|CE|)/(|AC|) , więc
+|CE|`,`(tgβ)/(sin(2α)) = (|ED|)/(|CE|) = (|AC|)/(|ED|)
+|AC|
+Ponieważ trapez ABFC jest równoramienny i D jest środkiem podstawy AB tego trapezu,
+więc |ED| = 1/2 ⋅ |CF|.`,`Zatem
+|AC| |AC|
+(tgβ)/(sin(2α)) = (|AC|)/(|ED|) = = = 2
+1/2 ⋅ |CF| 1/2 ⋅ |AC|`],"MMAP-R0-100-2412-n13-1":[`Obliczamy współrzędne punktu B:
+(12x−84)/(x−8) = 0
+12x − 84 = 0`,`x = 7 ∈ (−∞,8)
+Zatem B = (7,0).
+Obliczamy współrzędne punktu D: f(0) = (12⋅0−84)/0−8 = 21/2`,`Zatem D = (0, 21/2 ).
+Ponieważ C leży na wykresie funkcji f i ma obie współrzędne dodatnie, więc
+C = (x, (12x−84)/(x−8) ), gdzie 0 < x < 7.`,`Pole P czworokąta OBCD jest sumą pól trójkątów OCD i OBC, więc
+x^2 − 56
+P = POCD + POBC = 1/2 ⋅ 21/2 ⋅ x + 1/2 ⋅ 7 ⋅ (12x−84)/(x−8) = 21/4 ⋅ (−8x+8x−56)/(x−8) = 21/4 ⋅ (x)/(x−8)`,"gdzie x ∈ (0,7)."],"MMAP-R0-100-2412-n13-2":[`Wyznaczamy pochodną funkcji P:
+21 2x(x − 8) − (x^2 − 56) ⋅ 1 21 x^2 − 16x + 56
+′
+P (x) = ⋅ = ⋅
+4 (x − 8)^2 4 (x − 8)^2
+dla x ∈ (0,7).`,`Obliczamy miejsca zerowe pochodnej funkcji P:
+′
+P (x) = 0
+21 x^2
+⋅
+((−16x+56)/2 =0)/((x)`,`4 − 8)
+x^2 − 16x + 56 = 0
+x = 16−√32/2 = 8 − 2√2 ∈ (0,7) ∨ x = (16+√32)/2 ∉ (0,7)
+Badamy znak pochodnej:
+′
+P (x) > 0`,`21 x^2
+⋅
+((−16x+56)/2 >0)/((x)
+4 − 8)
+x^2 − 16x + 56 > 0
+x ∈ (0,8 − 2√2)`,`Zatem funkcja P jest rosnąca w przedziale (0,8 − 2√2 ] i funkcja P jest malejąca
+w przedziale [8 − 2√2,7).
+Stąd dla x = 8 − 2√2 funkcja P osiąga wartość największą.
+Gdy pierwsza współrzędna punktu C jest równa xC = 8 − 2√2 , to wtedy druga
+współrzędna yC tego punktu jest równa:
+yC = (12⋅(8−2√2)−84)/8−2√2−8 = 12−24√2/−2√2 = 12/−2√2 + 12 = 12 − 3√2`,"Pole czworokąta OBCD jest największe, gdy C = (8 − 2√2,12 − 3√2)."],"MMAP-P0-100-2601-n5":[`Korzystamy z własności działań na potęgach oraz ze wzoru na różnicę kwadratów
+i otrzymujemy:`,`2501^4 − 2499^4 = (2501^2 )^2 − (2499^2 )^2 = (2501^2 − 2499^2 )(2501^2 + 2499^2 ) =
+= (2501 − 2499)(2501 + 2499)(2501^2 + 2499^2 ) =`,`= 2 ⋅ 5000 ⋅ (2501^2 + 2499^2 ) = 10000 ⋅ (2501^2 + 2499^2 )
+Liczba 2501^2 + 2499^2 jest liczbą całkowitą, zatem liczba 2501^4 − 2499^4 jest podzielna`,"przez 10000."],"MMAP-P0-100-2601-n12":[`Zauważmy, że trójkąt ABC jest równoramienny. Podstawą tego trójkąta jest odcinek AB,
+natomiast wysokością jest odcinek, którego długość jest równa rzędnej punktu C.
+Obliczamy wyróżnik trójmianu −16x^2 + 40x + 11:`,`Δ = 40^2 − 4 ⋅ (−16) ⋅ 11 = 1600 + 704 = 2304
+Obliczamy miejsca zerowe funkcji f:
+x1 = −40−√2304/(2⋅(−16)) = −88/−32 = 11/4`,`x2 = (−40+√2304)/(2⋅(−16)) = 8/−32 = − 1/4
+Obliczamy długość podstawy AB trójkąta ABC:
+|AB| = 11/4 − (− 1/4 ) = 12/4 = 3`,`Korzystamy ze wzoru na drugą współrzędną wierzchołka paraboli i obliczamy rzędną punktu
+C = (p,q):
+q = −2304/(4⋅(−16)) = −2304/−64 = 36`,`Próbny egzamin maturalny z matematyki na poziomie podstawowym – marzec 2026 r.
+Obliczamy pole trójkąta ABC:
+PABC = 1/2 ⋅ 3 ⋅ 36 = 54`],"MMAP-P0-100-2601-n14":[`Obliczamy piąty wyraz ciągu (a ):
+n`,`a5 = (3⋅5+9)/(5+1) = 24/6 = 4
+Z warunków zadania wynika, że liczby 4, 2x^2 , 3x^2 + 5 są kolejnymi wyrazami ciągu`,`arytmetycznego. Z własności ciągu arytmetycznego otrzymujemy:
+4 + 3x^2 + 5`,`= 2x^2
+2`,`3x^2 + 9 = 4x^2
+x^2 = 9`,"Zatem x = −3 lub x = 3."],"MMAP-P0-100-2601-n17":[`Korzystamy z jedynki trygonometrycznej i obliczamy cosα:
+2
+1`,`( ) + cos^2 α = 1
+√3
+1`,`+ cos^2 α = 1
+3
+2`,`cos^2 α =
+3
+Ponieważ kąt o mierze α jest rozwarty, to cosα < 0. Zatem`,`cosα = −√ 2/3 = − √2/√3 ⋅ √3/√3 = − √6/3
+Korzystamy ze związku między funkcjami trygonometrycznymi tego samego kąta i obliczamy
+wartość wyrażenia (3sinα)/(tgα) :`,`(3sinα)/(tgα) = 3sinα ⋅ 1/(tgα) = 3sinα ⋅ (cosα)/(sinα) = 3cosα = 3 ⋅ (− √6/3 ) = −√6
+Próbny egzamin maturalny z matematyki na poziomie podstawowym – marzec 2026 r.`],"MMAP-P0-100-2601-n21":[`Przyjmijmy następujące oznaczenia:
+|CD| = a (zatem |AB| = 2a)
+|∡DAB| = |∡ABC| = 2α.
+Ponieważ przekątna AC zawiera się w dwusiecznej kąta DAB, to |∡DAC| = |∡CAB| = α.`,`Kąty CAB i ACD są naprzemianległe oraz AB||CD, zatem |∡ACD| = α.
+Oznacza to, że trójkąt ACD jest równoramienny oraz |AD| = |CD| = a.
+Zatem również |BC| = a.
+Niech E będzie spodkiem wysokości trapezu ABCD poprowadzonej z wierzchołka C`,`(zobacz rysunek). Z własności trapezu równoramiennego obliczamy długość odcinka EB:
+|EB| = (|AB|−|CD|)/2 = (2a−a)/2 = 1/2 a
+D a C
+α`,`a a
+α
+2α
+α`,`A 2a E B
+1/2 a
+W trójkącie prostokątnym EBC mamy
+|EB| 1/2 a 1`,`cos2α = = =
+|BC| a 2
+Zatem kąt ostry DAB ma miarę równą 60°. To należało wykazać.`],"MMAP-P0-100-2601-n24":[`Punkty A oraz C przekształcamy przez symetrię osiową względem osi Oy i otrzymujemy
+współrzędne punktów A′ oraz C′, które są końcami przekątnej kwadratu A′B′C′D′:
+′ ′`,`A = (3,0) oraz C = (−5,6)
+′ ′
+Odcinek A C jest średnicą okręgu O′ opisanego na kwadracie A′B′C′D′.`,`Obliczamy długość r promienia okręgu O′:
+1 1 1 1
+′ ′`,`r = ⋅ |A C | = ⋅ √(−5 − 3)^2 + (6 − 0)^2 = ⋅ √64 + 36 = ⋅ 10 = 5
+2 2 2 2
+Obliczamy współrzędne środka S′ odcinka A′C′:`,`S′ = ( 3−5/2 , (0+6)/2 ) = (−1,3)
+Zapisujemy równanie okręgu O′:
+(x + 1)^2 + (y − 3)^2 = 25`],"MMAP-P0-100-2601-n26":[`Kąt między ścianą boczną a płaszczyzną podstawy w ostrosłupie prawidłowym
+czworokątnym jest kątem między wysokością ściany bocznej poprowadzonej z wierzchołka
+ostrosłupa do krawędzi podstawy a odcinkiem łączącym spodek wysokości ostrosłupa ze
+środkiem tej samej krawędzi podstawy.`,`Przyjmujemy oznaczenia jak na rysunku:
+S
+H – wysokość ostrosłupa,
+O – spodek wysokość ostrosłupa, C B`,`H
+E – środek krawędzi AB.
+30°
+Zauważamy, że H > 0. E`,`O 6
+Ponieważ O jest punktem przecięcia
+przekątnych kwadratu, to |OE| = 6. D 12 A
+W trójkącie prostokątnym SOE mamy`,`tg30° = (|SO|)/(|OE|) = (H)/6
+Zatem
+H = 6 ⋅ tg30° = 6 ⋅ √3/3 = 2√3
+Obliczamy objętość V ostrosłupa:`,`1
+V = ⋅ 12^2 ⋅ 2√3 = 96√3
+3`]};export{n as default};
